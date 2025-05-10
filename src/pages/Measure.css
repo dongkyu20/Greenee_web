@@ -1,0 +1,315 @@
+.measure-container {
+  padding-top: 100px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.measure-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+/* 측정 폼 스타일 */
+.carbon-form-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.measure-description {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carbon-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.url-input-container {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.url-input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px 0 0 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+}
+
+.url-input:focus {
+  outline: none;
+  border-color: white;
+}
+
+.measure-btn {
+  padding: 15px 25px;
+  background-color: white;
+  color: #5c9560;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.measure-btn:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.measure-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* 로딩 인디케이터 */
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 결과 컨테이너 스타일 */
+.result-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.result-header h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  word-break: break-all;
+}
+
+.measure-again-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.measure-again-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 결과 점수 컨테이너 */
+.result-score-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.carbon-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 15px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.score-circle span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carbon-details {
+  display: flex;
+  gap: 30px;
+}
+
+.detail-item {
+  text-align: center;
+  min-width: 120px;
+}
+
+.detail-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.detail-item p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* 개선 방안 스타일 */
+.improvement-tips {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.improvement-tips h3 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.improvement-tips ul {
+  padding-left: 20px;
+}
+
+.improvement-tips li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* 공유 버튼 스타일 */
+.share-result {
+  text-align: center;
+}
+
+.share-result p {
+  margin-bottom: 15px;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.share-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.share-btn:hover {
+  opacity: 0.9;
+}
+
+.twitter {
+  background-color: #1DA1F2;
+}
+
+.facebook {
+  background-color: #4267B2;
+}
+
+.linkedin {
+  background-color: #0077B5;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  .measure-container {
+    padding-top: 80px;
+  }
+  
+  .url-input-container {
+    flex-direction: column;
+  }
+  
+  .url-input {
+    border-radius: 8px;
+  }
+  
+  .measure-btn {
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .result-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .carbon-details {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .share-buttons {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .measure-container h1 {
+    font-size: 1.6rem;
+  }
+  
+  .score-circle {
+    width: 120px;
+    height: 120px;
+    border-width: 10px;
+  }
+  
+  .score-circle span {
+    font-size: 2rem;
+  }
+  
+  .detail-item h3 {
+    font-size: 1.5rem;
+  }
+}

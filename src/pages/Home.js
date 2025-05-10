@@ -43,8 +43,11 @@ const Home = () => {
       // x축 회전(latitude): 상하 드래그에 의해 변경 (dy)
       // y축 회전(longitude): 좌우 드래그에 의해 변경 (dx)
       // 좌우로 드래그하면 좌우로 회전, 상하로 드래그하면 상하로 회전
-      setRotation(([x, y, z]) => [x + dx * 0.5, y + dy * 0.5, z* 0.5]);
+
+      // setRotation(([x, y, z]) => [x + dx * 0.5, y + dy * 0.5, z* 0.5]);
+      setRotation(([x, y, z]) => [x + dx * 0.5, y - dy * 0.5, z * 0.5]);
       lastMouseRef.current = { x: e.clientX, y: e.clientY };
+      console.log(rotation);
     }
   };
 

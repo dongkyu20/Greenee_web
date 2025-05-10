@@ -51,8 +51,8 @@ const Measure = () => {
           <form onSubmit={handleSubmit} className="carbon-form">
             <div className="url-input-container">
               <input
-                type="url"
-                placeholder="https://example.com"
+                type="text"
+                placeholder="https://greenee.co.kr"
                 value={url}
                 onChange={handleUrlChange}
                 required
@@ -87,7 +87,7 @@ const Measure = () => {
           <div className="result-score-container">
             <div className="carbon-score">
               <div className="score-circle" style={{
-                background: `conic-gradient(#ffffff ${result.carbonScore}%, transparent 0)`
+                background: `conic-gradient(#ffffff, transparent 0)`
               }}>
                 <span>{result.carbonScore}</span>
               </div>

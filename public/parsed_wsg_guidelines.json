@@ -1,0 +1,1750 @@
+[
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "1",
+    "guideline": "Display any variables that have a negative impact on your project",
+    "criteria": [
+      {
+        "title": "External variables",
+        "description": "Any negative external variables affecting a product or service are displayed in a publicly available resource, identifying where your product's sustainable impact can be diminished (systemic design)."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "2",
+    "guideline": "Understand visitor requirements or constraints, resolving barriers to access",
+    "criteria": [
+      {
+        "title": "Identify and define",
+        "description": "Primary and secondary target visitors are identified, and their needs are defined through quantitative or qualitative research, testing, or analytics, ensuring your visitors and affected communities remain a close part of the research and testing process."
+      },
+      {
+        "title": "Visitor constraints",
+        "description": "Potential visitor constraints like the device age, operating system version, browser, and connection speeds are accounted for when designing user experiences."
+      },
+      {
+        "title": "Barriers and access",
+        "description": "The team has researched and identified whether a technical, material, or human constraint might require an adapted version of the product or service that reduces barriers or improves access to content."
+      },
+      {
+        "title": "Barrier removal",
+        "description": "Barriers to access (pain points or dark / deceptive design patterns) have been identified in the user-research with visitors for removal."
+      },
+      {
+        "title": "Seat at the table",
+        "description": "All stakeholders including your visitors have been assigned an equitable role in the decision-making process when undertaking research, identifying needs, or conducting iterative design work."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "3",
+    "guideline": "Understand the impact of non-visitors",
+    "criteria": [
+      {
+        "title": "Non-human impact",
+        "description": "A plan of action has been established for non-users and other stakeholders who might be passively impacted by a digital product or service, such as neighbors accepting parcels, traffic jams due to deliveries, etc. Research their needs and understand how they might be affected."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "4",
+    "guideline": "Consider sustainability throughout the ideation process",
+    "criteria": [
+      {
+        "title": "Sustainable brand development",
+        "description": "Branding materials and assets approved during the ideation process must be created and optimized in line with sustainability best practices before internal or external deployment. This also applies to brand refreshes, rebranding, and later enhancements. Branding guidelines detailing the sustainability impact and best-practice deployment of materials and assets should be made publicly available."
+      },
+      {
+        "title": "Wireframes and prototypes",
+        "description": "Wireframes, and rapid prototyping are utilized to quickly build consensus, reduce risk, and lower the number of resources needed to build features."
+      },
+      {
+        "title": "Participation and testing",
+        "description": "Users are involved within the iteration and design process using participatory design, and when conducting user-testing reach out to your community to help improve your product by allowing them to apply their knowledge and experience to your product or service."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "5",
+    "guideline": "Brainstorm ways to resolve any stakeholder issues",
+    "criteria": [
+      {
+        "title": "Human-centered brainstorming",
+        "description": "All stakeholders have been considered using a human-centered approach during the brainstorming process."
+      },
+      {
+        "title": "Ecological brainstorming",
+        "description": "The planetary needs and ecological boundaries of a project have been taken into account during the brainstorming process. This can include creating non-users, non-human (animal, planet) personas, or climate-specific user stories and sprints."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "6",
+    "guideline": "Minimize non-essential content, interactivity, or journeys",
+    "criteria": [
+      {
+        "title": "Efficient paths",
+        "description": "The path taken to access the service (the initial contact with the website or service) should be as efficient and as simple as possible (time required to complete an action displayed, reducing too much choice, ensuring visitors know what's required at the start of a complex set of steps, etc)."
+      },
+      {
+        "title": "Patterns for efficiency",
+        "description": "The users journey (when browsing an accessed website or service) should be as smooth as possible. User-research is key, as is building on established design patterns that people already understand."
+      },
+      {
+        "title": "Distraction-free design",
+        "description": "Visitors can complete tasks without distractions or non-essential features getting in the way."
+      },
+      {
+        "title": "Eliminate the non-essential",
+        "description": "Visitors see only information that is relevant to their experience, without non-essential information being displayed on the screen."
+      },
+      {
+        "title": "User-initiated actionable content",
+        "description": "Ensure that actionable information such as pop-up or modal windows can only be initiated by the visitor."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "7",
+    "guideline": "Use decorative design with care",
+    "criteria": [
+      {
+        "title": "Decorative design",
+        "description": "Decorative design is used only when it improves the user experience, and unnecessary assets or ones that fail to benefit the visitor or sustainability are removed (or rendered optional and disabled by default)."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "8",
+    "guideline": "Ensure that navigation and way-finding are well-structured",
+    "criteria": [
+      {
+        "title": "Navigation and search",
+        "description": "Provide an accessible, easy-to-use navigation menu with search features that help visitors easily find what they need."
+      },
+      {
+        "title": "Navigable sitemaps",
+        "description": "Implement an efficient (human-readable) sitemap that is organized and is regularly updated. This helps search engines better index website content, which helps visitors more quickly find what they are looking for."
+      },
+      {
+        "title": "New content",
+        "description": "Implement a way for visitors to find out about new content and services."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "9",
+    "guideline": "Be attentive rather than distracting",
+    "criteria": [
+      {
+        "title": "Respecting attention",
+        "description": "The visitor can easily control how (and when) they receive information to both improve attention and respect with the visitor."
+      },
+      {
+        "title": "Avoid distraction",
+        "description": "Features that don't distract people or unnecessarily lengthen the time they spend using the product or service have a higher priority than others."
+      },
+      {
+        "title": "Avoid attention-keeping",
+        "description": "Avoid using infinite scroll or related attention-keeping tactics."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "10",
+    "guideline": "Use established design patterns and appropriate components",
+    "criteria": [
+      {
+        "title": "Design patterns",
+        "description": "Provide only essential components visible at the time they are needed. Where appropriate, interfaces should deploy visual styles (patterns) that are easily recognized and used."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "11",
+    "guideline": "Avoid being manipulative or deceptive",
+    "criteria": [
+      {
+        "title": "Dark and deceptive design patterns",
+        "description": "Avoid what are commonly known as dark patterns, deceptive design, or unethical coding techniques, which manipulate visitors into taking actions not necessarily in their best interest (anti-right click, no-copy, requiring an account to purchase, etc)."
+      },
+      {
+        "title": "Using advertisements",
+        "description": "Advertisements and sponsorships are both ethical and clearly identified with the product or service, only presenting them when they provide real economic and ethical value and don't diminish a visitor's experience."
+      },
+      {
+        "title": "Page tracking",
+        "description": "Remove unused and unconsented page tracking."
+      },
+      {
+        "title": "Search Engine Optimization",
+        "description": "Optimization for search engines, social networks, and third-party services are organically led with good coding practices with user experience the focus, not manipulating the services to gain greater priority through obfuscating content, pages, websites, or applications with redundancy or non-useful and optimized (to the visitor) material."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "12",
+    "guideline": "Enable others to understand and reuse your deliverables",
+    "criteria": [
+      {
+        "title": "Deliverables reusability",
+        "description": "The deliverables output, including documentation, are used upstream of the project and produced in ways that will allow it to be reused in subsequent projects."
+      },
+      {
+        "title": "Deliverables documentation",
+        "description": "Design functionality and technical specifications are documented so that deliverables are comprehensible by the project team and transferable to the development team."
+      },
+      {
+        "title": "Deliverables readability",
+        "description": "Developers have access to code comments and other View Source affordances which can reduce the burden to access, understand, maintain, and utilize production-ready code as this will reduce redundancy and foster an open source culture."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "13",
+    "guideline": "Use a design system to prioritize interface consistency",
+    "criteria": [
+      {
+        "title": "Design system",
+        "description": "A design system is employed based on web standards and recognizable patterns to mutualize interface components and provide a consistent experience for visitors."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "14",
+    "guideline": "Write with purpose, in an accessible, easy-to-understand format",
+    "criteria": [
+      {
+        "title": "Write clearly",
+        "description": "Content is written clearly, using plain, inclusive language delivered at an easy-to-understand reading level considering accessibility and internationalization inclusions as required (for example, dyslexia)."
+      },
+      {
+        "title": "Content formatting",
+        "description": "Content is formatted to support how people read online, including a clear document structure, visual hierarchy, headings, bulleted lists, line spacing, and so on."
+      },
+      {
+        "title": "Search Engine Optimization (SEO)",
+        "description": "SEO has been prioritized from the early design stages and throughout a product or service's lifecycle to improve content findability."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "15",
+    "guideline": "All images must be optimized for sustainability",
+    "criteria": [
+      {
+        "title": "Need for images",
+        "description": "The need for images has been determined considering the quantity, format, and size necessary for implementation."
+      },
+      {
+        "title": "Optimize images",
+        "description": "Resize, optimize, and compress each image (outside the browser), offering different sizes (for each image) for different screen resolutions."
+      },
+      {
+        "title": "Lazy loading",
+        "description": "Provide Lazy Loading to ensure image assets only load when they are required."
+      },
+      {
+        "title": "Sizing and deactivation",
+        "description": "Let the visitor select the display size, and provide the option to deactivate images."
+      },
+      {
+        "title": "Management and usage",
+        "description": "Set up a media management and use policy to reduce the overall impact of images, with criteria for media compression and file formats."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "16",
+    "guideline": "All audio or video must be optimized for sustainability",
+    "criteria": [
+      {
+        "title": "Need for media",
+        "description": "The need for video or sound (when it adds visitor value, for example, to enhance accessibility) has been determined, and non-informative media (background media), including autoplaying functionality, has been banned or removed."
+      },
+      {
+        "title": "Optimize media",
+        "description": "Compress the media according to the visitor's requirements, select the appropriate format, ensure it works across browsers, and avoid embedded player plugins."
+      },
+      {
+        "title": "Lazy loading",
+        "description": "Any media requiring a lot of data to be downloaded on the client side (including the media itself) has been loaded behind a facade (a non-functional, static, representational element)."
+      },
+      {
+        "title": "Labels and choice",
+        "description": "Let the visitor control media deactivation, giving a choice of resolutions; all while providing alternative resolutions and formats. Also increase visitor awareness by informing them of the length, format, and weight of the media."
+      },
+      {
+        "title": "Management and usage",
+        "description": "Set up a media management and use policy to reduce the overall impact of audio and video, with criteria for media compression and file formats."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "17",
+    "guideline": "Animation must be proportionate and easy to control",
+    "criteria": [
+      {
+        "title": "Need for animation",
+        "description": "Use animation only when it adds value to a visitor's experience, and not for decorative elements."
+      },
+      {
+        "title": "Avoid overburdening",
+        "description": "Progressively display an appropriate number of animations to avoid overburden the visitor or diminish expected device behavior. This includes setting a maximum number of replays (iterations)."
+      },
+      {
+        "title": "Control animation",
+        "description": "Allow visitors to start, stop, pause, or otherwise control animated content."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "18",
+    "guideline": "Web typography must be highly optimized and appropriate",
+    "criteria": [
+      {
+        "title": "Default typefaces",
+        "description": "Use standard system-level (web-safe / pre-installed) fonts as much as possible."
+      },
+      {
+        "title": "Font optimization",
+        "description": "The number of fonts, and the variants within typefaces (such as weight and characters) are limited within a project, using the most performant file format available."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "19",
+    "guideline": "Suitable alternatives to any provided format must be offered",
+    "criteria": [
+      {
+        "title": "Open formats",
+        "description": "All proprietary file formats (such as PDF) are offered in HTML for accessibility and to ensure future availability."
+      },
+      {
+        "title": "Font subsetting",
+        "description": "All custom typefaces (using font-display) are subsetted and offered as part of a font stack with a system font as a backup."
+      },
+      {
+        "title": "Alternative text",
+        "description": "All images provide meaningful alternative text for screen reader users (or when images fail to load) accessibility."
+      },
+      {
+        "title": "Audio alternatives",
+        "description": "Audio provides text transcripts of conversations as an alternative to playing the media."
+      },
+      {
+        "title": "Video alternatives",
+        "description": "Video provides text transcripts (at minimum), subtitles (using WebVTT), and for accessibility best practice, offer closed captions and sign language options."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "20",
+    "guideline": "Provide accessible, usable, minimal web forms",
+    "criteria": [
+      {
+        "title": "Form simplicity",
+        "description": "Remove unnecessary forms and reduce form content to the bare minimum necessary to meet the visitor's needs and the organization's business goals. Clearly communicate why a form is necessary, what its value proposition is, how many steps it will take to complete, and what an organization will do with collected data (informed consent)."
+      },
+      {
+        "title": "Form functionality",
+        "description": "Avoid auto-completion / auto-suggest if it would prove unhelpful (to conserve bandwidth) whilst allowing autofill for ease of repeat entry (including the use of helpful tooling such as password managers)."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "21",
+    "guideline": "Consider the impact of visitors using non-visual browsers",
+    "criteria": [
+      {
+        "title": "Alternative interactions",
+        "description": "Support speech browsing and other non-graphical ways to interact with content that provide alternatives to a visual interface."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "22",
+    "guideline": "Provide useful notifications to improve the visitor's journey",
+    "criteria": [
+      {
+        "title": "Notification justification",
+        "description": "Remove non-essential notifications while justifying and reducing the practice of e-mailing or text messaging to what is strictly necessary. Useful notifications (such as alerts for new content) should be used with care and restraint."
+      },
+      {
+        "title": "Notification control",
+        "description": "Let the visitor control notifications (for example through the browser, SMS, or by email) and adjust messaging preferences, and the option to unsubscribe, logout, and close an account should be available and visible."
+      },
+      {
+        "title": "Prompts and responses",
+        "description": "Clearly explain the result of a potential input through helpful prompts and messages that explain errors, next steps, and so on. This will help manage their expectations."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "23",
+    "guideline": "Reduce the impact of downloadable or physical documents",
+    "criteria": [
+      {
+        "title": "Printing documents",
+        "description": "If the production of paper documents is essential, it should be designed to limit its impact to the lowest possible. Create a CSS Print stylesheet and test it with different types of content. Ensure PDF printing is encouraged over paper-based storage."
+      },
+      {
+        "title": "Optimize documents",
+        "description": "Provide all downloadable documents in a state of being optimized, compressed, and in a variety of accessible file formats."
+      },
+      {
+        "title": "Optimize delivery",
+        "description": "If a document is likely to be re-used, generate the document once on the server-side (preferably on a cookie-free domain) rather than forcing the effort to be duplicated."
+      },
+      {
+        "title": "Labels and choice",
+        "description": "Clearly display the document name, a summary, the file size, and the format, allowing the visitor a choice if possible of both the format, and the language (if not the same as the web page). Furthermore, be sure to avoid embedding the document within Web pages (provide a direct link to download or view within the browser instead)."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "24",
+    "guideline": "Policies and processes must exist to get stakeholders invested",
+    "criteria": [
+      {
+        "title": "New features and perspectives",
+        "description": "The organization has outlined processes it uses to prototype and test new features, product ideas, and user-interface components when applicable with real users who represent various stakeholder perspectives, including people with slow connection, with disabilities, with difficulties using digital services, and so on."
+      },
+      {
+        "title": "Resourcing and viability",
+        "description": "The organization has appropriately resourced these processes to support its long-term product viability."
+      },
+      {
+        "title": "Training and onboarding",
+        "description": "The organization has training materials to onboard new product team members to these practices."
+      },
+      {
+        "title": "Testing and validation",
+        "description": "The organization regularly conducts extensive testing and user interviews to validate whether the released features are meeting both business goals and visitor needs."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "25",
+    "guideline": "Audit and test for bugs or issues that require resolving",
+    "criteria": [
+      {
+        "title": "Regular issue testing",
+        "description": "The codebase has been checked for bugs, performance issues have been identified, and accessibility or security problems have been accounted for at either monthly or quarterly timeframes (depending on your scheduling allowance)."
+      },
+      {
+        "title": "Non-regression tests",
+        "description": "Non-regression tests are implemented for all important functionality."
+      },
+      {
+        "title": "Regression tests",
+        "description": "Regression testing has been incorporated into each release cycle to ensure that new features don't introduce bugs or otherwise conflict with existing software functionality."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "26",
+    "guideline": "Measure and test for performance",
+    "criteria": [
+      {
+        "title": "Performance testing",
+        "description": "The performance of a website or application, to identify and resolve bottlenecks or issues in the underlying code or infrastructure which could ultimately impact the sustainability of a website or application, are regularly measured with each release-cycle (using tooling or through research and auditing)."
+      },
+      {
+        "title": "Measurement and compliance",
+        "description": "Only data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (GDPR) are collected."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "27",
+    "guideline": "Ensure features provide maximum value for their impact",
+    "criteria": [
+      {
+        "title": "Usage changes",
+        "description": "Visitor feedback, adoption, and churn rates are monitored of product or service features and their insights incorporated into future releases."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "28",
+    "guideline": "Verify that real-world users can successfully use your work",
+    "criteria": [
+      {
+        "title": "Usability testing",
+        "description": "Usability testing has been incorporated into product cycles and the impact of these tests is routinely measured for future releases."
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "User Experience Design",
+    "guidelineId": "29",
+    "guideline": "Check for compatibility or platform-specific issues",
+    "criteria": [
+      {
+        "title": "Compatibility policy",
+        "description": "A compatibility policy with obsolete devices and software versions, listing the supported devices brands, operating systems, and browsers (including versions) has been established."
+      },
+      {
+        "title": "Maintaining compatibility",
+        "description": "Planned obsolescence in software updates is routinely avoided, striving to maintain compatibility for as long as possible and clearly communicating whether an update is evolutionary (large updates that can significantly reduce performance) or corrective (smaller updates that fix bugs or improve security)."
+      },
+      {
+        "title": "Frequent testing",
+        "description": "The product or service regularly tests with weak, unstable, restricted, and slow connections, old browsers, and devices older than five years to ensure compatibility, reduce digital inequalities, and minimize barriers for users."
+      },
+      {
+        "title": "Mobile friendly",
+        "description": "Device-adaptable methods (such as responsive design) are utilized and interfaces are prototyped to ensure progressive enhancement, content prioritization, and improved accessibility."
+      },
+      {
+        "title": "Progressive Web Applications (PWAs)",
+        "description": "A PWA has been either chosen or rejected based on whether it be more sustainable and compatible over a native mobile application."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "1",
+    "guideline": "Set goals based on potential impact considerations",
+    "criteria": [
+      {
+        "title": "Performance goals",
+        "description": "Explicit goals that impact the environment and performance of the service, for example, HTTP requests, or the amount of DOM elements that need to be rendered are both set and met."
+      },
+      {
+        "title": "Accountancy types",
+        "description": "Because the payload being delivered may not always be equal in terms of energy intensity, operators of websites and applications must ensure that consideration is given for the energy intensity (or unit being evaluated) of each component. For example, non-rendering text is less computational than CSS, which in turn is less process-heavy than JavaScript, which is less resource-heavy than WebGL."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "2",
+    "guideline": "Remove unnecessary or redundant information",
+    "criteria": [
+      {
+        "title": "Minify code",
+        "description": "Remove unnecessary whitespace, comments, and other non-essential characters from code and data files to reduce file sizes and improve loading times. This applies to HTML, CSS, JavaScript, JSON, SVG, and other relevant file types."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "3",
+    "guideline": "Modularize bandwidth-heavy components within projects",
+    "criteria": [
+      {
+        "title": "Code splitting",
+        "description": "Break down bandwidth-heavy components, front-end and back-end into smaller, modular segments that can be loaded only when required."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "4",
+    "guideline": "Tree shaking should be used to remove unnecessary code",
+    "criteria": [
+      {
+        "title": "Remove redundancy",
+        "description": "Identify and eliminate unused and dead code within CSS and JavaScript."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "5",
+    "guideline": "Redundancy and duplication in code should be avoided",
+    "criteria": [
+      {
+        "title": "Remove or simplify",
+        "description": "Remove or simplify (through rewriting for performance) your code to focus on essential features and have a cleaner, less redundant product (and codebase)."
+      },
+      {
+        "title": "Iteration over recreation",
+        "description": "Improve (iterate) an existing creation rather than constantly redeveloping and redesigning products from scratch (duplication of coding effort) if possible to reduce visitor learning burden and developer impact."
+      },
+      {
+        "title": "Organize code arrangement",
+        "description": "Within CSS and JavaScript, use methodologies (like BEM) and systems like DRY and WET to optimize the arrangement and output of your source code."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "6",
+    "guideline": "Third-party services should be assessed as first parties",
+    "criteria": [
+      {
+        "title": "Assess third-parties",
+        "description": "Third-party services (including plugins, widgets, feeds, maps, carousels, etc) have been assessed as early in the ideation or creation process as possible and as few of them are used as possible to reduce the product or service's overall ecological impact, including Scope 3 emissions."
+      },
+      {
+        "title": "Third-party implementation",
+        "description": "Third-party content (including plugins, widgets, feeds, maps, carousels, chat widgets, etc) that loads or requests resources or functionality from a location outside of the primary location, should be placed behind a click-to-load delay screen (using the \"import on interaction\" pattern), while alternatives are offered, for instance a link to a contact form as an alternative for a chat widget."
+      },
+      {
+        "title": "Libraries and frameworks",
+        "description": "Large CSS libraries and JavaScript frameworks are only be used if a more performant alternative that achieves the same goal cannot be used instead."
+      },
+      {
+        "title": "Self-hosting",
+        "description": "Self-hosted content has been prioritized over embedded content from third-party services."
+      },
+      {
+        "title": "Avoiding dependency",
+        "description": "Your own clickable icons and widgets have been created, rather than relying on third-party services to host or allow embedding within your product or service."
+      },
+      {
+        "title": "Third-party preferences",
+        "description": "Third-party products, services, libraries, and frameworks are often a source of sustainability issues that cannot be controlled or managed by the first-party provider of a service. While many do provide benefits to a website, the need to justify their inclusion must be made not only by those creating the product or service but also be able to be controlled by the consumer. As showcased with cookies, websites or applications can provide a similar mechanism of disabling or refusing non-first-party features (with explanations of their purpose) - unless such features can be proven as critical for functionality."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "7",
+    "guideline": "Code must follow good semantic practices",
+    "criteria": [
+      {
+        "title": "Semantic code",
+        "description": "Content must be accurately marked up according to the relevant standard(s)."
+      },
+      {
+        "title": "Optional features",
+        "description": "Remove optional HTML tags, attribute quotes, and default attributes only when they do not negatively impact functionality, accessibility, or readability. Retain them when they enhance accessibility, maintain clarity (without compromising on performance), or ensure consistent browser rendering."
+      },
+      {
+        "title": "Avoid non-standard code",
+        "description": "Avoid using non-standard elements or attributes."
+      },
+      {
+        "title": "Custom code",
+        "description": "Prefer using standard HTML elements and attributes. Only use custom elements or Web Components if you cannot utilize native HTML elements or if you need tightly regulated control over the implementation of design system components.."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "8",
+    "guideline": "Render blocking should be resolved",
+    "criteria": [
+      {
+        "title": "Asynchronous code",
+        "description": "All external assets have been deferred or set to async (unless required) to avoid Flash Of Unstyled Content (FOUC)."
+      },
+      {
+        "title": "Priority loading",
+        "description": "If external resources are required on load, their priorities (delivery route) are set correctly."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "9",
+    "guideline": "Information to help understand the usefulness of a page should exist",
+    "criteria": [
+      {
+        "title": "Metadata and microdata",
+        "description": "Metadata and microdata for search engines and social media have been optimized."
+      },
+      {
+        "title": "Search engines",
+        "description": "Search engines are not obstructed, while ill-intentioned robots and scripts are blocked."
+      },
+      {
+        "title": "Accessibility aids",
+        "description": "Accessibility and usability aids are provided to find content, such as skip links and signposts."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "10",
+    "guideline": "Forms must validate for errors, accounting for tooling requirements",
+    "criteria": [
+      {
+        "title": "Error validation",
+        "description": "Errors are identified through live validation as well as upon submission."
+      },
+      {
+        "title": "Label elements",
+        "description": "Required elements are clearly identified and labeled (for the benefit of voice tools such as screen readers and virtual assistants), and optional elements (if unnecessary) removed."
+      },
+      {
+        "title": "Allow paste",
+        "description": "Always allow the pasting of content (including passwords) from external sources."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "11",
+    "guideline": "Metadata is structured for machine readability",
+    "criteria": [
+      {
+        "title": "Required elements",
+        "description": "Include the required title element, plus any optional HTML head elements (such as link)."
+      },
+      {
+        "title": "Meta tags",
+        "description": "Include necessary meta tag references that search engines and social networks recognize, using a recognized name scheme such as Dublin Core Metadata Initiative (DCMI), Friend Of A Friend (FOAF), or RDFa."
+      },
+      {
+        "title": "Structured data",
+        "description": "Embed Microdata, Structured Data (Schema), or Microformats within your pages."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "12",
+    "guideline": "Sustainable CSS user preference media queries are used",
+    "criteria": [
+      {
+        "title": "Media and preference queries",
+        "description": "Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, prefers-reduced-transparency, and prefers-reduced-motion CSS preference queries if they will benefit your website or application. Use the print & scripting CSS media queries if they will improve the sustainability of your website."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "13",
+    "guideline": "Layouts work across devices and requirements",
+    "criteria": [
+      {
+        "title": "Mobile-first",
+        "description": "Allow a website or app to work and adapt seamlessly across a variety of devices and screen sizes, including mobile, desktop, smart TVs, and other emerging platforms. Ensures that content and functionality are accessible and optimized on both smaller mobile screens and larger displays without limiting accessibility, usability or design on any specific device type. It is essential to implement robust fallback strategies to ensure that the website or application will not fail if it encounters unsupported technologies."
+      },
+      {
+        "title": "Progressive enhancement",
+        "description": "Regardless of the approach or combination of approaches used, such as Adaptive Design, Mobile-First Design, or Dynamic Serving, it's essential to ensure overall sustainability through progressive enhancement."
+      },
+      {
+        "title": "Carbon aware design",
+        "description": "To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques. This should include using situational design to reduce the codebase disable non-essential functionality during high-intensity periods or adapting the user-interface to perform better in situations where scaling hardware resources can be avoided to reduce emissions. It can also include designing algorithms that can auto-disable features based on set thresholds."
+      },
+      {
+        "title": "Alternative browsing",
+        "description": "Support other indirect methods of interaction such as voice (speech), code (QR, etc), reader view (browser, application, or RSS), or connected technology (watch, appliance, transport, etc)."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "14",
+    "guideline": "Use beneficial JavaScript and its APIs",
+    "criteria": [
+      {
+        "title": "Beneficial JavaScript",
+        "description": "Improve sustainability through accessible and performant code implementations."
+      },
+      {
+        "title": "Sustainable APIs",
+        "description": "Apply potential energy-reducing APIs (such as Battery Status, Compression Streams, Page Visibility, and Vibration) if they can improve the eco-efficiency of your website or application."
+      },
+      {
+        "title": "API requests",
+        "description": "When using an API, make sure you only call it when necessary. On the other side, make sure no unrequired data is sent by the API."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "15",
+    "guideline": "Ensure that your scripts are secure",
+    "criteria": [
+      {
+        "title": "Script security",
+        "description": "Check the code for vulnerabilities, exploits, header issues, and code injection."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "16",
+    "guideline": "Dependencies are appropriately used and maintained",
+    "criteria": [
+      {
+        "title": "Dependency management",
+        "description": "Prevent developers from downloading and installing JavaScript libraries to run locally (client-side) when they are not needed by checking for unused dependencies and uninstalling those that aren't needed and removing them from your package.json file."
+      },
+      {
+        "title": "Dependency necessity",
+        "description": "Only use libraries where necessary as this will reduce the amount of JavaScript that has to be downloaded and parsed by the browser. Consider whether you can use a native JavaScript API instead. Check the package size, and whether individual modules can be installed and imported rather than the whole library."
+      },
+      {
+        "title": "Dependency updates",
+        "description": "Regularly check dependencies and keep them up-to-date."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "17",
+    "guideline": "Include expected and beneficial files",
+    "criteria": [
+      {
+        "title": "Expected file formats",
+        "description": "Include the favicon.ico, robots.txt, opensearch.xml, site.webmanifest, and sitemap.xml documents. Additionally, ensure that any such files defined in future web standards or specifications are included."
+      },
+      {
+        "title": "Beneficial file formats",
+        "description": "Include beneficial files such as ads.txt, carbon.txt, humans.txt, security.txt. Additionally, ensure that any such files defined in future web standards or specifications are included."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "18",
+    "guideline": "Avoid using deprecated, proprietary, or outdated code",
+    "criteria": [
+      {
+        "title": "Preferred code",
+        "description": "Avoid the use of deprecated, proprietary, or outdated formats and web standards. Always adopt up-to-date, widely recognized standards that offer equivalent or improved functionality. Such code may be used to meet a documented customer need only if there is a justifiable benefit that cannot otherwise be met (such as compatibility, accessibility, or emissions reduction). Also, don't serve polyfills to modern browsers."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "19",
+    "guideline": "Use the most efficient solution to implement your service",
+    "criteria": [
+      {
+        "title": "Identify requirements",
+        "description": "Identify the requirements and from this, choose the implementation of the product or service. A simpler technological implementation may use more human resources but could have a smaller footprint. A prebuilt solution may use more system resources (and thereby produce more emissions upon render) but have a faster build-time (emitting less carbon during development)."
+      },
+      {
+        "title": "Optimized methodology",
+        "description": "As a general rule, coding from scratch is the best-performing methodology (though if an existing solution is actively maintained, it may be better optimized than what you could produce). Therefore, use native components and file systems to a WYSIWYG editor or heavy framework, and be considerate of the impact of third-party solutions."
+      },
+      {
+        "title": "Static VS dynamic",
+        "description": "If choosing a code generation tool, use a Static Site Generator in preference to a bulky content management system. Because SSGs often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries."
+      },
+      {
+        "title": "Expandability considerations",
+        "description": "Plugins, extensions, and themes have been carefully reviewed and selected to maximize interoperability, accessibility, and performance. They are regularly audited over time to ensure continued compatibility."
+      },
+      {
+        "title": "Interface impact",
+        "description": "All the components of the user-interface are the subject of special attention in terms of its sustainability impact while respecting accessibility and the performance of such components."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "20",
+    "guideline": "Use the latest stable language version",
+    "criteria": [
+      {
+        "title": "Versioning",
+        "description": "Use the latest build of your chosen syntax language and its coupled framework."
+      },
+      {
+        "title": "Language choice",
+        "description": "Use the most appropriate programming language for a task. Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact PPP factors such as the well-being of those involved or become too cost prohibitive."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "21",
+    "guideline": "Take advantage of native features and functionality",
+    "criteria": [
+      {
+        "title": "Native over custom",
+        "description": "Use native functions, APIs, and features over writing your own."
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Web Development",
+    "guidelineId": "22",
+    "guideline": "Run fewer, simpler queries as possible",
+    "criteria": [
+      {
+        "title": "Database queries",
+        "description": "If you need information that is stored in a database, and you require it (or it's likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing. Also, avoid reliance on framework helpers that might defer filtering to later on in the process."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "1",
+    "guideline": "Choose a sustainable hosting provider",
+    "criteria": [
+      {
+        "title": "Monitor metrics",
+        "description": "To assess the environmental impacts of hosting and detect overconsumption, some indicators are monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators are be used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (PUE), Water Usage Effectiveness (WUE), and Carbon Usage Effectiveness (CUE). They are displayed to visitors for transparency and monitoring reasons. If possible (to reduce redundancy) the ability to scale packages based on usage requirements is made available (manually or automatically) to reduce wasted resources."
+      },
+      {
+        "title": "Equipment longevity",
+        "description": "Equipment is managed responsibly by keeping it as long as possible, using it as efficiently as possible, making sure it is certified, and purchasing long-lifespan products."
+      },
+      {
+        "title": "Recycling waste",
+        "description": "Waste (including equipment) is recovered, recycled, and upcycled."
+      },
+      {
+        "title": "Renewable electricity",
+        "description": "Electricity comes entirely from sources with the lowest possible carbon intensity (ideally generated by wind or solar rather than from non-renewable sources). For example, Renewable Energy Credits (RECs) can help verify the source, or, ideally, prove that electricity comes directly from renewable sources."
+      },
+      {
+        "title": "Remaining emissions",
+        "description": "Remaining emissions are compensated, keeping in mind that the priority should be to avoid then reduce them and only compensate for them if they cannot be avoided. Carbon credits may not be sustainable, therefore the effectiveness of an offset solution must be verified, shown to be both environmentally viable and sustainable, and part of a longer-term strategy to eliminate emissions entirely from a chain, benefitting the wider ecosystem."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "2",
+    "guideline": "Optimize caching with offline access supported",
+    "criteria": [
+      {
+        "title": "Utilize caching",
+        "description": "If using a CMS or (SaaS), install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires or cache-control, utilizing tooling where appropriate such as Memcached, or Varnish. If using a language or framework that generates pages on request, cache responses for static pages so that they can be reused for future visitors. Also remember to cache frequently required static assets at the client-side where possible to reduce repeat server requests using bfcache, Local Storage, and other available browser technologies."
+      },
+      {
+        "title": "Offline access",
+        "description": "Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (APIs), or cookies (if necessary) to streamline the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "3",
+    "guideline": "Compress files where it is beneficial",
+    "criteria": [
+      {
+        "title": "Server-side compression",
+        "description": "If using a CMS, install an applicable plugin to enable on-the-fly server-side compression, such as Brotli or GZIP. Otherwise, use the provided server configuration files to include and tweak the performance-related features to the requirements."
+      },
+      {
+        "title": "Media compression",
+        "description": "Compress your various images, fonts, audio, and video; by reducing the quality and offering different resolutions / dimensions (sizes) before uploading to a server or content management system."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "4",
+    "guideline": "Setup necessary error pages and redirection links",
+    "criteria": [
+      {
+        "title": "Error pages",
+        "description": "Maintain sites by ensuring links are correct, and if errors occur, provide suitable way-finding within optimized pages for each error type to ensure resources can be identified to help visitors complete the task they started."
+      },
+      {
+        "title": "redirection",
+        "description": "Redirect websites, subdomains, and pages only when necessary. Proactively seek broken or outdated links and fix them. A redirect or search will often help reduce the number of pages a visitor needs to load."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "5",
+    "guideline": "Unless required, avoid utilizing unnecessary environments",
+    "criteria": [
+      {
+        "title": "Unused environments",
+        "description": "Ensure no unused environment is available, balancing the cost of deploying an environment with the cost of keeping it online while unused."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "6",
+    "guideline": "Allow automation but ensure it is tightly regulated",
+    "criteria": [
+      {
+        "title": "Automate tasks",
+        "description": "Every recurring task, such as deployment, testing, or compilation, is run automatically, as recommended by continuous integration / continuous delivery best practices."
+      },
+      {
+        "title": "Necessitate tasks",
+        "description": "To reduce wasted processing cycles, every automated task is only run when needed."
+      },
+      {
+        "title": "Automated scaling",
+        "description": "Automated scaling infrastructure is used to automatically increase the capacity of the web server and buffering / throttling is implemented to respond to visitor demand."
+      },
+      {
+        "title": "Security tooling",
+        "description": "Web browsing from bots has been steadily increasing in recent years. As such, it is a growing concern for security, performance, and sustainability. Use security tools that automatically block bad actors and minimize bad behavior. This results in substantially less load on the server, fewer logs, less data, less effect due to compromise, and more. The result of compromised websites is a large increase in HTTP, email, and other traffic as malicious code attempts to infiltrate other resources and exfiltrate data. Compromised websites are typically identified by anomalous patterned behavior."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "7",
+    "guideline": "Define the frequency of data refreshes",
+    "criteria": [
+      {
+        "title": "Refresh frequency",
+        "description": "The frequency for refresh (of both the cache, locally stored data, and the page) is defined depending on visitor needs."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "8",
+    "guideline": "Backup critical data at routine intervals",
+    "criteria": [
+      {
+        "title": "Data backups",
+        "description": "Backups of system and user data are both incremental and secure."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "9",
+    "guideline": "Consider the impact and requirements of processing information",
+    "criteria": [
+      {
+        "title": "Batch processing",
+        "description": "By default, non-critical processes and communications are batched and launched only when carbon intensity is under a given threshold."
+      },
+      {
+        "title": "Protocol usage",
+        "description": "The communication protocols used are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (HTTP, FTP), and prioritize more efficient and privacy-aware data routes for visitors (HTTPS, SSH). Modern protocols such as HTTP/2 should be used to benefit from them (multiplexing) while keeping backward-compatibility in mind for older devices."
+      },
+      {
+        "title": "Event-driven architecture",
+        "description": "When creating products or services that utilize state changes (without triggering a complete refresh), if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the PPP variables involved) than traditional APIs in handling the server-side workload of your solution, use it."
+      },
+      {
+        "title": "Client VS server",
+        "description": "Redundant processing should be avoided wherever possible. When processing of data is required, whether such processing and / or delivery should occur from either the client or server-side must be determined based on efficiency, performance, and sustainability metrics (before implementation)."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "10",
+    "guideline": "CDN use must be proportionate and sustainable",
+    "criteria": [
+      {
+        "title": "Content Delivery Networks (CDNs)",
+        "description": "When building for a globally distributed audience, use a CDN to store and serve simple read-only, pre-generated resources in a fast and efficient manner. Although they definitely can increase performance, it is also another layer of infrastructure that needs to be considered for sustainability."
+      },
+      {
+        "title": "Sustainability commitment",
+        "description": "Verify that the CDN provides a commitment to sustainability."
+      },
+      {
+        "title": "Local servers",
+        "description": "A hosting provider was chosen with servers located close to the visitor, considering that if you only serve a local audience, the need for distributed content (CDNs) that duplicate your materials globally may not be worthwhile."
+      },
+      {
+        "title": "Inappropriate resources",
+        "description": "Don't use the service to host dynamic / regularly changing resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (CORS), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect JSON or other static assets."
+      },
+      {
+        "title": "Close to the source",
+        "description": "All information passed between the layers of an application incurs a cost, both in terms of data transferred, and CPU cycles for (de)serialization. Wherever possible, data transformations must be performed close to the source to reduce these costs and avoid processing data that will later be discarded."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "11",
+    "guideline": "Infrastructure decisions must meet business requirements",
+    "criteria": [
+      {
+        "title": "Lowest requirements",
+        "description": "Select infrastructure elements with the lowest requirements tier, meeting your service-level agreements. Avoid over-provisioning multi-datacenter, multi-zone, or distributed deployments if standalone instances meet the requirements. Also avoid provisioning infrastructure that will be under-utilized by provisioning for established average loads, ensuring reasonable resource utilization and autoscaling occurs as needed. Avoid provisioning for peak loads."
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Hosting, Infrastructure And Systems",
+    "guidelineId": "12",
+    "guideline": "Store data according to the needs of your users",
+    "criteria": [
+      {
+        "title": "Reduce redundancy",
+        "description": "Remove unnecessary and redundant data from your servers, whether it is single-use (dark data) or abandoned."
+      },
+      {
+        "title": "Expiration dates",
+        "description": "Create data with an expiration date. Excess data is a form of technical debt, and routinely cleaning up old data needs to be normalized."
+      },
+      {
+        "title": "Classify and tag",
+        "description": "Use a data classification / tagging policy to make it easier to find, handle, and remove."
+      },
+      {
+        "title": "Justify storage",
+        "description": "Store data only when it is difficult to recreate."
+      },
+      {
+        "title": "Optimize logging",
+        "description": "Optimize log collection, storage (off-site), and rotation; scheduling during low-activity hours and using carbon-neutral backup providers."
+      },
+      {
+        "title": "Asset downloads",
+        "description": "Ensure long-term assets, especially those of a large size, are made available for download."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "1",
+    "guideline": "Have an ethical and sustainable product strategy",
+    "criteria": [
+      {
+        "title": "Statement availability",
+        "description": "The organization has published a publicly available Code of Ethics, Product Guidelines, Sustainability, or PPP Statement that includes language specific to digital products, services, policies, and programs."
+      },
+      {
+        "title": "Achievements and compliance",
+        "description": "Achievements, features, compliance, and anything beyond the scope of these guidelines are published within a sustainability section of your product or service."
+      },
+      {
+        "title": "Governance over time",
+        "description": "Evidence is provided by the organization showing how it effectively governs implemented digital sustainability, climate policies, and related PPP practices over time."
+      },
+      {
+        "title": "Onboarding new members",
+        "description": "Training decks and workshops are provided by the organization for onboarding new team members on how it implements more sustainable product strategies."
+      },
+      {
+        "title": "Documentation",
+        "description": "Your methodology has been documented through impact storytelling, documentation, and helping individuals make more informed decisions in order to raise awareness with your visitors."
+      },
+      {
+        "title": "Renewable showcasing",
+        "description": "The organization can show how it powers digital products and services with renewable energy."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "2",
+    "guideline": "Assign a sustainability representative",
+    "criteria": [
+      {
+        "title": "Ecological referee",
+        "description": "An ecological referee (with specific digital expertise) for the product or service within your organization has been assigned and empowered with the tools they require (resources, budget, time, etc.) to achieve their stated goals."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "3",
+    "guideline": "Inform, raise awareness, and train for sustainability",
+    "criteria": [
+      {
+        "title": "Inform and aware",
+        "description": "All project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in both general and digital climate literacy, including your business's use of sustainable technology."
+      },
+      {
+        "title": "Trained and prepared",
+        "description": "Active and routine training is delivered where possible to develop, establish, and refresh skills in sustainability. This can be undertaken through in-house training, courses, workshops, events, webinars, meetups, or other ongoing or on-demand methods to empower your team to deliver on sustainability objectives."
+      },
+      {
+        "title": "Active participation",
+        "description": "Stakeholders have been actively encouraged to reduce their environmental impact, share climate and sustainable initiatives and ideas, and resources on sustainable design, best practices, and concepts are provided to assist with this task."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "4",
+    "guideline": "Communicate the ecological impact of user choices",
+    "criteria": [
+      {
+        "title": "Impact communication",
+        "description": "The ecological implications of visitor choices have been clearly communicated and visitors can configure settings based on those choices."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "5",
+    "guideline": "Estimate a product or service's environmental impact",
+    "criteria": [
+      {
+        "title": "Life-cycle analysis",
+        "description": "A full life-cycle Analysis based on the functional unit defined in Guideline 5.15 has been conducted."
+      },
+      {
+        "title": "Competitor impact",
+        "description": "The environmental impact of your or a competitor's current service to inform decision-making (as a potential target goal) has been calculated."
+      },
+      {
+        "title": "Tooling impact",
+        "description": "When identifying the environmental impact of your product or service, you must include the impact (or estimates of) of any tooling used to create the product or service along with any third-party solutions utilized in the pipeline. While not created by you, the emissions they generate from production to maintenance are considered integral to your overall solution."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "6",
+    "guideline": "Define clear organizational sustainability goals and metrics",
+    "criteria": [
+      {
+        "title": "Sustainability goals",
+        "description": "The organization has defined and published a clear set of sustainability goals. It publicly communicates how it will meet these goals, including which performance metrics are important to help the organization and its various stakeholders thrive."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "7",
+    "guideline": "Verify your efforts using established third-party business certifications",
+    "criteria": [
+      {
+        "title": "Certification achievement",
+        "description": "The organization has achieved one or more business sustainability certifications and incorporated operational policies and practices to support them."
+      },
+      {
+        "title": "Certification maintenance",
+        "description": "The organization maintains its certification through evolving policies and practices over time."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "8",
+    "guideline": "Implement sustainability onboarding guidelines",
+    "criteria": [
+      {
+        "title": "Training materials",
+        "description": "The organization has dedicated training manuals, workshops, and materials that outline the PPP policies and practices it follows and how to implement them. While managing and maintaining these materials over time, adapting them as new policies and practices arise."
+      },
+      {
+        "title": "Progress incentivisation",
+        "description": "The organization incentivizes leadership, teams, and stakeholders to make progress toward the goals outlined in their training, including time for sustainability activities, recognition for completion, and so on."
+      },
+      {
+        "title": "Negative variables",
+        "description": "The organization anticipates and maps potential negative external variables on the service, and acts to minimize their overall impact."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "9",
+    "guideline": "Support mandatory disclosures and reporting",
+    "criteria": [
+      {
+        "title": "Policies and practices",
+        "description": "The organization has created and published policies and practices for disclosing the social and environmental impacts of its products, services, policies, and programs in line with existing reporting standards such as GRI Performance, SASB, etc."
+      },
+      {
+        "title": "Impact report",
+        "description": "The organization produces a publicly available impact report outlining its progress against previous reports on social and environmental goals at least once per year."
+      },
+      {
+        "title": "Standards and policies",
+        "description": "The organization publicly and transparently follows existing or emerging environmental standards and legislative policy that promotes mandatory disclosures and reporting for emissions. This is done alongside other social and environmental criteria in its impact reporting, maintaining these practices over time for future reports."
+      },
+      {
+        "title": "Impact reduction",
+        "description": "The organization clearly identifies how it reduces its environmental impact, avoiding double accounting, greenwashing, excluded data, or other manipulative techniques."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "10",
+    "guideline": "Create one or more impact business models",
+    "criteria": [
+      {
+        "title": "Theory of change",
+        "description": "The organization has completed (and operationalized) a Theory of Change process with requisite documentation to identify the impact it hopes to create, how it will generate revenue, shared, or added value from these activities, how it will measure results based on desired outcomes; or in the case of launched projects, is generating revenue, actively tracking and measuring progress against any desired outcomes."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "11",
+    "guideline": "Follow a product management and maintenance strategy",
+    "criteria": [
+      {
+        "title": "Management and maintenance",
+        "description": "The organization has documented policies outlining how it approaches product management and maintenance."
+      },
+      {
+        "title": "Planning strategy",
+        "description": "The organization has maintenance / security plans in place for all the digital products and services it manages."
+      },
+      {
+        "title": "Resourcing products",
+        "description": "The organization appropriately resources products over time via staffing and budgeting to support refactoring code, addressing technical debt, new product features, ongoing testing, and product or service maintenance plans to continue supporting its customers, visitors, and other stakeholders."
+      },
+      {
+        "title": "Resource measurement",
+        "description": "The organization incorporates carbon and resource measurement into maintenance programs and can show measurable improvement over time."
+      },
+      {
+        "title": "Failure indicators",
+        "description": "The organization has both identified and documented Key Failure Indicators (KFIs) and implements resolutions to prevent non-acceptable sustainability impacts from occurring."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "12",
+    "guideline": "Implement continuous improvement procedures",
+    "criteria": [
+      {
+        "title": "Continuous improvement",
+        "description": "The organization has created policies and practices to enable continuous improvement and has resourced the organization appropriately to support these efforts over time."
+      },
+      {
+        "title": "Agile reviews",
+        "description": "Agile sprints and update frequency have gone through a review process to ensure project teams have enough time to conduct user-research, identify technical debt, and produce quality output."
+      },
+      {
+        "title": "Iterative consideration",
+        "description": "A track record of continuous improvement (iteration) usage to analyze your website or application while also addressing the by-products and potential consequences of ongoing experimentation, such as technical debt, product performance, emissions, and related issues is clearly visible. Analytics are limited to only necessary features to aid with decision-making, encouraging visitor feedback, and comparing performance against business goals and visitor needs."
+      },
+      {
+        "title": "Functionality decisions",
+        "description": "The retention of existing features, the creation of new functionality, and the decommission or elimination of unused functionality, and unvisited pages through the product's life cycle have been justified and prioritized on a case by case basis."
+      },
+      {
+        "title": "Security updates",
+        "description": "Corrective security and policy updates during the product or service lifecycle are provided, while such improvements are distinguished from more extensive evolutionary updates."
+      },
+      {
+        "title": "Skills and maintenance",
+        "description": "Sustainable product and data strategies have been developed with appropriate training techniques. These should help your team (managers, colleagues, etc) build capacity and learn new skills to manage and maintain products and services over time."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "13",
+    "guideline": "Document future updates and evolutions",
+    "criteria": [
+      {
+        "title": "Feature changes",
+        "description": "Adding, updating, or removing features are considered where appropriate to the user experience of the product or service."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "14",
+    "guideline": "Establish if a digital product or service is necessary",
+    "criteria": [
+      {
+        "title": "Sustainable Development Goals",
+        "description": "The product or service identifies within a sustainability statement where it aligns with one of the U.N. (SDGs) and its appropriate targets."
+      },
+      {
+        "title": "Creation evaluation",
+        "description": "The product or service has been determined as necessary based upon desirability, feasibility, and viability factors."
+      },
+      {
+        "title": "Avoid duplication",
+        "description": "No existing digital product or service offers the same value. An analysis has been conducted if necessary to understand the market for this requirement."
+      },
+      {
+        "title": "Obstacle consideration",
+        "description": "Any obstacles to using a product or service, such as accessibility, equality, technical, or territorial have been overcome."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "15",
+    "guideline": "Conduct a full life-cycle assessment",
+    "criteria": [
+      {
+        "title": "Life-cycle Assessment",
+        "description": "A life-cycle Assessment (LCA) has been conducted to define the requirements of your product's function throughout its lifecycle."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "16",
+    "guideline": "Provide a supplier standards of practice",
+    "criteria": [
+      {
+        "title": "Vetting potential partners",
+        "description": "The organization has created specific policies to vet potential partners in its supply chain based on PPP principles."
+      },
+      {
+        "title": "Collaborative measurement",
+        "description": "The organization has partnered with suppliers to create, track, and measure collective impact on issues that impact their stakeholders."
+      },
+      {
+        "title": "Informative partner promotion",
+        "description": "The organization has promoted its partnerships in a publicly available place, along with information on how the partnership creates a collective impact."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "17",
+    "guideline": "Share any economic benefits",
+    "criteria": [
+      {
+        "title": "Living wage",
+        "description": "The organization is publicly committed to paying employees, contractors, and other stakeholders a living wage."
+      },
+      {
+        "title": "Incentivisation",
+        "description": "The organization has policies and practices in place to incentivize stakeholders, such as workers and contractors, to meet its impact goals."
+      },
+      {
+        "title": "Employee benefits",
+        "description": "The organization provides benefits to employees in accordance with its resources, including, where relevant, healthcare, retirement planning, flex time, profit sharing, and so on."
+      },
+      {
+        "title": "Legislation advocation",
+        "description": "The organization advocates for responsible legislation that supports employment rights, transparency, and accountability related to sharing economic benefits."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "18",
+    "guideline": "Share decision-making power with appropriate stakeholders",
+    "criteria": [
+      {
+        "title": "Decision-making",
+        "description": "The project team's goals are aligned with key business objectives, and project stakeholders (for example, project managers) have the power and autonomy to make key decisions on the organization's behalf."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "19",
+    "guideline": "Use Justice, Equity, Diversity, Inclusion (JEDI) practices",
+    "criteria": [
+      {
+        "title": "JEDI practices",
+        "description": "The organization has documented its commitment to JEDI practices with clear policies on how it prioritizes marginalized or otherwise underserved communities, including Black, Indigenous, People of Color, LGBTQIA+, Women, Disabled, Veterans, Seniors, and so on."
+      },
+      {
+        "title": "Accessibility policy",
+        "description": "The organization has an accessibility policy for digital products and services and can show this via a verified accessible website, application, product, or service."
+      },
+      {
+        "title": "JEDI training",
+        "description": "The organization has JEDI-related training materials and schedules ongoing workshops related to how this topic manifests itself in digital products and services (algorithmic bias, digital divide, gig economy work, mis / disinformation, etc)."
+      },
+      {
+        "title": "JEDI improvements",
+        "description": "The organization can show measurable JEDI improvement over time in its hiring, leadership, and operations."
+      },
+      {
+        "title": "JEDI legislation",
+        "description": "The organization advocates for responsible legislation relating to JEDI practices, especially as related to digital products and services."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "20",
+    "guideline": "Promote responsible data practices",
+    "criteria": [
+      {
+        "title": "Privacy policy",
+        "description": "The organization maintains a publicly accessible Privacy Policy, Terms and Conditions, or any other documents required by local law, that adhere to the most restrictive data protection regulations, especially when providing services outside the organization's country. These documents are available in accessible formats and use clear, user-friendly language to ensure comprehension by all visitors, avoiding jargon, technical language, and legalese. The organization also supports emerging legislation and implements best practices related to data privacy, sustainability, and responsible data management."
+      },
+      {
+        "title": "Data ownership",
+        "description": "The organization can show measurable progress over time in respecting data privacy and ownership. This will include how the organization handles data disposal and a visitor's \"right to be forgotten\", along with ownership rights and providing the ability to download / export data they have contributed into a non-proprietary format."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "21",
+    "guideline": "Implement appropriate data management procedures",
+    "criteria": [
+      {
+        "title": "Outdated content",
+        "description": "Outdated or otherwise expired product content and data are archived and deleted via automated expiration dates and scheduled product audits. An archiving schedule with a lighter version of the old searchable content is made available."
+      },
+      {
+        "title": "Data controllers",
+        "description": "Users can control, manage, and delete their data, subscriptions, and accounts."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "22",
+    "guideline": "Promote and implement responsible emerging technology practices",
+    "criteria": [
+      {
+        "title": "Emerging technologies",
+        "description": "The organization has public-facing policies in place for emerging technologies, and all such technologies are ethically sourced, screened, validated, and implemented in a non-discriminatory, responsible manner."
+      },
+      {
+        "title": "Disruptive technology",
+        "description": "The organization shows how it up-skills workers as new technologies and practices potentially disrupt its business model."
+      },
+      {
+        "title": "Technology legislation",
+        "description": "The organization supports and complies with responsible legislation related to automation and emerging technologies (such as the EU AI Act)."
+      },
+      {
+        "title": "Environmental responsibilities",
+        "description": "Organizations must consider, audit, and account for any environmental considerations that may derive from the use of emerging technologies they wish to either promote or implement within a chosen setting. Also note that this should include third-party choices, the \"expense\" (in terms of waste or emissions) of the utilization of the technology to create a desired result and consequential issues to the environment that may arise from its deployment."
+      },
+      {
+        "title": "Automated tooling",
+        "description": "Automated tooling, scrapers, spiders, bots, Artificial Intelligence, and other forms of machine-assisted data gathering must abide by requests to opt out at the host, server, or website level. Providers must declare themselves as non-human when requesting within the user-agent / HTTP header. Providers must also publish impact reports relating to their gathering activities."
+      },
+      {
+        "title": "Quantum resilience",
+        "description": "Don't roll out post-quantum encryption for high-traffic services that don't need resilience against harvest now, decrypt later."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "23",
+    "guideline": "Include responsible financial policies",
+    "criteria": [
+      {
+        "title": "Fuel divestment",
+        "description": "The organization has divested from fossil fuels and moved its banking, sponsorship, and other affiliations to more responsible partners."
+      },
+      {
+        "title": "Responsible finance",
+        "description": "The organization engages in flexible financing and responsible budgeting for its digital products and services to accommodate long-term care and maintenance."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "24",
+    "guideline": "Include organizational philanthropy policies",
+    "criteria": [
+      {
+        "title": "Philanthropy policy",
+        "description": "The organization has a clear corporate giving policy and creates philanthropic partnerships with strategically aligned organizations."
+      },
+      {
+        "title": "Voluntary work",
+        "description": "The organization engages in free or volunteer projects, which help its team learn new tools and tactics, while also helping charities and non-profit organizations build capacity."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "25",
+    "guideline": "Plan for a digital product or service's care and end-of-life",
+    "criteria": [
+      {
+        "title": "End-of-life care",
+        "description": "Clear, documented end-of-life guidelines exist that include data disposal, archiving, file deletion, etc guidance."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "26",
+    "guideline": "Include e-waste, right-to-repair, and recycling policies",
+    "criteria": [
+      {
+        "title": "E-Waste policy",
+        "description": "The organization has specific policies in place to recycle e-waste and repair owned technology products whenever possible."
+      },
+      {
+        "title": "Recycling and repairing",
+        "description": "The organization has formed relationships with local partners for e-waste recycling and repair."
+      },
+      {
+        "title": "Refurbishment strategy",
+        "description": "The organization buys refurbished equipment whenever possible."
+      },
+      {
+        "title": "Right-to-repair",
+        "description": "The organization allows consumers to repair (to the best of their ability) the consumables they purchase, offering (if possible at cost) replacement components and provides clear instructions to resolve faults that occur."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "27",
+    "guideline": "Define performance and environmental budgets",
+    "criteria": [
+      {
+        "title": "Environmental budget",
+        "description": "The product team has defined, baselined, and documented clear sustainability and environmental budget criteria that cover the page, user-journey, and digital service levels and metrics (such as a CO2.js score) that are approved by relevant product stakeholders."
+      },
+      {
+        "title": "Performance budget",
+        "description": "Tools such as a performance budget exist to determine the maximum size (goals) your app or website can weigh to reduce the data transfer and HTTP request impact (using metrics like Google Lighthouse)."
+      },
+      {
+        "title": "Human budget",
+        "description": "KPIs are defined around engineering hours, development time, or sprints keeping the health and wellbeing of your workers paramount. Consideration has been taken around optimizing your workflow sustainably to allow all tasks to be performed with care."
+      },
+      {
+        "title": "Measurable improvements",
+        "description": "The product team can measurably show how much the budgeting process improved performance and reduced emissions."
+      },
+      {
+        "title": "Capacity and maintenance",
+        "description": "The product team invests in resources to build capacity and maintain the budgets over time."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "28",
+    "guideline": "Use open source where possible",
+    "criteria": [
+      {
+        "title": "Open source policy",
+        "description": "The organization has a clear open source policy in place that outlines how it uses open source tools and the practices it supports surrounding open source development."
+      },
+      {
+        "title": "Collaboration",
+        "description": "The organization has a track record of collaboration and community-building around open source principles."
+      },
+      {
+        "title": "Contribution",
+        "description": "The organization regularly contributes to open source community-based projects."
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Business Strategy And Product Management",
+    "guidelineId": "29",
+    "guideline": "Create a business continuity and disaster recovery plan",
+    "criteria": [
+      {
+        "title": "Plan of action",
+        "description": "The organization has created a plan of action that is regularly reviewed and occasionally tested to determine readiness in case of an incident and has procedures to quickly recover from such issues."
+      },
+      {
+        "title": "Audience awareness",
+        "description": "The organization regularly maintains transparent communication with its audience regarding issues that may affect service delivery or user data."
+      }
+    ]
+  }
+]

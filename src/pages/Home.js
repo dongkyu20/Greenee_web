@@ -80,21 +80,44 @@ const Home = () => {
                       fill="#1B1B1B"
                       stroke="#ffffff"
                       strokeWidth={0.5}
+                      style={{
+                        default: {
+                          fill: "#ffffff",
+                          opacity: 1
+                        },
+                        hover: {
+                          fill: "#1B1B1B",
+                          opacity: 1
+                        },
+                        pressed: {
+                          fill: "#1B1B1B",
+                          opacity: 1
+                        }
+                      }}
                     />
                   ))
                 }
               </Geographies>
-              {cities.map((city, index) => (
-                <Marker key={index} coordinates={city.coordinates}>
-                  <circle 
-                    r={4} 
-                    fill={getMarkerColor(city.carbonEmission)}
-                    stroke="#fff"
-                    strokeWidth={1}
-                  />
-                  <title>{`${city.name} (${city.carbonEmission}g CO2)`}</title>
-                </Marker>
-              ))}
+              {cities
+                .filter((city) => {
+                  const [longitude, latitude] = city.coordinates;
+                  const [rotateX] = rotation;
+                  const relativeLongitude = (longitude + rotateX + 180) % 360 - 180;
+                  return Math.abs(relativeLongitude) <= 90; // 앞면(±90도 이내)의 마커만 표시
+                })
+                .map((city, index) => (
+                  <Marker key={index} coordinates={city.coordinates}>
+                    <g style={{ pointerEvents: 'none' }}>
+                      <circle 
+                        r={4} 
+                        fill={getMarkerColor(city.carbonEmission)}
+                        stroke="#fff"
+                        strokeWidth={1}
+                      />
+                      <title>{`${city.name} (${city.carbonEmission}g CO2)`}</title>
+                    </g>
+                  </Marker>
+                ))}
             </ComposableMap>
           </div>
 

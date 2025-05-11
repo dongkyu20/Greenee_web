@@ -1,81 +1,190 @@
 .home-container {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  color: white;
+  padding: 2rem;
   text-align: center;
 }
 
 .home-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.split-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -10rem;
 }
 
 .globe-container {
-  width: 700px;
-  height: 700px;
-  margin-bottom: 30px;
+  flex: 1.5;
+  min-width: 1000px;
+  max-width: 1000px;
+  cursor: grab;
+  padding: 2rem;
+}
+
+.globe-container:active {
+  cursor: grabbing;
+}
+
+.measure-section {
+  flex: 1;
+  padding: 3rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  text-align: left;
+  min-width: 500px;
+  margin-top: 50rem;
+}
+
+.carbon-form-container {
+  padding: 1rem;
+}
+
+.measure-description {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.url-input-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-.home-content p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 40px;
+.url-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
 }
 
-.home-buttons {
+.url-form {
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 800px;
 }
 
-.test1-btn, .test2-btn {
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 12px 30px;
+.url-input {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
   font-size: 1.1rem;
-  font-weight: bold;
+  outline: none;
+  width: 100%;
+  min-width: 500px;
+}
+
+.url-input:focus {
+  border-color: #4a7c4d;
+}
+
+.measure-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #4a7c4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s;
+  white-space: nowrap;
 }
 
-.test1-btn:hover, .test2-btn:hover {
-  background-color: white;
-  color: #5c9560;
+.measure-btn:hover {
+  background-color: #5cad60;
 }
 
-@media (max-width: 768px) {
-  .home-content p {
-    font-size: 1rem;
-  }
-  
-  .test1-btn, .test2-btn {
-    padding: 10px 25px;
-    font-size: 1rem;
-  }
+.measure-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
-@media (max-width: 480px) {
-  .globe-container {
-    width: 250px;
-    height: 250px;
-  }
-  
-  .home-buttons {
-    flex-direction: column;
-    gap: 15px;
-  }
+.loading-indicator {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #4a7c4d;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.result-container {
+  padding: 1rem;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.measure-again-btn {
+  padding: 0.5rem 1rem;
+  background-color: #4a7c4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result-score-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.carbon-score {
+  text-align: center;
+}
+
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4a7c4d;
+  border: 8px solid #4a7c4d;
+  margin-bottom: 0.5rem;
+}
+
+.carbon-details {
+  flex: 1;
+}
+
+.detail-item {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.detail-item h3 {
+  font-size: 1.5rem;
+  color: #4a7c4d;
+  margin: 0;
+}
+
+.detail-item p {
+  color: #666;
+  margin: 0;
 }

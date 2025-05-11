@@ -1,0 +1,3222 @@
+[
+  {
+    "name": "University of Guelph",
+    "coordinates": [
+      -80.22618039999999,
+      43.5327217
+    ],
+    "carbonEmission": 0.336,
+    "city": "Guelph",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Louisiana Monroe",
+    "coordinates": [
+      -92.068744,
+      32.5313471
+    ],
+    "carbonEmission": 0.672,
+    "city": "Monroe",
+    "country": "United States"
+  },
+  {
+    "name": "University of Maryland",
+    "coordinates": [
+      -76.9425543,
+      38.9869183
+    ],
+    "carbonEmission": 1.93,
+    "city": "College Park",
+    "country": "United States"
+  },
+  {
+    "name": "University of Illinois Chicago",
+    "coordinates": [
+      -87.6484377,
+      41.8686034
+    ],
+    "carbonEmission": 0.207,
+    "city": "Chicago",
+    "country": "United States"
+  },
+  {
+    "name": "University of Georgia",
+    "coordinates": [
+      -83.37242420000001,
+      33.9423394
+    ],
+    "carbonEmission": 1.972,
+    "city": "Athens",
+    "country": "United States"
+  },
+  {
+    "name": "University of Dayton",
+    "coordinates": [
+      -84.17904449999999,
+      39.7401454
+    ],
+    "carbonEmission": 1.316,
+    "city": "Dayton",
+    "country": "United States"
+  },
+  {
+    "name": "University of Michigan",
+    "coordinates": [
+      -83.7382071,
+      42.277145
+    ],
+    "carbonEmission": 0.234,
+    "city": "Ann Arbor",
+    "country": "United States"
+  },
+  {
+    "name": "University of Maryland",
+    "coordinates": [
+      -76.9425543,
+      38.9869183
+    ],
+    "carbonEmission": 1.955,
+    "city": "College Park",
+    "country": "United States"
+  },
+  {
+    "name": "University of Massachusetts Amherst",
+    "coordinates": [
+      -72.5314278,
+      42.38655809999999
+    ],
+    "carbonEmission": 3.274,
+    "city": "Amherst",
+    "country": "United States"
+  },
+  {
+    "name": "University of Michigan-Dearborn",
+    "coordinates": [
+      -83.2320299,
+      42.31763429999999
+    ],
+    "carbonEmission": 0.294,
+    "city": "Dearborn",
+    "country": "United States"
+  },
+  {
+    "name": "University of Miami",
+    "coordinates": [
+      -80.2781262,
+      25.7173947
+    ],
+    "carbonEmission": 2.412,
+    "city": "Coral Gables",
+    "country": "United States"
+  },
+  {
+    "name": "University of Minnesota",
+    "coordinates": [
+      -93.2277285,
+      44.97399
+    ],
+    "carbonEmission": 0.583,
+    "city": "Minneapolis",
+    "country": "United States"
+  },
+  {
+    "name": "University of Rochester",
+    "coordinates": [
+      -77.6260033,
+      43.13055310000001
+    ],
+    "carbonEmission": 0.598,
+    "city": "Rochester",
+    "country": "United States"
+  },
+  {
+    "name": "University of Pennsylvania",
+    "coordinates": [
+      -75.1910161,
+      39.9515013
+    ],
+    "carbonEmission": 1.982,
+    "city": "Philadelphia",
+    "country": "United States"
+  },
+  {
+    "name": "University of Toronto",
+    "coordinates": [
+      -79.3958273,
+      43.663487
+    ],
+    "carbonEmission": 0.157,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "name": "University of South Florida",
+    "coordinates": [
+      -82.4135057,
+      28.0622334
+    ],
+    "carbonEmission": 0.75,
+    "city": "Tampa",
+    "country": "United States"
+  },
+  {
+    "name": "University of Regina",
+    "coordinates": [
+      -104.5878787,
+      50.4155616
+    ],
+    "carbonEmission": 0.931,
+    "city": "Regina",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Toronto Scarborough",
+    "coordinates": [
+      -79.1873263,
+      43.7830961
+    ],
+    "carbonEmission": 0.872,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "name": "Vienna University of Technology",
+    "coordinates": [
+      16.3684626,
+      48.1986546
+    ],
+    "carbonEmission": 2.013,
+    "city": "Vienna",
+    "country": "Austria"
+  },
+  {
+    "name": "University of California, Riverside",
+    "coordinates": [
+      -117.3280644,
+      33.9737055
+    ],
+    "carbonEmission": 0.801,
+    "city": "Riverside",
+    "country": "United States"
+  },
+  {
+    "name": "AlHussein Technical University",
+    "coordinates": [
+      35.8325012,
+      31.9724282
+    ],
+    "carbonEmission": 0.389,
+    "city": "عمّان",
+    "country": "Jordan"
+  },
+  {
+    "name": "UCAM Universidad Católica San Antonio de Murcia",
+    "coordinates": [
+      -1.1851961,
+      37.9914114
+    ],
+    "carbonEmission": 3.494,
+    "city": "Guadalupe",
+    "country": "Spain"
+  },
+  {
+    "name": "Prince Mohammad Bin Fahd University",
+    "coordinates": [
+      50.090961,
+      26.144497
+    ],
+    "carbonEmission": 2.897,
+    "city": "الظهران",
+    "country": "Saudi Arabia"
+  },
+  {
+    "name": "University of California, Santa Cruz",
+    "coordinates": [
+      -122.0584354,
+      36.99053219999999
+    ],
+    "carbonEmission": 2.407,
+    "city": "Santa Cruz",
+    "country": "United States"
+  },
+  {
+    "name": "University of California, Davis",
+    "coordinates": [
+      -121.7617125,
+      38.5382322
+    ],
+    "carbonEmission": 2.293,
+    "city": "Davis",
+    "country": "United States"
+  },
+  {
+    "name": "University of California, Santa Barbara",
+    "coordinates": [
+      -119.848947,
+      34.4139629
+    ],
+    "carbonEmission": 0.538,
+    "city": "Santa Barbara",
+    "country": "United States"
+  },
+  {
+    "name": "University of California, Los Angeles",
+    "coordinates": [
+      -118.4438495,
+      34.0699182
+    ],
+    "carbonEmission": 0.901,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "name": "University of Colorado Boulder",
+    "coordinates": [
+      -105.2659871,
+      40.0073499
+    ],
+    "carbonEmission": 0.991,
+    "city": "Boulder",
+    "country": "United States"
+  },
+  {
+    "name": "University of Guelph",
+    "coordinates": [
+      -80.22618039999999,
+      43.5327217
+    ],
+    "carbonEmission": 0.336,
+    "city": "Guelph",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Dayton",
+    "coordinates": [
+      -84.17904449999999,
+      39.7401454
+    ],
+    "carbonEmission": 1.305,
+    "city": "Dayton",
+    "country": "United States"
+  },
+  {
+    "name": "University of Georgia",
+    "coordinates": [
+      -83.37242420000001,
+      33.9423394
+    ],
+    "carbonEmission": 1.966,
+    "city": "Athens",
+    "country": "United States"
+  },
+  {
+    "name": "University of Illinois Chicago",
+    "coordinates": [
+      -87.6484377,
+      41.8686034
+    ],
+    "carbonEmission": 0.207,
+    "city": "Chicago",
+    "country": "United States"
+  },
+  {
+    "name": "University of Louisiana Monroe",
+    "coordinates": [
+      -92.068744,
+      32.5313471
+    ],
+    "carbonEmission": 0.681,
+    "city": "Monroe",
+    "country": "United States"
+  },
+  {
+    "name": "University of Maryland",
+    "coordinates": [
+      -76.9425543,
+      38.9869183
+    ],
+    "carbonEmission": 1.927,
+    "city": "College Park",
+    "country": "United States"
+  },
+  {
+    "name": "University of Maryland",
+    "coordinates": [
+      -76.9425543,
+      38.9869183
+    ],
+    "carbonEmission": 1.977,
+    "city": "College Park",
+    "country": "United States"
+  },
+  {
+    "name": "University of Michigan",
+    "coordinates": [
+      -83.7382071,
+      42.277145
+    ],
+    "carbonEmission": 0.233,
+    "city": "Ann Arbor",
+    "country": "United States"
+  },
+  {
+    "name": "University of Massachusetts Amherst",
+    "coordinates": [
+      -72.5314278,
+      42.38655809999999
+    ],
+    "carbonEmission": 3.294,
+    "city": "Amherst",
+    "country": "United States"
+  },
+  {
+    "name": "University of Miami",
+    "coordinates": [
+      -80.2781262,
+      25.7173947
+    ],
+    "carbonEmission": 2.394,
+    "city": "Coral Gables",
+    "country": "United States"
+  },
+  {
+    "name": "University of Michigan-Dearborn",
+    "coordinates": [
+      -83.2320299,
+      42.31763429999999
+    ],
+    "carbonEmission": 0.293,
+    "city": "Dearborn",
+    "country": "United States"
+  },
+  {
+    "name": "University of Minnesota",
+    "coordinates": [
+      -93.2277285,
+      44.97399
+    ],
+    "carbonEmission": 0.582,
+    "city": "Minneapolis",
+    "country": "United States"
+  },
+  {
+    "name": "University of Pennsylvania",
+    "coordinates": [
+      -75.1910161,
+      39.9515013
+    ],
+    "carbonEmission": 1.998,
+    "city": "Philadelphia",
+    "country": "United States"
+  },
+  {
+    "name": "University of Rochester",
+    "coordinates": [
+      -77.6260033,
+      43.13055310000001
+    ],
+    "carbonEmission": 0.593,
+    "city": "Rochester",
+    "country": "United States"
+  },
+  {
+    "name": "University of Regina",
+    "coordinates": [
+      -104.5878787,
+      50.4155616
+    ],
+    "carbonEmission": 0.808,
+    "city": "Regina",
+    "country": "Canada"
+  },
+  {
+    "name": "University of South Florida",
+    "coordinates": [
+      -82.4135057,
+      28.0622334
+    ],
+    "carbonEmission": 0.81,
+    "city": "Tampa",
+    "country": "United States"
+  },
+  {
+    "name": "University of Toronto",
+    "coordinates": [
+      -79.3958273,
+      43.663487
+    ],
+    "carbonEmission": 0.157,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Toronto Scarborough",
+    "coordinates": [
+      -79.1873263,
+      43.7830961
+    ],
+    "carbonEmission": 0.548,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Toronto",
+    "coordinates": [
+      -79.3958273,
+      43.663487
+    ],
+    "carbonEmission": 0.157,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Virginia",
+    "coordinates": [
+      -78.5079772,
+      38.0335529
+    ],
+    "carbonEmission": 1.227,
+    "city": "Charlottesville",
+    "country": "United States"
+  },
+  {
+    "name": "University of Washington Bothell",
+    "coordinates": [
+      -122.190891,
+      47.7584761
+    ],
+    "carbonEmission": 0.598,
+    "city": "Bothell",
+    "country": "United States"
+  },
+  {
+    "name": "University of Washington",
+    "coordinates": [
+      -122.3066181,
+      47.65671709999999
+    ],
+    "carbonEmission": 0.526,
+    "city": "Seattle",
+    "country": "United States"
+  },
+  {
+    "name": "University of Waterloo",
+    "coordinates": [
+      -80.5448576,
+      43.4722854
+    ],
+    "carbonEmission": 0.247,
+    "city": "Waterloo",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Wisconsin–Madison",
+    "coordinates": [
+      -89.4154526,
+      43.07551429999999
+    ],
+    "carbonEmission": 0.292,
+    "city": "Madison",
+    "country": "United States"
+  },
+  {
+    "name": "University of Balamand - UOB, Koura Campus",
+    "coordinates": [
+      35.7824383,
+      34.3647863
+    ],
+    "carbonEmission": 0.801,
+    "city": "Balamand",
+    "country": "Lebanon"
+  },
+  {
+    "name": "University of Debrecen",
+    "coordinates": [
+      21.6215102,
+      47.5536257
+    ],
+    "carbonEmission": 0.56,
+    "city": "Debrecen",
+    "country": "Hungary"
+  },
+  {
+    "name": "University of Bristol",
+    "coordinates": [
+      -2.6021758,
+      51.45853760000001
+    ],
+    "carbonEmission": 0.455,
+    "city": "Unknown",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Batna 2 University",
+    "coordinates": [
+      6.277429799999999,
+      35.6346757
+    ],
+    "carbonEmission": 2.756,
+    "city": "Unknown",
+    "country": "Algeria"
+  },
+  {
+    "name": "University of Central Asia Bishkek",
+    "coordinates": [
+      74.59659979999999,
+      42.8726941
+    ],
+    "carbonEmission": 4.524,
+    "city": "Bishkek",
+    "country": "Kyrgyzstan"
+  },
+  {
+    "name": "University of Girona",
+    "coordinates": [
+      2.8272011,
+      41.98570279999999
+    ],
+    "carbonEmission": 0.205,
+    "city": "Girona",
+    "country": "Spain"
+  },
+  {
+    "name": "University of Kragujevac Rectorate",
+    "coordinates": [
+      20.92155,
+      44.0234364
+    ],
+    "carbonEmission": 0.158,
+    "city": "Kragujevac",
+    "country": "Serbia"
+  },
+  {
+    "name": "University of Kufa",
+    "coordinates": [
+      44.3768946,
+      32.0189207
+    ],
+    "carbonEmission": 0.298,
+    "city": "Kufa",
+    "country": "Iraq"
+  },
+  {
+    "name": "L-Università ta' Malta",
+    "coordinates": [
+      14.4847432,
+      35.90232
+    ],
+    "carbonEmission": 0.547,
+    "city": "Msida",
+    "country": "Malta"
+  },
+  {
+    "name": "University of Macedonia",
+    "coordinates": [
+      22.9601085,
+      40.62501290000001
+    ],
+    "carbonEmission": 0.731,
+    "city": "Thessaloniki",
+    "country": "Greece"
+  },
+  {
+    "name": "University of Mannheim",
+    "coordinates": [
+      8.4634512,
+      49.4831102
+    ],
+    "carbonEmission": 0.5,
+    "city": "Mannheim",
+    "country": "Germany"
+  },
+  {
+    "name": "University of Porto",
+    "coordinates": [
+      -8.615699800000002,
+      41.14654790000001
+    ],
+    "carbonEmission": 0.949,
+    "city": "Porto",
+    "country": "Portugal"
+  },
+  {
+    "name": "University of Strathclyde",
+    "coordinates": [
+      -4.2423246,
+      55.8619473
+    ],
+    "carbonEmission": 0.166,
+    "city": "Unknown",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Univerza na Primorskem / University of Primorska",
+    "coordinates": [
+      13.7295516,
+      45.5479617
+    ],
+    "carbonEmission": 0.612,
+    "city": "Unknown",
+    "country": "Slovenia"
+  },
+  {
+    "name": "University Of Benin (Main Campus)",
+    "coordinates": [
+      5.6089906,
+      6.399879
+    ],
+    "carbonEmission": 1.788,
+    "city": "Benin City",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Valladolid University",
+    "coordinates": [
+      -4.7140547,
+      41.6569271
+    ],
+    "carbonEmission": 1.484,
+    "city": "Valladolid",
+    "country": "Spain"
+  },
+  {
+    "name": "University of Sharjah",
+    "coordinates": [
+      55.47830450000001,
+      25.2867653
+    ],
+    "carbonEmission": 0.748,
+    "city": "Sharjah",
+    "country": "United Arab Emirates"
+  },
+  {
+    "name": "University of Botswana",
+    "coordinates": [
+      25.9309113,
+      -24.6605376
+    ],
+    "carbonEmission": 0.312,
+    "city": "Gaborone",
+    "country": "Botswana"
+  },
+  {
+    "name": "University Of Cape Coast",
+    "coordinates": [
+      -1.2908544,
+      5.115464500000001
+    ],
+    "carbonEmission": 0.195,
+    "city": "Cape Coast",
+    "country": "Ghana"
+  },
+  {
+    "name": "University of Embu",
+    "coordinates": [
+      37.4563789,
+      -0.5156235
+    ],
+    "carbonEmission": 0.526,
+    "city": "Embu",
+    "country": "Kenya"
+  },
+  {
+    "name": "University of Ghana",
+    "coordinates": [
+      -0.1962244,
+      5.650562
+    ],
+    "carbonEmission": 1.038,
+    "city": "Accra",
+    "country": "Ghana"
+  },
+  {
+    "name": "University of Cape Town",
+    "coordinates": [
+      18.4611991,
+      -33.957652
+    ],
+    "carbonEmission": 0.552,
+    "city": "Cape Town",
+    "country": "South Africa"
+  },
+  {
+    "name": "University of Ilorin",
+    "coordinates": [
+      4.674583,
+      8.485895700000002
+    ],
+    "carbonEmission": 2.999,
+    "city": "Ilorin",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Mauritius",
+    "coordinates": [
+      57.4962994,
+      -20.2349416
+    ],
+    "carbonEmission": 0.883,
+    "city": "Moka",
+    "country": "Mauritius"
+  },
+  {
+    "name": "University of Mines and Technology",
+    "coordinates": [
+      -2.0012774,
+      5.2984262
+    ],
+    "carbonEmission": 0.27,
+    "city": "Tarkwa",
+    "country": "Ghana"
+  },
+  {
+    "name": "University of Lagos",
+    "coordinates": [
+      3.3898447,
+      6.515759
+    ],
+    "carbonEmission": 4.641,
+    "city": "Lagos",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University Of Jos, Main Campus",
+    "coordinates": [
+      8.891098099999999,
+      9.9486647
+    ],
+    "carbonEmission": 5.538,
+    "city": "Jos",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Nairobi",
+    "coordinates": [
+      36.81609350000001,
+      -1.2797442
+    ],
+    "carbonEmission": 0.921,
+    "city": "Nairobi",
+    "country": "Kenya"
+  },
+  {
+    "name": "University of Port Harcourt",
+    "coordinates": [
+      6.916194399999999,
+      4.9069911
+    ],
+    "carbonEmission": 1.432,
+    "city": "Choba",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Nigeria, UNN Nsukka",
+    "coordinates": [
+      7.411526299999998,
+      6.866602
+    ],
+    "carbonEmission": 0.895,
+    "city": "Nsukka",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University College of Engineering Villupuram",
+    "coordinates": [
+      79.51266489999999,
+      11.9506849
+    ],
+    "carbonEmission": 0.348,
+    "city": "Viluppuram",
+    "country": "India"
+  },
+  {
+    "name": "University of Professional Studies, Accra (UPSA)",
+    "coordinates": [
+      -0.1658758,
+      5.660528999999999
+    ],
+    "carbonEmission": 0.528,
+    "city": "Madina",
+    "country": "Ghana"
+  },
+  {
+    "name": "University of Zimbabwe",
+    "coordinates": [
+      31.0546398,
+      -17.782445
+    ],
+    "carbonEmission": 0.714,
+    "city": "Harare",
+    "country": "Zimbabwe"
+  },
+  {
+    "name": "University Institute of Engineering and Technology, Kurukshetra University",
+    "coordinates": [
+      76.81343749999999,
+      29.9613047
+    ],
+    "carbonEmission": 1.432,
+    "city": "Thanesar",
+    "country": "India"
+  },
+  {
+    "name": "UVCE",
+    "coordinates": [
+      77.5866381,
+      12.9752857
+    ],
+    "carbonEmission": 0.425,
+    "city": "Bengaluru",
+    "country": "India"
+  },
+  {
+    "name": "University of Calcutta",
+    "coordinates": [
+      88.3629188,
+      22.5750862
+    ],
+    "carbonEmission": 0.733,
+    "city": "Kolkata",
+    "country": "India"
+  },
+  {
+    "name": "The University of Aizu",
+    "coordinates": [
+      139.9374396,
+      37.52384239999999
+    ],
+    "carbonEmission": 0.9,
+    "city": "会津若松市",
+    "country": "Japan"
+  },
+  {
+    "name": "University of Central Punjab",
+    "coordinates": [
+      74.2682316,
+      31.4468997
+    ],
+    "carbonEmission": 0.414,
+    "city": "Lahore",
+    "country": "Pakistan"
+  },
+  {
+    "name": "University of Education",
+    "coordinates": [
+      74.2990294,
+      31.45373739999999
+    ],
+    "carbonEmission": 1.555,
+    "city": "Lahore",
+    "country": "Pakistan"
+  },
+  {
+    "name": "University of Information Technology - VNUHCM",
+    "coordinates": [
+      106.8030541,
+      10.8700089
+    ],
+    "carbonEmission": 0.346,
+    "city": "Unknown",
+    "country": "Vietnam"
+  },
+  {
+    "name": "University of Engineering & Technology New Campus",
+    "coordinates": [
+      74.2472402,
+      31.6942859
+    ],
+    "carbonEmission": 0.253,
+    "city": "Kala Shah Kaku",
+    "country": "Pakistan"
+  },
+  {
+    "name": "University of Engineering and Technology (UET), Lahore",
+    "coordinates": [
+      74.35494969999999,
+      31.57973429999999
+    ],
+    "carbonEmission": 1.118,
+    "city": "Lahore",
+    "country": "Pakistan"
+  },
+  {
+    "name": "The University of Melbourne",
+    "coordinates": [
+      144.960974,
+      -37.79834589999999
+    ],
+    "carbonEmission": 0.196,
+    "city": "Parkville",
+    "country": "Australia"
+  },
+  {
+    "name": "UNSW Sydney",
+    "coordinates": [
+      151.2312675,
+      -33.917347
+    ],
+    "carbonEmission": 0.322,
+    "city": "Sydney",
+    "country": "Australia"
+  },
+  {
+    "name": "University of St. La Salle",
+    "coordinates": [
+      122.962009,
+      10.6802041
+    ],
+    "carbonEmission": 1.69,
+    "city": "Bacolod",
+    "country": "Philippines"
+  },
+  {
+    "name": "UniSC University of the Sunshine Coast",
+    "coordinates": [
+      153.0655898,
+      -26.7171007
+    ],
+    "carbonEmission": 0.377,
+    "city": "Sippy Downs",
+    "country": "Australia"
+  },
+  {
+    "name": "UPES ONLINE (UPES CCE)",
+    "coordinates": [
+      77.96690400000001,
+      30.41688329999999
+    ],
+    "carbonEmission": 1.183,
+    "city": "Dehradun",
+    "country": "India"
+  },
+  {
+    "name": "University of California, Santa Barbara",
+    "coordinates": [
+      -119.848947,
+      34.4139629
+    ],
+    "carbonEmission": 0.538,
+    "city": "Santa Barbara",
+    "country": "United States"
+  },
+  {
+    "name": "University of California, Santa Cruz",
+    "coordinates": [
+      -122.0584354,
+      36.99053219999999
+    ],
+    "carbonEmission": 2.151,
+    "city": "Santa Cruz",
+    "country": "United States"
+  },
+  {
+    "name": "University of California, Los Angeles",
+    "coordinates": [
+      -118.4438495,
+      34.0699182
+    ],
+    "carbonEmission": 0.901,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "name": "University of California, Davis",
+    "coordinates": [
+      -121.7617125,
+      38.5382322
+    ],
+    "carbonEmission": 2.212,
+    "city": "Davis",
+    "country": "United States"
+  },
+  {
+    "name": "University of Colorado Boulder",
+    "coordinates": [
+      -105.2659871,
+      40.0073499
+    ],
+    "carbonEmission": 0.992,
+    "city": "Boulder",
+    "country": "United States"
+  },
+  {
+    "name": "University of Guelph",
+    "coordinates": [
+      -80.22618039999999,
+      43.5327217
+    ],
+    "carbonEmission": 0.336,
+    "city": "Guelph",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Dayton",
+    "coordinates": [
+      -84.17904449999999,
+      39.7401454
+    ],
+    "carbonEmission": 1.27,
+    "city": "Dayton",
+    "country": "United States"
+  },
+  {
+    "name": "University of Georgia",
+    "coordinates": [
+      -83.37242420000001,
+      33.9423394
+    ],
+    "carbonEmission": 1.927,
+    "city": "Athens",
+    "country": "United States"
+  },
+  {
+    "name": "University of Louisiana Monroe",
+    "coordinates": [
+      -92.068744,
+      32.5313471
+    ],
+    "carbonEmission": 0.681,
+    "city": "Monroe",
+    "country": "United States"
+  },
+  {
+    "name": "University of Illinois Chicago",
+    "coordinates": [
+      -87.6484377,
+      41.8686034
+    ],
+    "carbonEmission": 0.207,
+    "city": "Chicago",
+    "country": "United States"
+  },
+  {
+    "name": "University of Maryland",
+    "coordinates": [
+      -76.9425543,
+      38.9869183
+    ],
+    "carbonEmission": 1.912,
+    "city": "College Park",
+    "country": "United States"
+  },
+  {
+    "name": "University of Maryland",
+    "coordinates": [
+      -76.9425543,
+      38.9869183
+    ],
+    "carbonEmission": 1.955,
+    "city": "College Park",
+    "country": "United States"
+  },
+  {
+    "name": "University of Michigan",
+    "coordinates": [
+      -83.7382071,
+      42.277145
+    ],
+    "carbonEmission": 0.233,
+    "city": "Ann Arbor",
+    "country": "United States"
+  },
+  {
+    "name": "University of Massachusetts Amherst",
+    "coordinates": [
+      -72.5314278,
+      42.38655809999999
+    ],
+    "carbonEmission": 3.294,
+    "city": "Amherst",
+    "country": "United States"
+  },
+  {
+    "name": "University of Miami",
+    "coordinates": [
+      -80.2781262,
+      25.7173947
+    ],
+    "carbonEmission": 2.235,
+    "city": "Coral Gables",
+    "country": "United States"
+  },
+  {
+    "name": "University of Michigan-Dearborn",
+    "coordinates": [
+      -83.2320299,
+      42.31763429999999
+    ],
+    "carbonEmission": 0.293,
+    "city": "Dearborn",
+    "country": "United States"
+  },
+  {
+    "name": "University of Minnesota",
+    "coordinates": [
+      -93.2277285,
+      44.97399
+    ],
+    "carbonEmission": 0.582,
+    "city": "Minneapolis",
+    "country": "United States"
+  },
+  {
+    "name": "University of Pennsylvania",
+    "coordinates": [
+      -75.1910161,
+      39.9515013
+    ],
+    "carbonEmission": 1.998,
+    "city": "Philadelphia",
+    "country": "United States"
+  },
+  {
+    "name": "University of Rochester",
+    "coordinates": [
+      -77.6260033,
+      43.13055310000001
+    ],
+    "carbonEmission": 0.612,
+    "city": "Rochester",
+    "country": "United States"
+  },
+  {
+    "name": "University of Regina",
+    "coordinates": [
+      -104.5878787,
+      50.4155616
+    ],
+    "carbonEmission": 1.209,
+    "city": "Regina",
+    "country": "Canada"
+  },
+  {
+    "name": "University of South Florida",
+    "coordinates": [
+      -82.4135057,
+      28.0622334
+    ],
+    "carbonEmission": 0.751,
+    "city": "Tampa",
+    "country": "United States"
+  },
+  {
+    "name": "University of Toronto",
+    "coordinates": [
+      -79.3958273,
+      43.663487
+    ],
+    "carbonEmission": 0.157,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Toronto Scarborough",
+    "coordinates": [
+      -79.1873263,
+      43.7830961
+    ],
+    "carbonEmission": 0.548,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Toronto",
+    "coordinates": [
+      -79.3958273,
+      43.663487
+    ],
+    "carbonEmission": 0.157,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Virginia",
+    "coordinates": [
+      -78.5079772,
+      38.0335529
+    ],
+    "carbonEmission": 1.229,
+    "city": "Charlottesville",
+    "country": "United States"
+  },
+  {
+    "name": "University of Washington",
+    "coordinates": [
+      -122.3066181,
+      47.65671709999999
+    ],
+    "carbonEmission": 0.526,
+    "city": "Seattle",
+    "country": "United States"
+  },
+  {
+    "name": "University of Waterloo",
+    "coordinates": [
+      -80.5448576,
+      43.4722854
+    ],
+    "carbonEmission": 0.247,
+    "city": "Waterloo",
+    "country": "Canada"
+  },
+  {
+    "name": "University of Washington Bothell",
+    "coordinates": [
+      -122.190891,
+      47.7584761
+    ],
+    "carbonEmission": 0.598,
+    "city": "Bothell",
+    "country": "United States"
+  },
+  {
+    "name": "University of Wisconsin–Madison",
+    "coordinates": [
+      -89.4154526,
+      43.07551429999999
+    ],
+    "carbonEmission": 0.278,
+    "city": "Madison",
+    "country": "United States"
+  },
+  {
+    "name": "University of Bristol",
+    "coordinates": [
+      -2.6021758,
+      51.45853760000001
+    ],
+    "carbonEmission": 0.455,
+    "city": "Unknown",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Batna 2 University",
+    "coordinates": [
+      6.277429799999999,
+      35.6346757
+    ],
+    "carbonEmission": 0.865,
+    "city": "Unknown",
+    "country": "Algeria"
+  },
+  {
+    "name": "University of Debrecen",
+    "coordinates": [
+      21.6215102,
+      47.5536257
+    ],
+    "carbonEmission": 0.561,
+    "city": "Debrecen",
+    "country": "Hungary"
+  },
+  {
+    "name": "University of Balamand - UOB, Koura Campus",
+    "coordinates": [
+      35.7824383,
+      34.3647863
+    ],
+    "carbonEmission": 0.8,
+    "city": "Balamand",
+    "country": "Lebanon"
+  },
+  {
+    "name": "University of Central Asia Bishkek",
+    "coordinates": [
+      74.59659979999999,
+      42.8726941
+    ],
+    "carbonEmission": 6.869,
+    "city": "Bishkek",
+    "country": "Kyrgyzstan"
+  },
+  {
+    "name": "University of Girona",
+    "coordinates": [
+      2.8272011,
+      41.98570279999999
+    ],
+    "carbonEmission": 0.211,
+    "city": "Girona",
+    "country": "Spain"
+  },
+  {
+    "name": "University of Kragujevac Rectorate",
+    "coordinates": [
+      20.92155,
+      44.0234364
+    ],
+    "carbonEmission": 0.149,
+    "city": "Kragujevac",
+    "country": "Serbia"
+  },
+  {
+    "name": "University of Kufa",
+    "coordinates": [
+      44.3768946,
+      32.0189207
+    ],
+    "carbonEmission": 0.304,
+    "city": "Kufa",
+    "country": "Iraq"
+  },
+  {
+    "name": "University of Macedonia",
+    "coordinates": [
+      22.9601085,
+      40.62501290000001
+    ],
+    "carbonEmission": 0.731,
+    "city": "Thessaloniki",
+    "country": "Greece"
+  },
+  {
+    "name": "University of Porto",
+    "coordinates": [
+      -8.615699800000002,
+      41.14654790000001
+    ],
+    "carbonEmission": 0.949,
+    "city": "Porto",
+    "country": "Portugal"
+  },
+  {
+    "name": "University of Mannheim",
+    "coordinates": [
+      8.4634512,
+      49.4831102
+    ],
+    "carbonEmission": 0.5,
+    "city": "Mannheim",
+    "country": "Germany"
+  },
+  {
+    "name": "L-Università ta' Malta",
+    "coordinates": [
+      14.4847432,
+      35.90232
+    ],
+    "carbonEmission": 0.547,
+    "city": "Msida",
+    "country": "Malta"
+  },
+  {
+    "name": "Univerza na Primorskem / University of Primorska",
+    "coordinates": [
+      13.7295516,
+      45.5479617
+    ],
+    "carbonEmission": 0.612,
+    "city": "Unknown",
+    "country": "Slovenia"
+  },
+  {
+    "name": "University of Strathclyde",
+    "coordinates": [
+      -4.2423246,
+      55.8619473
+    ],
+    "carbonEmission": 0.163,
+    "city": "Unknown",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "University of Botswana",
+    "coordinates": [
+      25.9309113,
+      -24.6605376
+    ],
+    "carbonEmission": 0.312,
+    "city": "Gaborone",
+    "country": "Botswana"
+  },
+  {
+    "name": "University Of Benin (Main Campus)",
+    "coordinates": [
+      5.6089906,
+      6.399879
+    ],
+    "carbonEmission": 1.788,
+    "city": "Benin City",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Sharjah",
+    "coordinates": [
+      55.47830450000001,
+      25.2867653
+    ],
+    "carbonEmission": 0.748,
+    "city": "Sharjah",
+    "country": "United Arab Emirates"
+  },
+  {
+    "name": "Valladolid University",
+    "coordinates": [
+      -4.7140547,
+      41.6569271
+    ],
+    "carbonEmission": 3.687,
+    "city": "Valladolid",
+    "country": "Spain"
+  },
+  {
+    "name": "University Of Cape Coast",
+    "coordinates": [
+      -1.2908544,
+      5.115464500000001
+    ],
+    "carbonEmission": 0.195,
+    "city": "Cape Coast",
+    "country": "Ghana"
+  },
+  {
+    "name": "University of Embu",
+    "coordinates": [
+      37.4563789,
+      -0.5156235
+    ],
+    "carbonEmission": 0.538,
+    "city": "Embu",
+    "country": "Kenya"
+  },
+  {
+    "name": "University of Ghana",
+    "coordinates": [
+      -0.1962244,
+      5.650562
+    ],
+    "carbonEmission": 1.045,
+    "city": "Accra",
+    "country": "Ghana"
+  },
+  {
+    "name": "University of Ilorin",
+    "coordinates": [
+      4.674583,
+      8.485895700000002
+    ],
+    "carbonEmission": 2.999,
+    "city": "Ilorin",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Cape Town",
+    "coordinates": [
+      18.4611991,
+      -33.957652
+    ],
+    "carbonEmission": 0.552,
+    "city": "Cape Town",
+    "country": "South Africa"
+  },
+  {
+    "name": "University of Mines and Technology",
+    "coordinates": [
+      -2.0012774,
+      5.2984262
+    ],
+    "carbonEmission": 0.27,
+    "city": "Tarkwa",
+    "country": "Ghana"
+  },
+  {
+    "name": "University Of Jos, Main Campus",
+    "coordinates": [
+      8.891098099999999,
+      9.9486647
+    ],
+    "carbonEmission": 6.396,
+    "city": "Jos",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Mauritius",
+    "coordinates": [
+      57.4962994,
+      -20.2349416
+    ],
+    "carbonEmission": 0.886,
+    "city": "Moka",
+    "country": "Mauritius"
+  },
+  {
+    "name": "University of Lagos",
+    "coordinates": [
+      3.3898447,
+      6.515759
+    ],
+    "carbonEmission": 4.38,
+    "city": "Lagos",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Nairobi",
+    "coordinates": [
+      36.81609350000001,
+      -1.2797442
+    ],
+    "carbonEmission": 0.92,
+    "city": "Nairobi",
+    "country": "Kenya"
+  },
+  {
+    "name": "University of Nigeria, UNN Nsukka",
+    "coordinates": [
+      7.411526299999998,
+      6.866602
+    ],
+    "carbonEmission": 0.895,
+    "city": "Nsukka",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Port Harcourt",
+    "coordinates": [
+      6.916194399999999,
+      4.9069911
+    ],
+    "carbonEmission": 1.432,
+    "city": "Choba",
+    "country": "Nigeria"
+  },
+  {
+    "name": "University of Professional Studies, Accra (UPSA)",
+    "coordinates": [
+      -0.1658758,
+      5.660528999999999
+    ],
+    "carbonEmission": 0.53,
+    "city": "Madina",
+    "country": "Ghana"
+  },
+  {
+    "name": "University of Zimbabwe",
+    "coordinates": [
+      31.0546398,
+      -17.782445
+    ],
+    "carbonEmission": 0.714,
+    "city": "Harare",
+    "country": "Zimbabwe"
+  },
+  {
+    "name": "University College of Engineering Villupuram",
+    "coordinates": [
+      79.51266489999999,
+      11.9506849
+    ],
+    "carbonEmission": 0.348,
+    "city": "Viluppuram",
+    "country": "India"
+  },
+  {
+    "name": "University Institute of Engineering and Technology, Kurukshetra University",
+    "coordinates": [
+      76.81343749999999,
+      29.9613047
+    ],
+    "carbonEmission": 1.432,
+    "city": "Thanesar",
+    "country": "India"
+  },
+  {
+    "name": "UVCE",
+    "coordinates": [
+      77.5866381,
+      12.9752857
+    ],
+    "carbonEmission": 0.422,
+    "city": "Bengaluru",
+    "country": "India"
+  },
+  {
+    "name": "The University of Aizu",
+    "coordinates": [
+      139.9374396,
+      37.52384239999999
+    ],
+    "carbonEmission": 0.899,
+    "city": "会津若松市",
+    "country": "Japan"
+  },
+  {
+    "name": "University of Central Punjab",
+    "coordinates": [
+      74.2682316,
+      31.4468997
+    ],
+    "carbonEmission": 0.414,
+    "city": "Lahore",
+    "country": "Pakistan"
+  },
+  {
+    "name": "University of Education",
+    "coordinates": [
+      74.2990294,
+      31.45373739999999
+    ],
+    "carbonEmission": 1.543,
+    "city": "Lahore",
+    "country": "Pakistan"
+  },
+  {
+    "name": "University of Calcutta",
+    "coordinates": [
+      88.3629188,
+      22.5750862
+    ],
+    "carbonEmission": 1.131,
+    "city": "Kolkata",
+    "country": "India"
+  },
+  {
+    "name": "University of Information Technology - VNUHCM",
+    "coordinates": [
+      106.8030541,
+      10.8700089
+    ],
+    "carbonEmission": 0.346,
+    "city": "Unknown",
+    "country": "Vietnam"
+  },
+  {
+    "name": "University of Engineering & Technology New Campus",
+    "coordinates": [
+      74.2472402,
+      31.6942859
+    ],
+    "carbonEmission": 0.285,
+    "city": "Kala Shah Kaku",
+    "country": "Pakistan"
+  },
+  {
+    "name": "University of Engineering and Technology (UET), Lahore",
+    "coordinates": [
+      74.35494969999999,
+      31.57973429999999
+    ],
+    "carbonEmission": 1.197,
+    "city": "Lahore",
+    "country": "Pakistan"
+  },
+  {
+    "name": "The University of Melbourne",
+    "coordinates": [
+      144.960974,
+      -37.79834589999999
+    ],
+    "carbonEmission": 0.196,
+    "city": "Parkville",
+    "country": "Australia"
+  },
+  {
+    "name": "UNSW Sydney",
+    "coordinates": [
+      151.2312675,
+      -33.917347
+    ],
+    "carbonEmission": 0.322,
+    "city": "Sydney",
+    "country": "Australia"
+  },
+  {
+    "name": "University of Management and Technology, Sialkot Campus",
+    "coordinates": [
+      74.5181977,
+      32.4892086
+    ],
+    "carbonEmission": 8.219,
+    "city": "Sialkot",
+    "country": "Pakistan"
+  },
+  {
+    "name": "University of St. La Salle",
+    "coordinates": [
+      122.962009,
+      10.6802041
+    ],
+    "carbonEmission": 1.69,
+    "city": "Bacolod",
+    "country": "Philippines"
+  },
+  {
+    "name": "UPES ONLINE (UPES CCE)",
+    "coordinates": [
+      77.96690400000001,
+      30.41688329999999
+    ],
+    "carbonEmission": 1.2,
+    "city": "Dehradun",
+    "country": "India"
+  },
+  {
+    "name": "University of the Immaculate Conception - Bajada Campus",
+    "coordinates": [
+      125.6212836,
+      7.1011158
+    ],
+    "carbonEmission": 9.643,
+    "city": "Davao City",
+    "country": "Philippines"
+  },
+  {
+    "name": "UniSC University of the Sunshine Coast",
+    "coordinates": [
+      153.0655898,
+      -26.7171007
+    ],
+    "carbonEmission": 0.376,
+    "city": "Sippy Downs",
+    "country": "Australia"
+  },
+  {
+    "name": "The University of British Columbia",
+    "coordinates": [
+      -123.2505175,
+      49.2648933
+    ],
+    "carbonEmission": 0.178,
+    "city": "Vancouver",
+    "country": "Canada"
+  },
+  {
+    "name": "VinUniversity",
+    "coordinates": [
+      105.9444841,
+      20.9883667
+    ],
+    "carbonEmission": 1.366,
+    "city": "Unknown",
+    "country": "Vietnam"
+  },
+  {
+    "name": "SR University",
+    "coordinates": [
+      79.4685952,
+      18.0899533
+    ],
+    "carbonEmission": 0.197,
+    "city": "Hasanparthy",
+    "country": "India"
+  },
+  {
+    "name": "The University of Southern Mississippi",
+    "coordinates": [
+      -89.33345349999999,
+      31.3298668
+    ],
+    "carbonEmission": 1.547,
+    "city": "Hattiesburg",
+    "country": "United States"
+  },
+  {
+    "name": "The University of Texas at Austin",
+    "coordinates": [
+      -97.7335226,
+      30.2850284
+    ],
+    "carbonEmission": 3.852,
+    "city": "Austin",
+    "country": "United States"
+  },
+  {
+    "name": "The University of Oklahoma",
+    "coordinates": [
+      -97.4448963,
+      35.1987162
+    ],
+    "carbonEmission": 3.263,
+    "city": "Norman",
+    "country": "United States"
+  },
+  {
+    "name": "The University of Texas at Dallas",
+    "coordinates": [
+      -96.7502473,
+      32.9856977
+    ],
+    "carbonEmission": 0.537,
+    "city": "Richardson",
+    "country": "United States"
+  },
+  {
+    "name": "University of Texas at El Paso",
+    "coordinates": [
+      -106.5047208,
+      31.7731979
+    ],
+    "carbonEmission": 2.21,
+    "city": "El Paso",
+    "country": "United States"
+  },
+  {
+    "name": "MEF Üniversitesi",
+    "coordinates": [
+      29.0085964,
+      41.1088445
+    ],
+    "carbonEmission": 3.128,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "TED University",
+    "coordinates": [
+      32.86185889999999,
+      39.9228214
+    ],
+    "carbonEmission": 0.526,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "PDP University",
+    "coordinates": [
+      69.22242969999999,
+      41.2224756
+    ],
+    "carbonEmission": 1.339,
+    "city": "Тоshkent",
+    "country": "Uzbekistan"
+  },
+  {
+    "name": "The University of Georgia (UG)",
+    "coordinates": [
+      44.779202,
+      41.72445
+    ],
+    "carbonEmission": 1.098,
+    "city": "T'bilisi",
+    "country": "Georgia"
+  },
+  {
+    "name": "The University of Manchester",
+    "coordinates": [
+      -2.232706,
+      53.4656853
+    ],
+    "carbonEmission": 0.2,
+    "city": "Unknown",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "KCA University",
+    "coordinates": [
+      36.8594527,
+      -1.2534465
+    ],
+    "carbonEmission": 0.328,
+    "city": "Nairobi",
+    "country": "Kenya"
+  },
+  {
+    "name": "ICT University",
+    "coordinates": [
+      11.5166647,
+      3.9527694
+    ],
+    "carbonEmission": 2.533,
+    "city": "Yaoundé",
+    "country": "Cameroon"
+  },
+  {
+    "name": "DAV University",
+    "coordinates": [
+      75.6171387,
+      31.4218018
+    ],
+    "carbonEmission": 1.145,
+    "city": "Jalandhar",
+    "country": "India"
+  },
+  {
+    "name": "GLA University",
+    "coordinates": [
+      77.5970353,
+      27.6048577
+    ],
+    "carbonEmission": 0.787,
+    "city": "Chaumuhan",
+    "country": "India"
+  },
+  {
+    "name": "Air University Islamabad",
+    "coordinates": [
+      73.02465400000001,
+      33.713832
+    ],
+    "carbonEmission": 5.228,
+    "city": "Islamabad",
+    "country": "Pakistan"
+  },
+  {
+    "name": "JIS UNIVERSITY",
+    "coordinates": [
+      88.37834250000002,
+      22.6759713
+    ],
+    "carbonEmission": 0.439,
+    "city": "Kolkata",
+    "country": "India"
+  },
+  {
+    "name": "SRM University AP",
+    "coordinates": [
+      80.5083236,
+      16.46491989999999
+    ],
+    "carbonEmission": 0.756,
+    "city": "Amaravati",
+    "country": "India"
+  },
+  {
+    "name": "The University of Sydney",
+    "coordinates": [
+      151.1867648,
+      -33.8884041
+    ],
+    "carbonEmission": 0.231,
+    "city": "Camperdown",
+    "country": "Australia"
+  },
+  {
+    "name": "The University of Hong Kong (HKU)",
+    "coordinates": [
+      114.1365621,
+      22.28308909999999
+    ],
+    "carbonEmission": 5.117,
+    "city": "Unknown",
+    "country": "Hong Kong"
+  },
+  {
+    "name": "Pace University",
+    "coordinates": [
+      -74.0051758,
+      40.7112562
+    ],
+    "carbonEmission": 2.002,
+    "city": "New York",
+    "country": "United States"
+  },
+  {
+    "name": "NED University of Engineering and Technology",
+    "coordinates": [
+      67.1153478,
+      24.9300102
+    ],
+    "carbonEmission": 4.438,
+    "city": "Karachi",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Soka University of America",
+    "coordinates": [
+      -117.732131,
+      33.5578916
+    ],
+    "carbonEmission": 2.38,
+    "city": "Aliso Viejo",
+    "country": "United States"
+  },
+  {
+    "name": "AJOU University Tashkent",
+    "coordinates": [
+      69.3389236,
+      41.277925
+    ],
+    "carbonEmission": 9.704,
+    "city": "Тоshkent",
+    "country": "Uzbekistan"
+  },
+  {
+    "name": "Nile University",
+    "coordinates": [
+      30.98686119999999,
+      30.0121847
+    ],
+    "carbonEmission": 1.063,
+    "city": "Unknown",
+    "country": "Egypt"
+  },
+  {
+    "name": "Misr University for Science & Technology",
+    "coordinates": [
+      30.9654429,
+      29.99660149999999
+    ],
+    "carbonEmission": 1.495,
+    "city": "Unknown",
+    "country": "Egypt"
+  },
+  {
+    "name": "TOBB University of Economics and Technology",
+    "coordinates": [
+      32.79831079999999,
+      39.9211819
+    ],
+    "carbonEmission": 1.051,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Taif University",
+    "coordinates": [
+      40.4969016,
+      21.4322895
+    ],
+    "carbonEmission": 0.872,
+    "city": "Taif",
+    "country": "Saudi Arabia"
+  },
+  {
+    "name": "Meru University of Science and Technology",
+    "coordinates": [
+      37.7083192,
+      0.1349152
+    ],
+    "carbonEmission": 0.84,
+    "city": "Meru",
+    "country": "Kenya"
+  },
+  {
+    "name": "GIET University",
+    "coordinates": [
+      83.83105239999999,
+      19.0473136
+    ],
+    "carbonEmission": 1.477,
+    "city": "Gunupur",
+    "country": "India"
+  },
+  {
+    "name": "Inha University, Yonghyeon Campus",
+    "coordinates": [
+      126.653488,
+      37.4500221
+    ],
+    "carbonEmission": 1.508,
+    "city": "Unknown",
+    "country": "South Korea"
+  },
+  {
+    "name": "RMIT University",
+    "coordinates": [
+      144.9639386,
+      -37.8083331
+    ],
+    "carbonEmission": 1.24,
+    "city": "Melbourne",
+    "country": "Australia"
+  },
+  {
+    "name": "Chuo University Tama Campus",
+    "coordinates": [
+      139.4043331,
+      35.6410357
+    ],
+    "carbonEmission": 4.967,
+    "city": "Hachioji",
+    "country": "Japan"
+  },
+  {
+    "name": "SAGE University Bhopal Admin Block",
+    "coordinates": [
+      77.5223572,
+      23.1844328
+    ],
+    "carbonEmission": 1.825,
+    "city": "Bhopal",
+    "country": "India"
+  },
+  {
+    "name": "Kolegji Universitar Bedër",
+    "coordinates": [
+      19.8110335,
+      41.3392547
+    ],
+    "carbonEmission": 5.361,
+    "city": "Tiranë",
+    "country": "Albania"
+  },
+  {
+    "name": "Tech University of Korea",
+    "coordinates": [
+      126.7335933,
+      37.340174
+    ],
+    "carbonEmission": 10.057,
+    "city": "Siheung-si",
+    "country": "South Korea"
+  },
+  {
+    "name": "Doğuş University",
+    "coordinates": [
+      29.176089,
+      41.001717
+    ],
+    "carbonEmission": 1.775,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Epoka University",
+    "coordinates": [
+      19.7063579,
+      41.40468589999999
+    ],
+    "carbonEmission": 3.399,
+    "city": "Unknown",
+    "country": "Albania"
+  },
+  {
+    "name": "Inonu Universitesi",
+    "coordinates": [
+      38.4399655,
+      38.33029730000001
+    ],
+    "carbonEmission": 0.558,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "جامعة مصر للمعلوماتية - EUI Egypt University of Informatics",
+    "coordinates": [
+      31.70802549999999,
+      30.0222417
+    ],
+    "carbonEmission": 0.696,
+    "city": "Unknown",
+    "country": "Egypt"
+  },
+  {
+    "name": "Yaşar University",
+    "coordinates": [
+      27.2022886,
+      38.45476980000001
+    ],
+    "carbonEmission": 0.038,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Zarqa University",
+    "coordinates": [
+      36.156197,
+      32.059596
+    ],
+    "carbonEmission": 0.675,
+    "city": "Az-Zarqa",
+    "country": "Jordan"
+  },
+  {
+    "name": "ISBAT University Kampala",
+    "coordinates": [
+      32.60134829999999,
+      0.3344691999999999
+    ],
+    "carbonEmission": 0.446,
+    "city": "Kampala",
+    "country": "Uganda"
+  },
+  {
+    "name": "Amity University Noida",
+    "coordinates": [
+      77.3330625,
+      28.5439375
+    ],
+    "carbonEmission": 0.877,
+    "city": "Noida",
+    "country": "India"
+  },
+  {
+    "name": "Amity University Noida",
+    "coordinates": [
+      77.3330625,
+      28.5439375
+    ],
+    "carbonEmission": 0.877,
+    "city": "Noida",
+    "country": "India"
+  },
+  {
+    "name": "Amity University Noida",
+    "coordinates": [
+      77.3330625,
+      28.5439375
+    ],
+    "carbonEmission": 0.877,
+    "city": "Noida",
+    "country": "India"
+  },
+  {
+    "name": "Amity University Noida",
+    "coordinates": [
+      77.3330625,
+      28.5439375
+    ],
+    "carbonEmission": 0.877,
+    "city": "Noida",
+    "country": "India"
+  },
+  {
+    "name": "Bicol University, West (Main Campus)",
+    "coordinates": [
+      123.7231321,
+      13.1443405
+    ],
+    "carbonEmission": 0.101,
+    "city": "Legazpi City",
+    "country": "Philippines"
+  },
+  {
+    "name": "Amity University Noida",
+    "coordinates": [
+      77.3330625,
+      28.5439375
+    ],
+    "carbonEmission": 0.877,
+    "city": "Noida",
+    "country": "India"
+  },
+  {
+    "name": "BINUS Business School (BBS)",
+    "coordinates": [
+      106.7967829,
+      -6.2289577
+    ],
+    "carbonEmission": 0.955,
+    "city": "Unknown",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Tsuda University Sendagaya Campus",
+    "coordinates": [
+      139.7105406,
+      35.6805198
+    ],
+    "carbonEmission": 0.833,
+    "city": "Shibuya",
+    "country": "Japan"
+  },
+  {
+    "name": "Korea University, Seoul Campus",
+    "coordinates": [
+      127.0324773,
+      37.58938759999999
+    ],
+    "carbonEmission": 6.436,
+    "city": "Unknown",
+    "country": "South Korea"
+  },
+  {
+    "name": "Mapúa University",
+    "coordinates": [
+      120.9779484,
+      14.5904883
+    ],
+    "carbonEmission": 9.517,
+    "city": "Manila",
+    "country": "Philippines"
+  },
+  {
+    "name": "DePauw University",
+    "coordinates": [
+      -86.8634933,
+      39.63942520000001
+    ],
+    "carbonEmission": 0.229,
+    "city": "Greencastle",
+    "country": "United States"
+  },
+  {
+    "name": "Calvin University",
+    "coordinates": [
+      -85.58154750000001,
+      42.93282869999999
+    ],
+    "carbonEmission": 0.291,
+    "city": "Grand Rapids",
+    "country": "United States"
+  },
+  {
+    "name": "McGill University",
+    "coordinates": [
+      -73.5783235,
+      45.50601839999999
+    ],
+    "carbonEmission": 0.364,
+    "city": "Montréal",
+    "country": "Canada"
+  },
+  {
+    "name": "Purdue University",
+    "coordinates": [
+      -86.92119459999999,
+      40.4237054
+    ],
+    "carbonEmission": 1.399,
+    "city": "West Lafayette",
+    "country": "United States"
+  },
+  {
+    "name": "Purdue University Fort Wayne",
+    "coordinates": [
+      -85.105941,
+      41.1184532
+    ],
+    "carbonEmission": 0.369,
+    "city": "Fort Wayne",
+    "country": "United States"
+  },
+  {
+    "name": "Ankara University",
+    "coordinates": [
+      32.8338615,
+      39.934855
+    ],
+    "carbonEmission": 1.392,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Beykoz University",
+    "coordinates": [
+      29.09205,
+      41.09582200000001
+    ],
+    "carbonEmission": 0.773,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Lublin University Of Technology",
+    "coordinates": [
+      22.5502497,
+      51.23559999999999
+    ],
+    "carbonEmission": 0.648,
+    "city": "Lublin",
+    "country": "Poland"
+  },
+  {
+    "name": "Future University in Egypt",
+    "coordinates": [
+      31.4917257,
+      30.0271539
+    ],
+    "carbonEmission": 1.39,
+    "city": "Unknown",
+    "country": "Egypt"
+  },
+  {
+    "name": "Assiut University",
+    "coordinates": [
+      31.1702924,
+      27.1874915
+    ],
+    "carbonEmission": 0.981,
+    "city": "Unknown",
+    "country": "Egypt"
+  },
+  {
+    "name": "Selçuk University",
+    "coordinates": [
+      32.5075193,
+      38.02504680000001
+    ],
+    "carbonEmission": 0.37,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Trakya University",
+    "coordinates": [
+      26.6156409,
+      41.6412309
+    ],
+    "carbonEmission": 0.391,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Qassim University",
+    "coordinates": [
+      43.7668031,
+      26.3488806
+    ],
+    "carbonEmission": 0.409,
+    "city": "Buraydah",
+    "country": "Saudi Arabia"
+  },
+  {
+    "name": "Samsun Üniversitesi",
+    "coordinates": [
+      36.1094073,
+      41.5137189
+    ],
+    "carbonEmission": 0.038,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Qassim University",
+    "coordinates": [
+      43.7668031,
+      26.3488806
+    ],
+    "carbonEmission": 0.435,
+    "city": "Buraydah",
+    "country": "Saudi Arabia"
+  },
+  {
+    "name": "Warsaw University of Technology",
+    "coordinates": [
+      21.0103491,
+      52.220539
+    ],
+    "carbonEmission": 0.367,
+    "city": "Warszawa",
+    "country": "Poland"
+  },
+  {
+    "name": "Bayero University Kano (BUK) New Site",
+    "coordinates": [
+      8.4257952,
+      11.9729097
+    ],
+    "carbonEmission": 8.998,
+    "city": "Rimin Gata",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Ashesi University",
+    "coordinates": [
+      -0.2199232,
+      5.7602752
+    ],
+    "carbonEmission": 1.594,
+    "city": "Berekuso",
+    "country": "Ghana"
+  },
+  {
+    "name": "Aditya University",
+    "coordinates": [
+      82.06708739999999,
+      17.0893355
+    ],
+    "carbonEmission": 0.116,
+    "city": "Surampalem",
+    "country": "India"
+  },
+  {
+    "name": "Maseno University-Kisumu Campus",
+    "coordinates": [
+      34.59738,
+      -0.006416
+    ],
+    "carbonEmission": 4.965,
+    "city": "Kisumu",
+    "country": "Kenya"
+  },
+  {
+    "name": "Dong-a University Bumin Campus",
+    "coordinates": [
+      129.0190933,
+      35.1047846
+    ],
+    "carbonEmission": 1.612,
+    "city": "Unknown",
+    "country": "South Korea"
+  },
+  {
+    "name": "Hankuk University of Foreign Studies - Seoul Campus",
+    "coordinates": [
+      127.0588002,
+      37.5974453
+    ],
+    "carbonEmission": 6.712,
+    "city": "Unknown",
+    "country": "South Korea"
+  },
+  {
+    "name": "Adamas University",
+    "coordinates": [
+      88.4566127,
+      22.7383026
+    ],
+    "carbonEmission": 1.254,
+    "city": "Kolkata",
+    "country": "India"
+  },
+  {
+    "name": "Andhra University College of Engineering",
+    "coordinates": [
+      83.32008499999999,
+      17.728816
+    ],
+    "carbonEmission": 20.359,
+    "city": "Visakhapatnam",
+    "country": "India"
+  },
+  {
+    "name": "Daejin University",
+    "coordinates": [
+      127.1566485,
+      37.871337
+    ],
+    "carbonEmission": 2.648,
+    "city": "Pocheon-si",
+    "country": "South Korea"
+  },
+  {
+    "name": "Jinnah University For Women",
+    "coordinates": [
+      67.0298887,
+      24.9251656
+    ],
+    "carbonEmission": 3.053,
+    "city": "Karachi",
+    "country": "Pakistan"
+  },
+  {
+    "name": "M.B.M. University",
+    "coordinates": [
+      73.035209,
+      26.2678839
+    ],
+    "carbonEmission": 1.062,
+    "city": "Jodhpur",
+    "country": "India"
+  },
+  {
+    "name": "Mehran University of Engineering and Technology",
+    "coordinates": [
+      68.2605789,
+      25.4083397
+    ],
+    "carbonEmission": 0.374,
+    "city": "Jamshoro",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Konkuk University",
+    "coordinates": [
+      127.0759204,
+      37.5423265
+    ],
+    "carbonEmission": 8.861,
+    "city": "Unknown",
+    "country": "South Korea"
+  },
+  {
+    "name": "Panjab University Swami Sarvanand Giri Regional Centre",
+    "coordinates": [
+      75.97062059999999,
+      31.5183039
+    ],
+    "carbonEmission": 0.178,
+    "city": "Hoshiarpur",
+    "country": "India"
+  },
+  {
+    "name": "Monash University Clayton Campus",
+    "coordinates": [
+      145.1366624,
+      -37.9110995
+    ],
+    "carbonEmission": 0.037,
+    "city": "Clayton",
+    "country": "Australia"
+  },
+  {
+    "name": "Monash University Malaysia",
+    "coordinates": [
+      101.6009426,
+      3.0649887
+    ],
+    "carbonEmission": 0.038,
+    "city": "Subang Jaya",
+    "country": "Malaysia"
+  },
+  {
+    "name": "Sunway University",
+    "coordinates": [
+      101.603841,
+      3.0672267
+    ],
+    "carbonEmission": 0.725,
+    "city": "Petaling Jaya",
+    "country": "Malaysia"
+  },
+  {
+    "name": "Telkom University",
+    "coordinates": [
+      107.630346,
+      -6.9733626
+    ],
+    "carbonEmission": 0.072,
+    "city": "Unknown",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Sophia University Yotsuya Campus",
+    "coordinates": [
+      139.7319235,
+      35.6831167
+    ],
+    "carbonEmission": 3.48,
+    "city": "Chiyoda City",
+    "country": "Japan"
+  },
+  {
+    "name": "Telkom University",
+    "coordinates": [
+      107.630346,
+      -6.9733626
+    ],
+    "carbonEmission": 0.071,
+    "city": "Unknown",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Yonsei University, Sinchon Campus",
+    "coordinates": [
+      126.9387066,
+      37.5663937
+    ],
+    "carbonEmission": 1.642,
+    "city": "Unknown",
+    "country": "South Korea"
+  },
+  {
+    "name": "Tezpur University",
+    "coordinates": [
+      92.83076009999999,
+      26.7002961
+    ],
+    "carbonEmission": 1.777,
+    "city": "Tezpur",
+    "country": "India"
+  },
+  {
+    "name": "Indiana University Bloomington",
+    "coordinates": [
+      -86.52300729999999,
+      39.1682449
+    ],
+    "carbonEmission": 0.455,
+    "city": "Bloomington",
+    "country": "United States"
+  },
+  {
+    "name": "Xavier University",
+    "coordinates": [
+      -84.47406869999999,
+      39.1498065
+    ],
+    "carbonEmission": 3.156,
+    "city": "Cincinnati",
+    "country": "United States"
+  },
+  {
+    "name": "Minerva University",
+    "coordinates": [
+      -122.4081769,
+      37.7827881
+    ],
+    "carbonEmission": 4.968,
+    "city": "San Francisco",
+    "country": "United States"
+  },
+  {
+    "name": "Ataturk University",
+    "coordinates": [
+      41.2441549,
+      39.89944869999999
+    ],
+    "carbonEmission": 2.616,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Western University",
+    "coordinates": [
+      -81.2737336,
+      43.00959710000001
+    ],
+    "carbonEmission": 0.615,
+    "city": "London",
+    "country": "Canada"
+  },
+  {
+    "name": "Başkent University",
+    "coordinates": [
+      32.6543665,
+      39.8876842
+    ],
+    "carbonEmission": 0.516,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Birzeit University",
+    "coordinates": [
+      35.18200710000001,
+      31.9591925
+    ],
+    "carbonEmission": 0.036,
+    "city": "Birzeit",
+    "country": "Unknown"
+  },
+  {
+    "name": "Université Euro-Méditerranéenne de Fès UEMF",
+    "coordinates": [
+      -5.064719900000001,
+      34.04490800000001
+    ],
+    "carbonEmission": 0.725,
+    "city": "Fès",
+    "country": "Morocco"
+  },
+  {
+    "name": "Karabük University",
+    "coordinates": [
+      32.6515869,
+      41.216126
+    ],
+    "carbonEmission": 3.262,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Marmara University Goztepe Campus",
+    "coordinates": [
+      29.0526574,
+      40.9852209
+    ],
+    "carbonEmission": 0.237,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Wrocław University of Science and Technology",
+    "coordinates": [
+      17.0618829,
+      51.1075785
+    ],
+    "carbonEmission": 0.313,
+    "city": "Wrocław",
+    "country": "Poland"
+  },
+  {
+    "name": "Maltepe University Hospital",
+    "coordinates": [
+      29.1354188,
+      40.92549579999999
+    ],
+    "carbonEmission": 3.121,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Sabancı University",
+    "coordinates": [
+      29.3783373,
+      40.89100539999999
+    ],
+    "carbonEmission": 1.625,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Çankaya University",
+    "coordinates": [
+      32.5642731,
+      39.8193919
+    ],
+    "carbonEmission": 1.189,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Üsküdar University",
+    "coordinates": [
+      29.0193169,
+      41.0245977
+    ],
+    "carbonEmission": 0.945,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Babcock University Ilishan Remo",
+    "coordinates": [
+      3.718324299999999,
+      6.892375999999999
+    ],
+    "carbonEmission": 1.536,
+    "city": "Ilishan-Remo",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Zagazig University",
+    "coordinates": [
+      31.4831525,
+      30.5882724
+    ],
+    "carbonEmission": 1.769,
+    "city": "Unknown",
+    "country": "Egypt"
+  },
+  {
+    "name": "Central University of Haryana",
+    "coordinates": [
+      76.133663,
+      28.3512626
+    ],
+    "carbonEmission": 0.752,
+    "city": "Unknown",
+    "country": "India"
+  },
+  {
+    "name": "Daystar University",
+    "coordinates": [
+      37.0466572,
+      -1.4457111
+    ],
+    "carbonEmission": 7.862,
+    "city": "Athi River",
+    "country": "Kenya"
+  },
+  {
+    "name": "Federal University Of Technology, Minna",
+    "coordinates": [
+      6.528722699999999,
+      9.655983699999998
+    ],
+    "carbonEmission": 2.526,
+    "city": "Minna",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Federal University Of Technology, Minna",
+    "coordinates": [
+      6.528722699999999,
+      9.655983699999998
+    ],
+    "carbonEmission": 2.534,
+    "city": "Minna",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Federal University Of Technology, Minna",
+    "coordinates": [
+      6.528722699999999,
+      9.655983699999998
+    ],
+    "carbonEmission": 2.534,
+    "city": "Minna",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Federal University Of Petroleum Resources Effurun, Warri.",
+    "coordinates": [
+      5.837000499999999,
+      5.5741125
+    ],
+    "carbonEmission": 0.447,
+    "city": "Warri",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Kabarak University",
+    "coordinates": [
+      35.96494670000001,
+      -0.1673696
+    ],
+    "carbonEmission": 1.749,
+    "city": "Nairobi",
+    "country": "Kenya"
+  },
+  {
+    "name": "COMSATS University",
+    "coordinates": [
+      74.2126438,
+      31.4027291
+    ],
+    "carbonEmission": 0.521,
+    "city": "Lahore",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Bennett University",
+    "coordinates": [
+      77.5841978,
+      28.4506465
+    ],
+    "carbonEmission": 0.65,
+    "city": "Greater Noida",
+    "country": "India"
+  },
+  {
+    "name": "Comsats University Islamabad, Attock Campus",
+    "coordinates": [
+      72.3522469,
+      33.7828801
+    ],
+    "carbonEmission": 1.161,
+    "city": "Attock",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Central University of Haryana",
+    "coordinates": [
+      76.133663,
+      28.3512626
+    ],
+    "carbonEmission": 1.524,
+    "city": "Unknown",
+    "country": "India"
+  },
+  {
+    "name": "Da Nang University of Science and Technology",
+    "coordinates": [
+      108.149869,
+      16.0736606
+    ],
+    "carbonEmission": 0.872,
+    "city": "Unknown",
+    "country": "Vietnam"
+  },
+  {
+    "name": "Duy Tan University, South Hoa Khanh",
+    "coordinates": [
+      108.1600966,
+      16.0492916
+    ],
+    "carbonEmission": 2.107,
+    "city": "Unknown",
+    "country": "Vietnam"
+  },
+  {
+    "name": "Central University Of Jammu",
+    "coordinates": [
+      75.01294089999999,
+      32.6343363
+    ],
+    "carbonEmission": 8.196,
+    "city": "Unknown",
+    "country": "Unknown"
+  },
+  {
+    "name": "Quantum University",
+    "coordinates": [
+      77.7635911,
+      30.0083889
+    ],
+    "carbonEmission": 0.245,
+    "city": "Roorkee",
+    "country": "India"
+  },
+  {
+    "name": "Kookmin University",
+    "coordinates": [
+      126.9972889,
+      37.61086939999999
+    ],
+    "carbonEmission": 2.536,
+    "city": "Unknown",
+    "country": "South Korea"
+  },
+  {
+    "name": "Punjabi University, Patiala",
+    "coordinates": [
+      76.44965979999999,
+      30.3588722
+    ],
+    "carbonEmission": 1.603,
+    "city": "Patiala",
+    "country": "India"
+  },
+  {
+    "name": "Manipal University Jaipur",
+    "coordinates": [
+      75.5652343,
+      26.8438552
+    ],
+    "carbonEmission": 1.684,
+    "city": "Jaipur",
+    "country": "India"
+  },
+  {
+    "name": "Silicon University",
+    "coordinates": [
+      85.80633600000002,
+      20.3506773
+    ],
+    "carbonEmission": 0.67,
+    "city": "Bhubaneswar",
+    "country": "India"
+  },
+  {
+    "name": "Yuan Ze University",
+    "coordinates": [
+      121.2634422,
+      24.9703173
+    ],
+    "carbonEmission": 3.51,
+    "city": "Unknown",
+    "country": "Taiwan"
+  },
+  {
+    "name": "Bucknell University",
+    "coordinates": [
+      -76.88507589999999,
+      40.9547722
+    ],
+    "carbonEmission": 3.7,
+    "city": "Lewisburg",
+    "country": "United States"
+  },
+  {
+    "name": "Memorial University of Newfoundland",
+    "coordinates": [
+      -52.7352094,
+      47.5741117
+    ],
+    "carbonEmission": 0.199,
+    "city": "St. John's",
+    "country": "Canada"
+  },
+  {
+    "name": "Caldwell University",
+    "coordinates": [
+      -74.2720641,
+      40.8341245
+    ],
+    "carbonEmission": 3.284,
+    "city": "Caldwell",
+    "country": "United States"
+  },
+  {
+    "name": "McMaster University",
+    "coordinates": [
+      -79.9197003,
+      43.2613506
+    ],
+    "carbonEmission": 1.109,
+    "city": "Hamilton",
+    "country": "Canada"
+  },
+  {
+    "name": "The American University of Iraq - Baghdad",
+    "coordinates": [
+      44.2711754,
+      33.278658
+    ],
+    "carbonEmission": 0.104,
+    "city": "Baghdad",
+    "country": "Iraq"
+  },
+  {
+    "name": "Stanford University",
+    "coordinates": [
+      -122.17006,
+      37.42766
+    ],
+    "carbonEmission": 2.183,
+    "city": "Stanford",
+    "country": "United States"
+  },
+  {
+    "name": "American University of Beirut",
+    "coordinates": [
+      35.48074400000001,
+      33.9008359
+    ],
+    "carbonEmission": 0.656,
+    "city": "Beirut",
+    "country": "Lebanon"
+  },
+  {
+    "name": "American University of Sharjah",
+    "coordinates": [
+      55.49265029999999,
+      25.3115602
+    ],
+    "carbonEmission": 0.561,
+    "city": "Sharjah",
+    "country": "United Arab Emirates"
+  },
+  {
+    "name": "Lebanese University - Hadat Campus",
+    "coordinates": [
+      35.5217731,
+      33.8278696
+    ],
+    "carbonEmission": 0.083,
+    "city": "Beirut",
+    "country": "Lebanon"
+  },
+  {
+    "name": "Menoufiya University",
+    "coordinates": [
+      31.0130822,
+      30.5655764
+    ],
+    "carbonEmission": 0.768,
+    "city": "Unknown",
+    "country": "Egypt"
+  },
+  {
+    "name": "Yeditepe Üniversitesi",
+    "coordinates": [
+      29.1522123,
+      40.9719767
+    ],
+    "carbonEmission": 4.855,
+    "city": "Unknown",
+    "country": "Türkiye"
+  },
+  {
+    "name": "Covenant University",
+    "coordinates": [
+      3.161213,
+      6.672644699999998
+    ],
+    "carbonEmission": 1.247,
+    "city": "Ota",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Landmark University",
+    "coordinates": [
+      5.082785599999999,
+      8.1226263
+    ],
+    "carbonEmission": 1.133,
+    "city": "Omu-Aran",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Makerere University",
+    "coordinates": [
+      32.56858609999999,
+      0.3326347
+    ],
+    "carbonEmission": 0.757,
+    "city": "Kampala",
+    "country": "Uganda"
+  },
+  {
+    "name": "Dong-eui University, Gaya Campus",
+    "coordinates": [
+      129.0335365,
+      35.1415069
+    ],
+    "carbonEmission": 3.431,
+    "city": "Unknown",
+    "country": "South Korea"
+  }
+]

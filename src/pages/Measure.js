@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import './Measure.css';
 
 const Measure = () => {
-  const [url, setUrl] = useState('');
+  const location = useLocation();
+  const [url, setUrl] = useState(location.state?.url || '');
   const [isLoading, setIsLoading] = useState(false);
   const [result, setResult] = useState(null);
+
+  useEffect(() => {
+    if (location.state?.url) {
+      handleMeasurement(location.state.url);
+    }
+  }, []);
 
   const handleUrlChange = (e) => {
     setUrl(e.target.value);
@@ -12,7 +20,12 @@ const Measure = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    handleMeasurement(url);
+  };
+
+  const handleMeasurement = (targetUrl) => {
     setIsLoading(true);
+    setUrl(targetUrl);
     
     // 웹사이트 탄소 배출량 측정 시뮬레이션
     setTimeout(() => {

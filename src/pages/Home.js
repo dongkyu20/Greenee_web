@@ -1,35 +1,26 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
+import React, { useState, useRef, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
+import { getMarkerColor } from '../globe_on_marker';
+import carbonData from '../data/parsed_ecarbon_gdsc_test.weekly_measurements.json';
 import './Home.css';
 
 // 세계 지도 토폴로지 데이터 URL - 신뢰할 수 있는 소스 사용
 const geoUrl = "https://unpkg.com/world-atlas@2.0.2/countries-110m.json";
 
 const Home = () => {
+  const navigate = useNavigate();
   const [rotation, setRotation] = useState([0, 0, 0]);
-  const rotationRef = useRef(rotation);
-  const [isRotating, setIsRotating] = useState(true);
+  const [cities, setCities] = useState([]);
+
+  useEffect(() => {
+    setCities(carbonData);
+  }, []);
   const [isDragging, setIsDragging] = useState(false);
+  const [url, setUrl] = useState('');
   const lastMouseRef = useRef({ x: 0, y: 0 });
   const globeRef = useRef(null);
-  
-  // // 자동 회전 기능
-  // useEffect(() => {
-  //   rotationRef.current = rotation;
-  //   let frameId;
 
-  //   const rotate = () => {
-  //     if (isRotating && !isDragging) {
-  //       setRotation(([x, y, z]) => [x, y + 0.5, z]);
-  //     }
-  //     frameId = requestAnimationFrame(rotate);
-  //   };
-
-  //   rotate();
-  //   return () => cancelAnimationFrame(frameId);
-  // }, [isRotating, isDragging]);
-
-  // 마우스 드래그로 회전 제어
   const handleMouseDown = (e) => {
     setIsDragging(true);
     lastMouseRef.current = { x: e.clientX, y: e.clientY };
@@ -40,14 +31,8 @@ const Home = () => {
       const dx = e.clientX - lastMouseRef.current.x;
       const dy = e.clientY - lastMouseRef.current.y;
       
-      // x축 회전(latitude): 상하 드래그에 의해 변경 (dy)
-      // y축 회전(longitude): 좌우 드래그에 의해 변경 (dx)
-      // 좌우로 드래그하면 좌우로 회전, 상하로 드래그하면 상하로 회전
-
-      // setRotation(([x, y, z]) => [x + dx * 0.5, y + dy * 0.5, z* 0.5]);
       setRotation(([x, y, z]) => [x + dx * 0.5, y - dy * 0.5, z * 0.5]);
       lastMouseRef.current = { x: e.clientX, y: e.clientY };
-      console.log(rotation);
     }
   };
 
@@ -55,49 +40,87 @@ const Home = () => {
     setIsDragging(false);
   };
 
+  const handleUrlChange = (e) => {
+    setUrl(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (url) {
+      navigate('/measure', { state: { url } });
+    }
+  };
+
   return (
     <div className="home-container">
-      <h1>Greenee - 친환경 기업</h1>
+      <h1>Greenee 웹사이트의 지속가능성을 평가하세요</h1>
       <div className="home-content">
-        <div 
-          className="globe-container"
-          ref={globeRef}
-          onMouseDown={handleMouseDown}
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseUp}
-        >
-          <ComposableMap
-            projection="geoOrthographic"
-            projectionConfig={{
-              scale: 150,
-              rotate: rotation,
-            }}
+        <div className="split-container">
+          <div 
+            className="globe-container"
+            ref={globeRef}
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
           >
-            <Geographies geography={geoUrl}>
-              {({ geographies }) =>
-                geographies.map((geo) => (
-                  <Geography
-                    key={geo.rsmKey}
-                    geography={geo}
-                    fill="#4a7c4d"
-                    stroke="#2d482f"
-                    strokeWidth={0.5}
-                    style={{
-                      default: { outline: 'none' },
-                      hover: { fill: '#5cad60', outline: 'none' },
-                      pressed: { fill: '#3d6a3f', outline: 'none' }
-                    }}
+            <ComposableMap
+              projection="geoOrthographic"
+              projectionConfig={{
+                scale: 250,
+                rotate: rotation,
+              }}
+            >
+              <Geographies geography={geoUrl}>
+                {({ geographies }) =>
+                  geographies.map((geo) => (
+                    <Geography
+                      key={geo.rsmKey}
+                      geography={geo}
+                      fill="#1B1B1B"
+                      stroke="#ffffff"
+                      strokeWidth={0.5}
+                    />
+                  ))
+                }
+              </Geographies>
+              {cities.map((city, index) => (
+                <Marker key={index} coordinates={city.coordinates}>
+                  <circle 
+                    r={4} 
+                    fill={getMarkerColor(city.carbonEmission)}
+                    stroke="#fff"
+                    strokeWidth={1}
                   />
-                ))
-              }
-            </Geographies>
-          </ComposableMap>
-        </div>
-        <p>환경을 생각하는 기업들과 함께 지속 가능한 미래를 만들어갑니다.</p>
-        <div className="home-buttons">
-          <button className="test1-btn">테스트 1</button>
-          <button className="test2-btn">테스트 2</button>
+                  <title>{`${city.name} (${city.carbonEmission}g CO2)`}</title>
+                </Marker>
+              ))}
+            </ComposableMap>
+          </div>
+
+          <div className="measure-intro" style={{ marginTop: '15rem' }}>
+            <h2>웹사이트 탄소 배출량 측정</h2>
+            <p className="measure-description">
+              웹사이트 URL을 입력하면 해당 페이지의 탄소 배출량을 측정합니다. 
+              친환경적인 웹을 만들기 위한 첫 걸음을 시작하세요.
+            </p>
+            <form onSubmit={handleSubmit} className="url-form">
+              <input
+                type="url"
+                className="url-input"
+                placeholder="https://example.com"
+                value={url}
+                onChange={handleUrlChange}
+                required
+              />
+              <button 
+                type="submit" 
+                className="measure-btn"
+              >
+                측정하기
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>

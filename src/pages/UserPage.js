@@ -1,26 +1,48 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './UserPage.css';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const UserPage = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
   
   // 예시 데이터 - 실제로는 로그인한 사용자 정보와 데이터를 불러와야 함
   const userData = {
-    name: '김환경',
-    company: '그린테크',
-    email: 'green@greentech.kr',
-    joinDate: '2023-09-15',
+    name: 'ChoRokee',
+    company: 'Greenee',
+    email: 'green@greenee.co.kr',
+    joinDate: '2025-05-10',
     measurements: [
-      { id: 1, date: '2024-05-01', score: 85, status: '완료' },
-      { id: 2, date: '2024-03-12', score: 82, status: '완료' },
-      { id: 3, date: '2024-01-25', score: 78, status: '완료' }
+      { id: 1, date: '2025-05-10', score: 85, status: '완료' },
+      { id: 2, date: '2025-05-09', score: 82, status: '완료' },
+      { id: 3, date: '2025-05-08', score: 78, status: '완료' }
     ],
     rankings: {
       current: 1,
       previous: 2,
       industry: 'IT',
       industryRank: 1
-    }
+    },
+    // CO2 기여량 데이터
+    contributionData: [
+      { date: '2025-05-04', co2: 22.8 },
+      { date: '2025-05-05', co2: 15.7 },
+      { date: '2025-05-06', co2: 27.2 },
+      { date: '2025-05-07', co2: 32.2 },
+      { date: '2025-05-08', co2: 25.8 },
+      { date: '2025-05-09', co2: 15.2 },
+      { date: '2025-05-10', co2: 20.1 }
+    ],
+    // CO2 절감량 데이터
+    reductionData: [
+      { date: '2025-05-04', co2: 12.1 },
+      { date: '2025-05-05', co2: 10.7 },
+      { date: '2025-05-06', co2: 18.3 },
+      { date: '2025-05-07', co2: 52.2 },
+      { date: '2025-05-08', co2: 16.2 },
+      { date: '2025-05-09', co2: 34.2 },
+      { date: '2025-05-10', co2: 44.2 }
+    ]
   };
   
   return (
@@ -57,25 +79,94 @@ const UserPage = () => {
       <div className="user-content">
         {activeTab === 'dashboard' && (
           <div className="dashboard-tab">
-            <h2>대시보드</h2>
+            <h2>CO2 기여 및 절감 통계</h2>
+            <div className="graph-container">
+              <div className="graph-card">
+                <h3>CO2 기여량 그래프 (g)</h3>
+                <ResponsiveContainer width="100%" height={300}>
+                  <LineChart
+                    data={userData.contributionData}
+                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="date" label={{ value: '날짜', position: 'insideBottomRight', offset: -5, fill: 'white' }} />
+                    <YAxis label={{ value: 'CO2 (g)', angle: -90, position: 'insideLeft', fill: 'white' }} />
+                    <Tooltip contentStyle={{ backgroundColor: 'rgba(0, 0, 0, 0.8)', color: 'white', border: 'none' ,}} />
+                    <Legend wrapperStyle={{ color: 'white' }} />
+                    <Line 
+                      type="monotone" 
+                      dataKey="co2" 
+                      name="CO2 기여량" 
+                      stroke="#6dd47e" 
+                      activeDot={{ r: 8 }} 
+                      strokeWidth={3}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+              
+              <div className="graph-card">
+                <h3>CO2 절감량 그래프 (g)</h3>
+                <ResponsiveContainer width="100%" height={300}>
+                  <LineChart
+                    data={userData.reductionData}
+                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="date" label={{ value: '날짜', position: 'insideBottomRight', offset: -5, fill: 'white' }} />
+                    <YAxis label={{ value: 'CO2 (g)', angle: -90, position: 'insideLeft', fill: 'white' }} />
+                    <Tooltip contentStyle={{ backgroundColor: 'rgba(0, 0, 0, 0.8)', color: 'white', border: 'none' }} />
+                    <Legend wrapperStyle={{ color: 'white' }} />
+                    <Line 
+                      type="monotone" 
+                      dataKey="co2" 
+                      name="CO2 절감량" 
+                      stroke="#4ecdc4" 
+                      activeDot={{ r: 8 }} 
+                      strokeWidth={3}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
             
-            <div className="dashboard-cards">
-              <div className="dashboard-card">
-                <h3>현재 순위</h3>
-                <div className="rank-number">{userData.rankings.current}</div>
-                <p>이전보다 {userData.rankings.previous - userData.rankings.current > 0 ? '상승' : '하락'}</p>
+            <div className="stats-summary">
+              <div className="stats-card contribution-card">
+                <h3>기여량</h3>
+                <div className="stats-container">
+                  <div className="stats-data">
+                    <div className="stats-value">
+                      {userData.contributionData.reduce((sum, item) => sum + item.co2, 0).toFixed(1)} g
+                    </div>
+                    <p>총 탄소 기여량</p>
+                  </div>
+                  
+                  <div className="stats-rank">
+                    <div className="rank-value">
+                      3<span className="rank-suffix">위</span>
+                    </div>
+                    <p>기여량 순위</p>
+                  </div>
+                </div>
               </div>
               
-              <div className="dashboard-card">
-                <h3>산업 내 순위</h3>
-                <div className="rank-number">{userData.rankings.industryRank}</div>
-                <p>{userData.rankings.industry} 산업</p>
-              </div>
-              
-              <div className="dashboard-card">
-                <h3>최근 측정 점수</h3>
-                <div className="score-number">{userData.measurements[0].score}</div>
-                <p>측정일: {userData.measurements[0].date}</p>
+              <div className="stats-card reduction-card">
+                <h3>절감량</h3>
+                <div className="stats-container">
+                  <div className="stats-data">
+                    <div className="stats-value">
+                      {userData.reductionData.reduce((sum, item) => sum + item.co2, 0).toFixed(1)} g
+                    </div>
+                    <p>총 탄소 절감량</p>
+                  </div>
+                  
+                  <div className="stats-rank">
+                    <div className="rank-value">
+                      {userData.rankings.current}<span className="rank-suffix">위</span>
+                    </div>
+                    <p>절감량 순위</p>
+                  </div>
+                </div>
               </div>
             </div>
             

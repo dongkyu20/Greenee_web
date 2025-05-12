@@ -7,37 +7,23 @@ const Ranking = () => {
   // 예시 데이터 - 실제로는 API에서 가져와야 합니다
   const rankings = {
     overall: [
-      { rank: 1, company: '그린테크', score: 95, industry: 'IT' },
-      { rank: 2, company: '에코시스템', score: 92, industry: '에너지' },
-      { rank: 3, company: '지구지킴이', score: 88, industry: '제조업' },
-      { rank: 4, company: '블루오션', score: 85, industry: '서비스업' },
-      { rank: 5, company: '그린라이프', score: 82, industry: '소매업' },
-      { rank: 6, company: '클린에어', score: 79, industry: '에너지' },
-      { rank: 7, company: '친환경건설', score: 76, industry: '건설업' },
-      { rank: 8, company: '퓨처테크', score: 73, industry: 'IT' },
-      { rank: 9, company: '에코퍼니처', score: 70, industry: '제조업' },
-      { rank: 10, company: '그린푸드', score: 68, industry: '식품' }
+      { rank: 1, domain: 'donga.ac.kr', score: 95, country: 'South Korea' },
+      { rank: 2, domain: 'korea.ac.kr', score: 92, country: 'South Korea' },
+      { rank: 3, domain: 'yonsei.ac.kr', score: 88, country: 'South Korea' },
+      { rank: 4, domain: 'snu.ac.kr', score: 85, country: 'South Korea' },
+      { rank: 5, domain: 'inha.ac.kr', score: 82, country: 'South Korea' },
+      { rank: 6, domain: 'chungbuk.ac.kr', score: 79, country: 'South Korea' },
+      { rank: 7, domain: 'chungnam.ac.kr', score: 76, country: 'South Korea' },
+      { rank: 8, domain: 'yonsei.ac.kr', score: 73, country: 'South Korea' },
+      { rank: 9, domain: 'inha.ac.kr', score: 70, country: 'South Korea' },
+      { rank: 10, domain: 'inha.ac.kr', score: 68, country: 'South Korea' }
     ],
-    energy: [
-      { rank: 1, company: '에코시스템', score: 97, industry: '에너지' },
-      { rank: 2, company: '그린테크', score: 94, industry: 'IT' },
-      { rank: 3, company: '클린에어', score: 91, industry: '에너지' },
-      { rank: 4, company: '지구지킴이', score: 88, industry: '제조업' },
-      { rank: 5, company: '그린에너지', score: 85, industry: '에너지' }
-    ],
-    water: [
-      { rank: 1, company: '지구지킴이', score: 96, industry: '제조업' },
-      { rank: 2, company: '블루오션', score: 93, industry: '서비스업' },
-      { rank: 3, company: '에코시스템', score: 90, industry: '에너지' },
-      { rank: 4, company: '워터세이버', score: 87, industry: '제조업' },
-      { rank: 5, company: '그린테크', score: 84, industry: 'IT' }
-    ],
-    waste: [
-      { rank: 1, company: '그린테크', score: 98, industry: 'IT' },
-      { rank: 2, company: '리사이클킹', score: 95, industry: '제조업' },
-      { rank: 3, company: '에코시스템', score: 92, industry: '에너지' },
-      { rank: 4, company: '블루오션', score: 89, industry: '서비스업' },
-      { rank: 5, company: '그린라이프', score: 86, industry: '소매업' }
+    sustainability: [
+      { rank: 1, domain: 'inha.ac.kr', score: 97, country: 'South Korea' },
+      { rank: 2, domain: 'donga.ac.kr', score: 94, country: 'South Korea' },
+      { rank: 3, domain: 'korea.ac.kr', score: 91, country: 'South Korea' },
+      { rank: 4, domain: 'chungbuk.ac.kr', score: 88, country: 'South Korea' },
+      { rank: 5, domain: 'chungnam.ac.kr', score: 85, country: 'South Korea' }
     ]
   };
 
@@ -52,9 +38,7 @@ const Ranking = () => {
       <div className="filter-container">
         <select value={rankingType} onChange={handleFilterChange}>
           <option value="overall">종합 순위</option>
-          <option value="energy">에너지 절약</option>
-          <option value="water">물 사용 효율성</option>
-          <option value="waste">폐기물 관리</option>
+          <option value="sustainability">Sustainability</option>
         </select>
       </div>
 
@@ -70,8 +54,8 @@ const Ranking = () => {
           <thead>
             <tr>
               <th>순위</th>
-              <th>기업명</th>
-              <th>산업분야</th>
+              <th>도메인</th>
+              <th>국가</th>
               <th>점수</th>
             </tr>
           </thead>
@@ -79,8 +63,8 @@ const Ranking = () => {
             {rankings[rankingType].map((item) => (
               <tr key={item.rank}>
                 <td>{item.rank}</td>
-                <td>{item.company}</td>
-                <td>{item.industry}</td>
+                <td>{item.domain}</td>
+                <td>{item.country}</td>
                 <td>{item.score}</td>
               </tr>
             ))}

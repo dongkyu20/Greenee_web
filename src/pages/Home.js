@@ -102,8 +102,12 @@ const Home = () => {
                 scale: 250,
                 rotate: rotation,
               }}
+              style={{
+                background: "radial-gradient(circle at center, #004B5E 0%, #002B36 100%)",
+                borderRadius: "50%",
+              }}
             >
-              <Graticule stroke="#DDD" strokeWidth={0.5} step={[12, 12]} />
+              <Graticule stroke="rgba(255, 255, 255, 0.2)" strokeWidth={0.5} step={[12, 12]} />
               <Geographies geography={geoUrl}>
                 {({ geographies }) =>
                   geographies.map((geo) => {
@@ -225,6 +229,7 @@ const Home = () => {
           </div>
           <div className="measure-intro">
             <div style={{ marginTop: '2rem' }}>
+              
               <h2>Measure Website Carbon Emissions</h2>
               <p className="measure-description">
                 Enter a website URL to measure its carbon emissions.
@@ -234,7 +239,7 @@ const Home = () => {
                 <input
                   type="url"
                   className="url-input"
-                  placeholder="https://example.com"
+                  placeholder="https://google.com"
                   value={url}
                   onChange={handleUrlChange}
                   required
@@ -247,6 +252,21 @@ const Home = () => {
                 </button>
               </form>
             </div>
+            <div className="challenge-info">
+                <h3>Do you think digital technology is environmentally friendly?</h3>
+                <p>
+                  In reality, the digital sector emits <strong>1.6 billion tons</strong> of greenhouse gases annually, accounting for <strong>5% of total emissions</strong>.
+                  Sustainability is <strong>no longer a choice, but a necessity</strong> for the web industry.
+                </p>
+                <p>
+                  Greenee provides a <strong>comprehensive assessment</strong> of website sustainability, based on the <strong>W3C's Web Sustainability Guidelines</strong>, 
+                  that goes beyond simple carbon emission measurement.
+                </p>
+                <p>
+                  The <strong>blue markers</strong> on the map indicate countries most vulnerable to climate change.
+                  Check how your website affects these vulnerable regions and join the journey to create a more <strong>sustainable digital future</strong>.
+                </p>
+              </div>
             {selectedMarker && (
               <div className="marker-info">
                 <div className="marker-info-title">

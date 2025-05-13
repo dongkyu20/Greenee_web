@@ -1,18 +1,25 @@
 .user-page-container {
-  padding-top: 80px;
+  padding-top: 0px;
   display: flex;
   min-height: 100vh;
-  background-color: #448166;
+  background-color: #2E7D52;
+  background: linear-gradient(135deg, #2E7D52 0%, #1B5E20 100%);
   color: white;
+  position: relative;
 }
 
 .user-sidebar {
   width: 250px;
-  background-color: #004225;
+  background-color: rgba(18, 48, 23, 0.95);
+  backdrop-filter: blur(10px);
   padding: 30px 0;
   position: fixed;
-  height: calc(100vh - 80px);
+  top: 80px;
+  bottom: 0;
   overflow-y: auto;
+  z-index: 100;
+  margin-top: -1px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .user-profile {
@@ -78,6 +85,54 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/* 메달 섹션 스타일 */
+.medals-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.medal-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.medal-item:hover {
+  transform: translateY(-5px);
+}
+
+.medal-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.medal-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.medal-desc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.4;
+}
+
 /* 대시보드 탭 스타일 */
 .dashboard-cards {
   display: grid;
@@ -95,12 +150,14 @@
 }
 
 .graph-card {
-  background-color: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
   color: white;
   font-size: 0.8rem;
   padding: 25px;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 /* 그래프 텍스트 스타일 - 흰색으로 통일 */
@@ -125,12 +182,14 @@
 }
 
 .stats-card {
-  background-color: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
   color: white;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 15px;
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 .stats-card:hover {
@@ -142,7 +201,8 @@
   font-size: 2rem;
   font-weight: bold;
   margin: 8px 0;
-  color: #6dd47e;
+  color: #81C784;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* 카드 내부 구조 스타일 */
@@ -165,14 +225,16 @@
 
 /* 기여량 카드 스타일 */
 .contribution-card .stats-value {
-  color: #6dd47e;
+  color: #81C784;
   font-size: 1.7rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* 절감량 카드 스타일 */
 .reduction-card .stats-value {
-  color: #4ecdc4;
+  color: #4DB6AC;
   font-size: 1.7rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* 순위 표시 스타일 */
@@ -409,6 +471,25 @@
   .graph-container, .stats-summary {
     grid-template-columns: 1fr;
   }
+
+  .medals-section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .medal-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .medal-title {
+    font-size: 1.1rem;
+  }
+
+  .medal-desc {
+    font-size: 0.85rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -428,9 +509,28 @@
   .graph-container {
     grid-template-columns: 1fr;
   }
+
+  .medals-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
 }
 
 @media (max-width: 576px) {
+  .medals-section {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .medal-item {
+    padding: 15px;
+  }
+
+  .medal-image {
+    width: 90px;
+    height: 90px;
+  }
+
   .user-page-container {
     flex-direction: column;
   }

@@ -90,7 +90,7 @@ const Measure = () => {
             <div className="url-input-container">
               <input
                 type="text"
-                placeholder="https://greenee.co.kr"
+                placeholder="https://google.com"
                 value={url}
                 onChange={handleUrlChange}
                 required
@@ -170,7 +170,7 @@ const Measure = () => {
               </div>
             </div>
             
-            <p style={{ marginTop: '1rem', textAlign: 'center', fontSize: '0.875rem', color: '#666' }}>
+            <p style={{ marginTop: '1rem', textAlign: 'center', fontSize: '0.875rem', color: 'white' }}>
               * Carbon savings potential based on 10,000 daily visitors over one year.
             </p>
           </div>
@@ -211,21 +211,31 @@ const Measure = () => {
               ))}
               {guidelineData.length > 5 && (
                 <div className="premium-overlay">
-                  <span>Premium Guidelines for Carbon Reduction</span>
+                  <span>5 guidelines analyzed for carbon reduction. Request more analysis if needed.</span>
                 </div>
               )}
             </div>
           </div>
 
-        
           <div className="capture-result">
-            <h3>Website Image Analysis Results</h3>
+            <h3 style={{ marginBottom: '1.5rem', fontSize: '1.5rem' }}>Website Image Analysis</h3>
+            <p style={{ marginBottom: '1.5rem', color: 'rgba(255, 255, 255, 0.8)' }}>Detection of non-optimized images that can be improved for better sustainability</p>
+            <div className="analysis-header">
+              <div className="analysis-badge">
+                <span className="icon">🔍</span>
+                <span className="title">Total Images</span>
+                <span className="count">107</span>
+              </div>
+              <div className="analysis-legend">
+                <span className="legend-icon">🔴</span>
+                <span className="legend-text">Non-optimized image format detected</span>
+              </div>
+            </div>
             {captureLoading && <div className="loading-indicator">Capturing image...</div>}
             {captureError && <div className="error-message">Capture error: {captureError}</div>}
             {captureImage && (
               <div className="capture-image-container">
-                <img src={captureImage} alt="Captured website" style={{ maxWidth: '100%', height: 'auto' }} />
-                <p className="capture-description">Areas highlighted in red indicate image elements.</p>
+                <img src={captureImage} alt="Captured website" />
               </div>
             )}
           </div>

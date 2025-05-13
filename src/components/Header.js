@@ -8,7 +8,7 @@ const Header = () => {
   // Mock user data
   const [isLoggedIn] = useState(true);
   const userData = {
-    name: 'ChoRokee',
+    name: 'Byeongsu Ko',
     level: 3,
     exp: 75 // percentage to next level
   };

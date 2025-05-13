@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #5c9560;
+    background-color: #000000;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 10%; /* 좌우 패딩을 퍼센트로 변경 */
-    background-color: #5c9560;
+    background-color: #5C9560;
     border-bottom: 0.5px solid #ffffff;
     position: fixed;
     width: 100%;
@@ -36,7 +36,7 @@ header {
 .company-name {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #383737;
 }
 
 /* 모바일 메뉴 토글 버튼 */
@@ -80,7 +80,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: #686868;
     font-size: 1.1rem;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -109,7 +109,7 @@ nav a:hover:after {
 }
 
 .login-btn, .signup-btn {
-    background-color: #5c9560;
+    background-color: #000000;
     color: white;
     border: 1px solid white;
     padding: 10px 15px;
@@ -125,8 +125,42 @@ nav a:hover:after {
 
 .auth-buttons {
     display: flex;
-    gap: 10px; /* 버튼 사이 간격을 10px로 설정 */
-    flex-shrink: 0; /* 버튼 크기 유지 */
+    gap: 10px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.level-badge {
+    width: 24px;
+    height: 24px;
+    background: url('../../public/svg/medal.svg') no-repeat center;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.level-number {
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.user-name {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .content {

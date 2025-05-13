@@ -7,7 +7,8 @@
     ],
     "carbonEmission": 0.336,
     "city": "Guelph",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.uoguelph.ca/"
   },
   {
     "name": "University of Louisiana Monroe",
@@ -17,7 +18,8 @@
     ],
     "carbonEmission": 0.672,
     "city": "Monroe",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ulm.edu/"
   },
   {
     "name": "University of Maryland",
@@ -27,7 +29,8 @@
     ],
     "carbonEmission": 1.93,
     "city": "College Park",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umd.edu/"
   },
   {
     "name": "University of Illinois Chicago",
@@ -37,7 +40,8 @@
     ],
     "carbonEmission": 0.207,
     "city": "Chicago",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.uic.edu/"
   },
   {
     "name": "University of Georgia",
@@ -47,7 +51,8 @@
     ],
     "carbonEmission": 1.972,
     "city": "Athens",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.uga.edu/"
   },
   {
     "name": "University of Dayton",
@@ -57,7 +62,8 @@
     ],
     "carbonEmission": 1.316,
     "city": "Dayton",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.udayton.edu/"
   },
   {
     "name": "University of Michigan",
@@ -67,7 +73,8 @@
     ],
     "carbonEmission": 0.234,
     "city": "Ann Arbor",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://umich.edu/"
   },
   {
     "name": "University of Maryland",
@@ -77,7 +84,8 @@
     ],
     "carbonEmission": 1.955,
     "city": "College Park",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umd.edu/"
   },
   {
     "name": "University of Massachusetts Amherst",
@@ -87,7 +95,8 @@
     ],
     "carbonEmission": 3.274,
     "city": "Amherst",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umass.edu/"
   },
   {
     "name": "University of Michigan-Dearborn",
@@ -97,7 +106,8 @@
     ],
     "carbonEmission": 0.294,
     "city": "Dearborn",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://umdearborn.edu/"
   },
   {
     "name": "University of Miami",
@@ -107,7 +117,8 @@
     ],
     "carbonEmission": 2.412,
     "city": "Coral Gables",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.miami.edu/"
   },
   {
     "name": "University of Minnesota",
@@ -117,7 +128,8 @@
     ],
     "carbonEmission": 0.583,
     "city": "Minneapolis",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://twin-cities.umn.edu/"
   },
   {
     "name": "University of Rochester",
@@ -127,7 +139,8 @@
     ],
     "carbonEmission": 0.598,
     "city": "Rochester",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.rochester.edu/"
   },
   {
     "name": "University of Pennsylvania",
@@ -137,7 +150,8 @@
     ],
     "carbonEmission": 1.982,
     "city": "Philadelphia",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.upenn.edu/"
   },
   {
     "name": "University of Toronto",
@@ -147,7 +161,8 @@
     ],
     "carbonEmission": 0.157,
     "city": "Toronto",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.utoronto.ca/"
   },
   {
     "name": "University of South Florida",
@@ -157,7 +172,8 @@
     ],
     "carbonEmission": 0.75,
     "city": "Tampa",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.usf.edu/"
   },
   {
     "name": "University of Regina",
@@ -167,7 +183,8 @@
     ],
     "carbonEmission": 0.931,
     "city": "Regina",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.uregina.ca/"
   },
   {
     "name": "University of Toronto Scarborough",
@@ -177,7 +194,8 @@
     ],
     "carbonEmission": 0.872,
     "city": "Toronto",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "http://www.utsc.utoronto.ca/"
   },
   {
     "name": "Vienna University of Technology",
@@ -187,7 +205,8 @@
     ],
     "carbonEmission": 2.013,
     "city": "Vienna",
-    "country": "Austria"
+    "country": "Austria",
+    "url": "https://www.tuwien.at/"
   },
   {
     "name": "University of California, Riverside",
@@ -197,7 +216,8 @@
     ],
     "carbonEmission": 0.801,
     "city": "Riverside",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ucr.edu/"
   },
   {
     "name": "AlHussein Technical University",
@@ -207,7 +227,8 @@
     ],
     "carbonEmission": 0.389,
     "city": "عمّان",
-    "country": "Jordan"
+    "country": "Jordan",
+    "url": "https://www.htu.edu.jo/"
   },
   {
     "name": "UCAM Universidad Católica San Antonio de Murcia",
@@ -217,7 +238,8 @@
     ],
     "carbonEmission": 3.494,
     "city": "Guadalupe",
-    "country": "Spain"
+    "country": "Spain",
+    "url": "https://www.ucam.edu/"
   },
   {
     "name": "Prince Mohammad Bin Fahd University",
@@ -227,7 +249,8 @@
     ],
     "carbonEmission": 2.897,
     "city": "الظهران",
-    "country": "Saudi Arabia"
+    "country": "Saudi Arabia",
+    "url": "http://www.pmu.edu.sa/"
   },
   {
     "name": "University of California, Santa Cruz",
@@ -237,7 +260,8 @@
     ],
     "carbonEmission": 2.407,
     "city": "Santa Cruz",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://ucsc.edu/"
   },
   {
     "name": "University of California, Davis",
@@ -247,7 +271,8 @@
     ],
     "carbonEmission": 2.293,
     "city": "Davis",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.ucdavis.edu/"
   },
   {
     "name": "University of California, Santa Barbara",
@@ -257,7 +282,8 @@
     ],
     "carbonEmission": 0.538,
     "city": "Santa Barbara",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ucsb.edu/"
   },
   {
     "name": "University of California, Los Angeles",
@@ -267,7 +293,8 @@
     ],
     "carbonEmission": 0.901,
     "city": "Los Angeles",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ucla.edu/"
   },
   {
     "name": "University of Colorado Boulder",
@@ -277,7 +304,8 @@
     ],
     "carbonEmission": 0.991,
     "city": "Boulder",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.colorado.edu/"
   },
   {
     "name": "University of Guelph",
@@ -287,7 +315,8 @@
     ],
     "carbonEmission": 0.336,
     "city": "Guelph",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.uoguelph.ca/"
   },
   {
     "name": "University of Dayton",
@@ -297,7 +326,8 @@
     ],
     "carbonEmission": 1.305,
     "city": "Dayton",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.udayton.edu/"
   },
   {
     "name": "University of Georgia",
@@ -307,7 +337,8 @@
     ],
     "carbonEmission": 1.966,
     "city": "Athens",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.uga.edu/"
   },
   {
     "name": "University of Illinois Chicago",
@@ -317,7 +348,8 @@
     ],
     "carbonEmission": 0.207,
     "city": "Chicago",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.uic.edu/"
   },
   {
     "name": "University of Louisiana Monroe",
@@ -327,7 +359,8 @@
     ],
     "carbonEmission": 0.681,
     "city": "Monroe",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ulm.edu/"
   },
   {
     "name": "University of Maryland",
@@ -337,7 +370,8 @@
     ],
     "carbonEmission": 1.927,
     "city": "College Park",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umd.edu/"
   },
   {
     "name": "University of Maryland",
@@ -347,7 +381,8 @@
     ],
     "carbonEmission": 1.977,
     "city": "College Park",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umd.edu/"
   },
   {
     "name": "University of Michigan",
@@ -357,7 +392,8 @@
     ],
     "carbonEmission": 0.233,
     "city": "Ann Arbor",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://umich.edu/"
   },
   {
     "name": "University of Massachusetts Amherst",
@@ -367,7 +403,8 @@
     ],
     "carbonEmission": 3.294,
     "city": "Amherst",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umass.edu/"
   },
   {
     "name": "University of Miami",
@@ -377,7 +414,8 @@
     ],
     "carbonEmission": 2.394,
     "city": "Coral Gables",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.miami.edu/"
   },
   {
     "name": "University of Michigan-Dearborn",
@@ -387,7 +425,8 @@
     ],
     "carbonEmission": 0.293,
     "city": "Dearborn",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://umdearborn.edu/"
   },
   {
     "name": "University of Minnesota",
@@ -397,7 +436,8 @@
     ],
     "carbonEmission": 0.582,
     "city": "Minneapolis",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://twin-cities.umn.edu/"
   },
   {
     "name": "University of Pennsylvania",
@@ -407,7 +447,8 @@
     ],
     "carbonEmission": 1.998,
     "city": "Philadelphia",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.upenn.edu/"
   },
   {
     "name": "University of Rochester",
@@ -417,7 +458,8 @@
     ],
     "carbonEmission": 0.593,
     "city": "Rochester",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.rochester.edu/"
   },
   {
     "name": "University of Regina",
@@ -427,7 +469,8 @@
     ],
     "carbonEmission": 0.808,
     "city": "Regina",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.uregina.ca/"
   },
   {
     "name": "University of South Florida",
@@ -437,7 +480,8 @@
     ],
     "carbonEmission": 0.81,
     "city": "Tampa",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.usf.edu/"
   },
   {
     "name": "University of Toronto",
@@ -447,7 +491,8 @@
     ],
     "carbonEmission": 0.157,
     "city": "Toronto",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.utoronto.ca/"
   },
   {
     "name": "University of Toronto Scarborough",
@@ -457,7 +502,8 @@
     ],
     "carbonEmission": 0.548,
     "city": "Toronto",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "http://www.utsc.utoronto.ca/"
   },
   {
     "name": "University of Toronto",
@@ -467,7 +513,8 @@
     ],
     "carbonEmission": 0.157,
     "city": "Toronto",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.utoronto.ca/"
   },
   {
     "name": "University of Virginia",
@@ -477,7 +524,8 @@
     ],
     "carbonEmission": 1.227,
     "city": "Charlottesville",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.virginia.edu/"
   },
   {
     "name": "University of Washington Bothell",
@@ -487,7 +535,8 @@
     ],
     "carbonEmission": 0.598,
     "city": "Bothell",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.uwb.edu/"
   },
   {
     "name": "University of Washington",
@@ -497,7 +546,8 @@
     ],
     "carbonEmission": 0.526,
     "city": "Seattle",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.washington.edu/"
   },
   {
     "name": "University of Waterloo",
@@ -507,7 +557,8 @@
     ],
     "carbonEmission": 0.247,
     "city": "Waterloo",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://uwaterloo.ca/"
   },
   {
     "name": "University of Wisconsin–Madison",
@@ -517,7 +568,8 @@
     ],
     "carbonEmission": 0.292,
     "city": "Madison",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.wisc.edu/"
   },
   {
     "name": "University of Balamand - UOB, Koura Campus",
@@ -527,7 +579,8 @@
     ],
     "carbonEmission": 0.801,
     "city": "Balamand",
-    "country": "Lebanon"
+    "country": "Lebanon",
+    "url": "http://www.balamand.edu.lb/"
   },
   {
     "name": "University of Debrecen",
@@ -537,7 +590,8 @@
     ],
     "carbonEmission": 0.56,
     "city": "Debrecen",
-    "country": "Hungary"
+    "country": "Hungary",
+    "url": "http://www.unideb.hu/"
   },
   {
     "name": "University of Bristol",
@@ -547,7 +601,8 @@
     ],
     "carbonEmission": 0.455,
     "city": "Unknown",
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "url": "https://www.bristol.ac.uk/"
   },
   {
     "name": "Batna 2 University",
@@ -557,7 +612,8 @@
     ],
     "carbonEmission": 2.756,
     "city": "Unknown",
-    "country": "Algeria"
+    "country": "Algeria",
+    "url": "http://www.univ-batna2.dz/"
   },
   {
     "name": "University of Central Asia Bishkek",
@@ -567,7 +623,8 @@
     ],
     "carbonEmission": 4.524,
     "city": "Bishkek",
-    "country": "Kyrgyzstan"
+    "country": "Kyrgyzstan",
+    "url": "http://www.ucentralasia.org/"
   },
   {
     "name": "University of Girona",
@@ -577,7 +634,8 @@
     ],
     "carbonEmission": 0.205,
     "city": "Girona",
-    "country": "Spain"
+    "country": "Spain",
+    "url": "https://www.udg.edu/"
   },
   {
     "name": "University of Kragujevac Rectorate",
@@ -587,7 +645,8 @@
     ],
     "carbonEmission": 0.158,
     "city": "Kragujevac",
-    "country": "Serbia"
+    "country": "Serbia",
+    "url": "https://kg.ac.rs/"
   },
   {
     "name": "University of Kufa",
@@ -597,7 +656,8 @@
     ],
     "carbonEmission": 0.298,
     "city": "Kufa",
-    "country": "Iraq"
+    "country": "Iraq",
+    "url": "https://uokufa.edu.iq/"
   },
   {
     "name": "L-Università ta' Malta",
@@ -607,7 +667,8 @@
     ],
     "carbonEmission": 0.547,
     "city": "Msida",
-    "country": "Malta"
+    "country": "Malta",
+    "url": "https://www.um.edu.mt/"
   },
   {
     "name": "University of Macedonia",
@@ -617,7 +678,8 @@
     ],
     "carbonEmission": 0.731,
     "city": "Thessaloniki",
-    "country": "Greece"
+    "country": "Greece",
+    "url": "http://www.uom.gr/"
   },
   {
     "name": "University of Mannheim",
@@ -627,7 +689,8 @@
     ],
     "carbonEmission": 0.5,
     "city": "Mannheim",
-    "country": "Germany"
+    "country": "Germany",
+    "url": "http://www.uni-mannheim.de/"
   },
   {
     "name": "University of Porto",
@@ -637,7 +700,8 @@
     ],
     "carbonEmission": 0.949,
     "city": "Porto",
-    "country": "Portugal"
+    "country": "Portugal",
+    "url": "http://www.up.pt/"
   },
   {
     "name": "University of Strathclyde",
@@ -647,7 +711,8 @@
     ],
     "carbonEmission": 0.166,
     "city": "Unknown",
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "url": "https://www.strath.ac.uk/"
   },
   {
     "name": "Univerza na Primorskem / University of Primorska",
@@ -657,7 +722,8 @@
     ],
     "carbonEmission": 0.612,
     "city": "Unknown",
-    "country": "Slovenia"
+    "country": "Slovenia",
+    "url": "https://www.upr.si/"
   },
   {
     "name": "University Of Benin (Main Campus)",
@@ -667,7 +733,8 @@
     ],
     "carbonEmission": 1.788,
     "city": "Benin City",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://www.uniben.edu/"
   },
   {
     "name": "Valladolid University",
@@ -677,7 +744,8 @@
     ],
     "carbonEmission": 1.484,
     "city": "Valladolid",
-    "country": "Spain"
+    "country": "Spain",
+    "url": "http://www.uva.es/"
   },
   {
     "name": "University of Sharjah",
@@ -687,7 +755,8 @@
     ],
     "carbonEmission": 0.748,
     "city": "Sharjah",
-    "country": "United Arab Emirates"
+    "country": "United Arab Emirates",
+    "url": "https://www.sharjah.ac.ae/"
   },
   {
     "name": "University of Botswana",
@@ -697,7 +766,8 @@
     ],
     "carbonEmission": 0.312,
     "city": "Gaborone",
-    "country": "Botswana"
+    "country": "Botswana",
+    "url": "http://www.ub.bw/"
   },
   {
     "name": "University Of Cape Coast",
@@ -707,7 +777,8 @@
     ],
     "carbonEmission": 0.195,
     "city": "Cape Coast",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "https://ucc.edu.gh/"
   },
   {
     "name": "University of Embu",
@@ -717,7 +788,8 @@
     ],
     "carbonEmission": 0.526,
     "city": "Embu",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "https://www.embuni.ac.ke/"
   },
   {
     "name": "University of Ghana",
@@ -727,7 +799,8 @@
     ],
     "carbonEmission": 1.038,
     "city": "Accra",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "https://www.ug.edu.gh/"
   },
   {
     "name": "University of Cape Town",
@@ -737,7 +810,8 @@
     ],
     "carbonEmission": 0.552,
     "city": "Cape Town",
-    "country": "South Africa"
+    "country": "South Africa",
+    "url": "https://www.uct.ac.za/"
   },
   {
     "name": "University of Ilorin",
@@ -747,7 +821,8 @@
     ],
     "carbonEmission": 2.999,
     "city": "Ilorin",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://www.unilorin.edu.ng/"
   },
   {
     "name": "University of Mauritius",
@@ -757,7 +832,8 @@
     ],
     "carbonEmission": 0.883,
     "city": "Moka",
-    "country": "Mauritius"
+    "country": "Mauritius",
+    "url": "http://www.uom.ac.mu/"
   },
   {
     "name": "University of Mines and Technology",
@@ -767,7 +843,8 @@
     ],
     "carbonEmission": 0.27,
     "city": "Tarkwa",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "https://www.umat.edu.gh/"
   },
   {
     "name": "University of Lagos",
@@ -777,7 +854,8 @@
     ],
     "carbonEmission": 4.641,
     "city": "Lagos",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://unilag.edu.ng/"
   },
   {
     "name": "University Of Jos, Main Campus",
@@ -787,7 +865,8 @@
     ],
     "carbonEmission": 5.538,
     "city": "Jos",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://www.unijos.edu.ng/"
   },
   {
     "name": "University of Nairobi",
@@ -797,7 +876,8 @@
     ],
     "carbonEmission": 0.921,
     "city": "Nairobi",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "https://www.uonbi.ac.ke/"
   },
   {
     "name": "University of Port Harcourt",
@@ -807,7 +887,8 @@
     ],
     "carbonEmission": 1.432,
     "city": "Choba",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://www.uniport.edu.ng/"
   },
   {
     "name": "University of Nigeria, UNN Nsukka",
@@ -817,7 +898,8 @@
     ],
     "carbonEmission": 0.895,
     "city": "Nsukka",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://www.unn.edu.ng/"
   },
   {
     "name": "University College of Engineering Villupuram",
@@ -827,7 +909,8 @@
     ],
     "carbonEmission": 0.348,
     "city": "Viluppuram",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.aucev.edu.in/"
   },
   {
     "name": "University of Professional Studies, Accra (UPSA)",
@@ -837,7 +920,8 @@
     ],
     "carbonEmission": 0.528,
     "city": "Madina",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "https://upsa.edu.gh/"
   },
   {
     "name": "University of Zimbabwe",
@@ -847,7 +931,8 @@
     ],
     "carbonEmission": 0.714,
     "city": "Harare",
-    "country": "Zimbabwe"
+    "country": "Zimbabwe",
+    "url": "http://www.uz.ac.zw/"
   },
   {
     "name": "University Institute of Engineering and Technology, Kurukshetra University",
@@ -857,7 +942,8 @@
     ],
     "carbonEmission": 1.432,
     "city": "Thanesar",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.uietkuk.ac.in/"
   },
   {
     "name": "UVCE",
@@ -867,7 +953,8 @@
     ],
     "carbonEmission": 0.425,
     "city": "Bengaluru",
-    "country": "India"
+    "country": "India",
+    "url": "https://uvce.ac.in/"
   },
   {
     "name": "University of Calcutta",
@@ -877,7 +964,8 @@
     ],
     "carbonEmission": 0.733,
     "city": "Kolkata",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.caluniv.ac.in/"
   },
   {
     "name": "The University of Aizu",
@@ -887,7 +975,8 @@
     ],
     "carbonEmission": 0.9,
     "city": "会津若松市",
-    "country": "Japan"
+    "country": "Japan",
+    "url": "http://www.u-aizu.ac.jp/"
   },
   {
     "name": "University of Central Punjab",
@@ -897,7 +986,8 @@
     ],
     "carbonEmission": 0.414,
     "city": "Lahore",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "http://www.ucp.edu.pk/"
   },
   {
     "name": "University of Education",
@@ -907,7 +997,8 @@
     ],
     "carbonEmission": 1.555,
     "city": "Lahore",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "https://ue.edu.pk/"
   },
   {
     "name": "University of Information Technology - VNUHCM",
@@ -917,7 +1008,8 @@
     ],
     "carbonEmission": 0.346,
     "city": "Unknown",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "url": "https://www.uit.edu.vn/"
   },
   {
     "name": "University of Engineering & Technology New Campus",
@@ -927,7 +1019,8 @@
     ],
     "carbonEmission": 0.253,
     "city": "Kala Shah Kaku",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "https://newcampus.uet.edu.pk/"
   },
   {
     "name": "University of Engineering and Technology (UET), Lahore",
@@ -937,7 +1030,8 @@
     ],
     "carbonEmission": 1.118,
     "city": "Lahore",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "http://www.uet.edu.pk/"
   },
   {
     "name": "The University of Melbourne",
@@ -947,7 +1041,8 @@
     ],
     "carbonEmission": 0.196,
     "city": "Parkville",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "http://www.unimelb.edu.au/"
   },
   {
     "name": "UNSW Sydney",
@@ -957,7 +1052,8 @@
     ],
     "carbonEmission": 0.322,
     "city": "Sydney",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "https://www.unsw.edu.au/"
   },
   {
     "name": "University of St. La Salle",
@@ -967,7 +1063,8 @@
     ],
     "carbonEmission": 1.69,
     "city": "Bacolod",
-    "country": "Philippines"
+    "country": "Philippines",
+    "url": "http://www.usls.edu.ph/"
   },
   {
     "name": "UniSC University of the Sunshine Coast",
@@ -977,7 +1074,8 @@
     ],
     "carbonEmission": 0.377,
     "city": "Sippy Downs",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "http://www.usc.edu.au/"
   },
   {
     "name": "UPES ONLINE (UPES CCE)",
@@ -987,7 +1085,8 @@
     ],
     "carbonEmission": 1.183,
     "city": "Dehradun",
-    "country": "India"
+    "country": "India",
+    "url": "https://upesonline.ac.in/"
   },
   {
     "name": "University of California, Santa Barbara",
@@ -997,7 +1096,8 @@
     ],
     "carbonEmission": 0.538,
     "city": "Santa Barbara",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ucsb.edu/"
   },
   {
     "name": "University of California, Santa Cruz",
@@ -1007,7 +1107,8 @@
     ],
     "carbonEmission": 2.151,
     "city": "Santa Cruz",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://ucsc.edu/"
   },
   {
     "name": "University of California, Los Angeles",
@@ -1017,7 +1118,8 @@
     ],
     "carbonEmission": 0.901,
     "city": "Los Angeles",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ucla.edu/"
   },
   {
     "name": "University of California, Davis",
@@ -1027,7 +1129,8 @@
     ],
     "carbonEmission": 2.212,
     "city": "Davis",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.ucdavis.edu/"
   },
   {
     "name": "University of Colorado Boulder",
@@ -1037,7 +1140,8 @@
     ],
     "carbonEmission": 0.992,
     "city": "Boulder",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.colorado.edu/"
   },
   {
     "name": "University of Guelph",
@@ -1047,7 +1151,8 @@
     ],
     "carbonEmission": 0.336,
     "city": "Guelph",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.uoguelph.ca/"
   },
   {
     "name": "University of Dayton",
@@ -1057,7 +1162,8 @@
     ],
     "carbonEmission": 1.27,
     "city": "Dayton",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.udayton.edu/"
   },
   {
     "name": "University of Georgia",
@@ -1067,7 +1173,8 @@
     ],
     "carbonEmission": 1.927,
     "city": "Athens",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.uga.edu/"
   },
   {
     "name": "University of Louisiana Monroe",
@@ -1077,7 +1184,8 @@
     ],
     "carbonEmission": 0.681,
     "city": "Monroe",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ulm.edu/"
   },
   {
     "name": "University of Illinois Chicago",
@@ -1087,7 +1195,8 @@
     ],
     "carbonEmission": 0.207,
     "city": "Chicago",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.uic.edu/"
   },
   {
     "name": "University of Maryland",
@@ -1097,7 +1206,8 @@
     ],
     "carbonEmission": 1.912,
     "city": "College Park",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umd.edu/"
   },
   {
     "name": "University of Maryland",
@@ -1107,7 +1217,8 @@
     ],
     "carbonEmission": 1.955,
     "city": "College Park",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umd.edu/"
   },
   {
     "name": "University of Michigan",
@@ -1117,7 +1228,8 @@
     ],
     "carbonEmission": 0.233,
     "city": "Ann Arbor",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://umich.edu/"
   },
   {
     "name": "University of Massachusetts Amherst",
@@ -1127,7 +1239,8 @@
     ],
     "carbonEmission": 3.294,
     "city": "Amherst",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.umass.edu/"
   },
   {
     "name": "University of Miami",
@@ -1137,7 +1250,8 @@
     ],
     "carbonEmission": 2.235,
     "city": "Coral Gables",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.miami.edu/"
   },
   {
     "name": "University of Michigan-Dearborn",
@@ -1147,7 +1261,8 @@
     ],
     "carbonEmission": 0.293,
     "city": "Dearborn",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://umdearborn.edu/"
   },
   {
     "name": "University of Minnesota",
@@ -1157,7 +1272,8 @@
     ],
     "carbonEmission": 0.582,
     "city": "Minneapolis",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://twin-cities.umn.edu/"
   },
   {
     "name": "University of Pennsylvania",
@@ -1167,7 +1283,8 @@
     ],
     "carbonEmission": 1.998,
     "city": "Philadelphia",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.upenn.edu/"
   },
   {
     "name": "University of Rochester",
@@ -1177,7 +1294,8 @@
     ],
     "carbonEmission": 0.612,
     "city": "Rochester",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.rochester.edu/"
   },
   {
     "name": "University of Regina",
@@ -1187,7 +1305,8 @@
     ],
     "carbonEmission": 1.209,
     "city": "Regina",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.uregina.ca/"
   },
   {
     "name": "University of South Florida",
@@ -1197,7 +1316,8 @@
     ],
     "carbonEmission": 0.751,
     "city": "Tampa",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.usf.edu/"
   },
   {
     "name": "University of Toronto",
@@ -1207,7 +1327,8 @@
     ],
     "carbonEmission": 0.157,
     "city": "Toronto",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.utoronto.ca/"
   },
   {
     "name": "University of Toronto Scarborough",
@@ -1217,7 +1338,8 @@
     ],
     "carbonEmission": 0.548,
     "city": "Toronto",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "http://www.utsc.utoronto.ca/"
   },
   {
     "name": "University of Toronto",
@@ -1227,7 +1349,8 @@
     ],
     "carbonEmission": 0.157,
     "city": "Toronto",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.utoronto.ca/"
   },
   {
     "name": "University of Virginia",
@@ -1237,7 +1360,8 @@
     ],
     "carbonEmission": 1.229,
     "city": "Charlottesville",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.virginia.edu/"
   },
   {
     "name": "University of Washington",
@@ -1247,7 +1371,8 @@
     ],
     "carbonEmission": 0.526,
     "city": "Seattle",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.washington.edu/"
   },
   {
     "name": "University of Waterloo",
@@ -1257,7 +1382,8 @@
     ],
     "carbonEmission": 0.247,
     "city": "Waterloo",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://uwaterloo.ca/"
   },
   {
     "name": "University of Washington Bothell",
@@ -1267,7 +1393,8 @@
     ],
     "carbonEmission": 0.598,
     "city": "Bothell",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.uwb.edu/"
   },
   {
     "name": "University of Wisconsin–Madison",
@@ -1277,7 +1404,8 @@
     ],
     "carbonEmission": 0.278,
     "city": "Madison",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.wisc.edu/"
   },
   {
     "name": "University of Bristol",
@@ -1287,7 +1415,8 @@
     ],
     "carbonEmission": 0.455,
     "city": "Unknown",
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "url": "https://www.bristol.ac.uk/"
   },
   {
     "name": "Batna 2 University",
@@ -1297,7 +1426,8 @@
     ],
     "carbonEmission": 0.865,
     "city": "Unknown",
-    "country": "Algeria"
+    "country": "Algeria",
+    "url": "http://www.univ-batna2.dz/"
   },
   {
     "name": "University of Debrecen",
@@ -1307,7 +1437,8 @@
     ],
     "carbonEmission": 0.561,
     "city": "Debrecen",
-    "country": "Hungary"
+    "country": "Hungary",
+    "url": "http://www.unideb.hu/"
   },
   {
     "name": "University of Balamand - UOB, Koura Campus",
@@ -1317,7 +1448,8 @@
     ],
     "carbonEmission": 0.8,
     "city": "Balamand",
-    "country": "Lebanon"
+    "country": "Lebanon",
+    "url": "http://www.balamand.edu.lb/"
   },
   {
     "name": "University of Central Asia Bishkek",
@@ -1327,7 +1459,8 @@
     ],
     "carbonEmission": 6.869,
     "city": "Bishkek",
-    "country": "Kyrgyzstan"
+    "country": "Kyrgyzstan",
+    "url": "http://www.ucentralasia.org/"
   },
   {
     "name": "University of Girona",
@@ -1337,7 +1470,8 @@
     ],
     "carbonEmission": 0.211,
     "city": "Girona",
-    "country": "Spain"
+    "country": "Spain",
+    "url": "https://www.udg.edu/"
   },
   {
     "name": "University of Kragujevac Rectorate",
@@ -1347,7 +1481,8 @@
     ],
     "carbonEmission": 0.149,
     "city": "Kragujevac",
-    "country": "Serbia"
+    "country": "Serbia",
+    "url": "https://kg.ac.rs/"
   },
   {
     "name": "University of Kufa",
@@ -1357,7 +1492,8 @@
     ],
     "carbonEmission": 0.304,
     "city": "Kufa",
-    "country": "Iraq"
+    "country": "Iraq",
+    "url": "https://uokufa.edu.iq/"
   },
   {
     "name": "University of Macedonia",
@@ -1367,7 +1503,8 @@
     ],
     "carbonEmission": 0.731,
     "city": "Thessaloniki",
-    "country": "Greece"
+    "country": "Greece",
+    "url": "http://www.uom.gr/"
   },
   {
     "name": "University of Porto",
@@ -1377,7 +1514,8 @@
     ],
     "carbonEmission": 0.949,
     "city": "Porto",
-    "country": "Portugal"
+    "country": "Portugal",
+    "url": "http://www.up.pt/"
   },
   {
     "name": "University of Mannheim",
@@ -1387,7 +1525,8 @@
     ],
     "carbonEmission": 0.5,
     "city": "Mannheim",
-    "country": "Germany"
+    "country": "Germany",
+    "url": "http://www.uni-mannheim.de/"
   },
   {
     "name": "L-Università ta' Malta",
@@ -1397,7 +1536,8 @@
     ],
     "carbonEmission": 0.547,
     "city": "Msida",
-    "country": "Malta"
+    "country": "Malta",
+    "url": "https://www.um.edu.mt/"
   },
   {
     "name": "Univerza na Primorskem / University of Primorska",
@@ -1407,7 +1547,8 @@
     ],
     "carbonEmission": 0.612,
     "city": "Unknown",
-    "country": "Slovenia"
+    "country": "Slovenia",
+    "url": "https://www.upr.si/"
   },
   {
     "name": "University of Strathclyde",
@@ -1417,7 +1558,8 @@
     ],
     "carbonEmission": 0.163,
     "city": "Unknown",
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "url": "https://www.strath.ac.uk/"
   },
   {
     "name": "University of Botswana",
@@ -1427,7 +1569,8 @@
     ],
     "carbonEmission": 0.312,
     "city": "Gaborone",
-    "country": "Botswana"
+    "country": "Botswana",
+    "url": "http://www.ub.bw/"
   },
   {
     "name": "University Of Benin (Main Campus)",
@@ -1437,7 +1580,8 @@
     ],
     "carbonEmission": 1.788,
     "city": "Benin City",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://www.uniben.edu/"
   },
   {
     "name": "University of Sharjah",
@@ -1447,7 +1591,8 @@
     ],
     "carbonEmission": 0.748,
     "city": "Sharjah",
-    "country": "United Arab Emirates"
+    "country": "United Arab Emirates",
+    "url": "https://www.sharjah.ac.ae/"
   },
   {
     "name": "Valladolid University",
@@ -1457,7 +1602,8 @@
     ],
     "carbonEmission": 3.687,
     "city": "Valladolid",
-    "country": "Spain"
+    "country": "Spain",
+    "url": "http://www.uva.es/"
   },
   {
     "name": "University Of Cape Coast",
@@ -1467,7 +1613,8 @@
     ],
     "carbonEmission": 0.195,
     "city": "Cape Coast",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "https://ucc.edu.gh/"
   },
   {
     "name": "University of Embu",
@@ -1477,7 +1624,8 @@
     ],
     "carbonEmission": 0.538,
     "city": "Embu",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "https://www.embuni.ac.ke/"
   },
   {
     "name": "University of Ghana",
@@ -1487,7 +1635,8 @@
     ],
     "carbonEmission": 1.045,
     "city": "Accra",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "https://www.ug.edu.gh/"
   },
   {
     "name": "University of Ilorin",
@@ -1497,7 +1646,8 @@
     ],
     "carbonEmission": 2.999,
     "city": "Ilorin",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://www.unilorin.edu.ng/"
   },
   {
     "name": "University of Cape Town",
@@ -1507,7 +1657,8 @@
     ],
     "carbonEmission": 0.552,
     "city": "Cape Town",
-    "country": "South Africa"
+    "country": "South Africa",
+    "url": "https://www.uct.ac.za/"
   },
   {
     "name": "University of Mines and Technology",
@@ -1517,7 +1668,8 @@
     ],
     "carbonEmission": 0.27,
     "city": "Tarkwa",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "https://www.umat.edu.gh/"
   },
   {
     "name": "University Of Jos, Main Campus",
@@ -1527,7 +1679,8 @@
     ],
     "carbonEmission": 6.396,
     "city": "Jos",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://www.unijos.edu.ng/"
   },
   {
     "name": "University of Mauritius",
@@ -1537,7 +1690,8 @@
     ],
     "carbonEmission": 0.886,
     "city": "Moka",
-    "country": "Mauritius"
+    "country": "Mauritius",
+    "url": "http://www.uom.ac.mu/"
   },
   {
     "name": "University of Lagos",
@@ -1547,7 +1701,8 @@
     ],
     "carbonEmission": 4.38,
     "city": "Lagos",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://unilag.edu.ng/"
   },
   {
     "name": "University of Nairobi",
@@ -1557,7 +1712,8 @@
     ],
     "carbonEmission": 0.92,
     "city": "Nairobi",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "https://www.uonbi.ac.ke/"
   },
   {
     "name": "University of Nigeria, UNN Nsukka",
@@ -1567,7 +1723,8 @@
     ],
     "carbonEmission": 0.895,
     "city": "Nsukka",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://www.unn.edu.ng/"
   },
   {
     "name": "University of Port Harcourt",
@@ -1577,7 +1734,8 @@
     ],
     "carbonEmission": 1.432,
     "city": "Choba",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://www.uniport.edu.ng/"
   },
   {
     "name": "University of Professional Studies, Accra (UPSA)",
@@ -1587,7 +1745,8 @@
     ],
     "carbonEmission": 0.53,
     "city": "Madina",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "https://upsa.edu.gh/"
   },
   {
     "name": "University of Zimbabwe",
@@ -1597,7 +1756,8 @@
     ],
     "carbonEmission": 0.714,
     "city": "Harare",
-    "country": "Zimbabwe"
+    "country": "Zimbabwe",
+    "url": "http://www.uz.ac.zw/"
   },
   {
     "name": "University College of Engineering Villupuram",
@@ -1607,7 +1767,8 @@
     ],
     "carbonEmission": 0.348,
     "city": "Viluppuram",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.aucev.edu.in/"
   },
   {
     "name": "University Institute of Engineering and Technology, Kurukshetra University",
@@ -1617,7 +1778,8 @@
     ],
     "carbonEmission": 1.432,
     "city": "Thanesar",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.uietkuk.ac.in/"
   },
   {
     "name": "UVCE",
@@ -1627,7 +1789,8 @@
     ],
     "carbonEmission": 0.422,
     "city": "Bengaluru",
-    "country": "India"
+    "country": "India",
+    "url": "https://uvce.ac.in/"
   },
   {
     "name": "The University of Aizu",
@@ -1637,7 +1800,8 @@
     ],
     "carbonEmission": 0.899,
     "city": "会津若松市",
-    "country": "Japan"
+    "country": "Japan",
+    "url": "http://www.u-aizu.ac.jp/"
   },
   {
     "name": "University of Central Punjab",
@@ -1647,7 +1811,8 @@
     ],
     "carbonEmission": 0.414,
     "city": "Lahore",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "http://www.ucp.edu.pk/"
   },
   {
     "name": "University of Education",
@@ -1657,7 +1822,8 @@
     ],
     "carbonEmission": 1.543,
     "city": "Lahore",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "https://ue.edu.pk/"
   },
   {
     "name": "University of Calcutta",
@@ -1667,7 +1833,8 @@
     ],
     "carbonEmission": 1.131,
     "city": "Kolkata",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.caluniv.ac.in/"
   },
   {
     "name": "University of Information Technology - VNUHCM",
@@ -1677,7 +1844,8 @@
     ],
     "carbonEmission": 0.346,
     "city": "Unknown",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "url": "https://www.uit.edu.vn/"
   },
   {
     "name": "University of Engineering & Technology New Campus",
@@ -1687,7 +1855,8 @@
     ],
     "carbonEmission": 0.285,
     "city": "Kala Shah Kaku",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "https://newcampus.uet.edu.pk/"
   },
   {
     "name": "University of Engineering and Technology (UET), Lahore",
@@ -1697,7 +1866,8 @@
     ],
     "carbonEmission": 1.197,
     "city": "Lahore",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "http://www.uet.edu.pk/"
   },
   {
     "name": "The University of Melbourne",
@@ -1707,7 +1877,8 @@
     ],
     "carbonEmission": 0.196,
     "city": "Parkville",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "http://www.unimelb.edu.au/"
   },
   {
     "name": "UNSW Sydney",
@@ -1717,7 +1888,8 @@
     ],
     "carbonEmission": 0.322,
     "city": "Sydney",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "https://www.unsw.edu.au/"
   },
   {
     "name": "University of Management and Technology, Sialkot Campus",
@@ -1727,7 +1899,8 @@
     ],
     "carbonEmission": 8.219,
     "city": "Sialkot",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "http://skt.umt.edu.pk/"
   },
   {
     "name": "University of St. La Salle",
@@ -1737,7 +1910,8 @@
     ],
     "carbonEmission": 1.69,
     "city": "Bacolod",
-    "country": "Philippines"
+    "country": "Philippines",
+    "url": "http://www.usls.edu.ph/"
   },
   {
     "name": "UPES ONLINE (UPES CCE)",
@@ -1747,7 +1921,8 @@
     ],
     "carbonEmission": 1.2,
     "city": "Dehradun",
-    "country": "India"
+    "country": "India",
+    "url": "https://upesonline.ac.in/"
   },
   {
     "name": "University of the Immaculate Conception - Bajada Campus",
@@ -1757,7 +1932,8 @@
     ],
     "carbonEmission": 9.643,
     "city": "Davao City",
-    "country": "Philippines"
+    "country": "Philippines",
+    "url": "https://www.uic.edu.ph/"
   },
   {
     "name": "UniSC University of the Sunshine Coast",
@@ -1767,7 +1943,8 @@
     ],
     "carbonEmission": 0.376,
     "city": "Sippy Downs",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "http://www.usc.edu.au/"
   },
   {
     "name": "The University of British Columbia",
@@ -1777,7 +1954,8 @@
     ],
     "carbonEmission": 0.178,
     "city": "Vancouver",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.ubc.ca/"
   },
   {
     "name": "VinUniversity",
@@ -1787,7 +1965,8 @@
     ],
     "carbonEmission": 1.366,
     "city": "Unknown",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "url": "https://vinuni.edu.vn/"
   },
   {
     "name": "SR University",
@@ -1797,7 +1976,8 @@
     ],
     "carbonEmission": 0.197,
     "city": "Hasanparthy",
-    "country": "India"
+    "country": "India",
+    "url": "https://sru.edu.in/"
   },
   {
     "name": "The University of Southern Mississippi",
@@ -1807,7 +1987,8 @@
     ],
     "carbonEmission": 1.547,
     "city": "Hattiesburg",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.usm.edu/"
   },
   {
     "name": "The University of Texas at Austin",
@@ -1817,7 +1998,8 @@
     ],
     "carbonEmission": 3.852,
     "city": "Austin",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.utexas.edu/"
   },
   {
     "name": "The University of Oklahoma",
@@ -1827,7 +2009,8 @@
     ],
     "carbonEmission": 3.263,
     "city": "Norman",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.ou.edu/"
   },
   {
     "name": "The University of Texas at Dallas",
@@ -1837,7 +2020,8 @@
     ],
     "carbonEmission": 0.537,
     "city": "Richardson",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.utdallas.edu/"
   },
   {
     "name": "University of Texas at El Paso",
@@ -1847,7 +2031,8 @@
     ],
     "carbonEmission": 2.21,
     "city": "El Paso",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.utep.edu/"
   },
   {
     "name": "MEF Üniversitesi",
@@ -1857,7 +2042,8 @@
     ],
     "carbonEmission": 3.128,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.mef.edu.tr/"
   },
   {
     "name": "TED University",
@@ -1867,7 +2053,8 @@
     ],
     "carbonEmission": 0.526,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.tedu.edu.tr/"
   },
   {
     "name": "PDP University",
@@ -1877,7 +2064,8 @@
     ],
     "carbonEmission": 1.339,
     "city": "Тоshkent",
-    "country": "Uzbekistan"
+    "country": "Uzbekistan",
+    "url": "https://university.pdp.uz/"
   },
   {
     "name": "The University of Georgia (UG)",
@@ -1887,7 +2075,8 @@
     ],
     "carbonEmission": 1.098,
     "city": "T'bilisi",
-    "country": "Georgia"
+    "country": "Georgia",
+    "url": "http://ug.edu.ge/"
   },
   {
     "name": "The University of Manchester",
@@ -1897,7 +2086,8 @@
     ],
     "carbonEmission": 0.2,
     "city": "Unknown",
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "url": "https://www.manchester.ac.uk/"
   },
   {
     "name": "KCA University",
@@ -1907,7 +2097,8 @@
     ],
     "carbonEmission": 0.328,
     "city": "Nairobi",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "https://www.kcau.ac.ke/"
   },
   {
     "name": "ICT University",
@@ -1917,7 +2108,8 @@
     ],
     "carbonEmission": 2.533,
     "city": "Yaoundé",
-    "country": "Cameroon"
+    "country": "Cameroon",
+    "url": "https://ictuniversity.edu.cm/"
   },
   {
     "name": "DAV University",
@@ -1927,7 +2119,8 @@
     ],
     "carbonEmission": 1.145,
     "city": "Jalandhar",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.davuniversity.org/"
   },
   {
     "name": "GLA University",
@@ -1937,7 +2130,8 @@
     ],
     "carbonEmission": 0.787,
     "city": "Chaumuhan",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.gla.ac.in/"
   },
   {
     "name": "Air University Islamabad",
@@ -1947,7 +2141,8 @@
     ],
     "carbonEmission": 5.228,
     "city": "Islamabad",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "http://www.au.edu.pk/"
   },
   {
     "name": "JIS UNIVERSITY",
@@ -1957,7 +2152,8 @@
     ],
     "carbonEmission": 0.439,
     "city": "Kolkata",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.jisuniversity.ac.in/"
   },
   {
     "name": "SRM University AP",
@@ -1967,7 +2163,8 @@
     ],
     "carbonEmission": 0.756,
     "city": "Amaravati",
-    "country": "India"
+    "country": "India",
+    "url": "http://srmap.edu.in/"
   },
   {
     "name": "The University of Sydney",
@@ -1977,7 +2174,8 @@
     ],
     "carbonEmission": 0.231,
     "city": "Camperdown",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "https://www.sydney.edu.au/"
   },
   {
     "name": "The University of Hong Kong (HKU)",
@@ -1987,7 +2185,8 @@
     ],
     "carbonEmission": 5.117,
     "city": "Unknown",
-    "country": "Hong Kong"
+    "country": "Hong Kong",
+    "url": "https://www.hku.hk/"
   },
   {
     "name": "Pace University",
@@ -1997,7 +2196,8 @@
     ],
     "carbonEmission": 2.002,
     "city": "New York",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.pace.edu/"
   },
   {
     "name": "NED University of Engineering and Technology",
@@ -2007,7 +2207,8 @@
     ],
     "carbonEmission": 4.438,
     "city": "Karachi",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "http://www.neduet.edu.pk/"
   },
   {
     "name": "Soka University of America",
@@ -2017,7 +2218,8 @@
     ],
     "carbonEmission": 2.38,
     "city": "Aliso Viejo",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.soka.edu/"
   },
   {
     "name": "AJOU University Tashkent",
@@ -2027,7 +2229,8 @@
     ],
     "carbonEmission": 9.704,
     "city": "Тоshkent",
-    "country": "Uzbekistan"
+    "country": "Uzbekistan",
+    "url": "http://ajou.uz/"
   },
   {
     "name": "Nile University",
@@ -2037,7 +2240,8 @@
     ],
     "carbonEmission": 1.063,
     "city": "Unknown",
-    "country": "Egypt"
+    "country": "Egypt",
+    "url": "http://www.nu.edu.eg/"
   },
   {
     "name": "Misr University for Science & Technology",
@@ -2047,7 +2251,8 @@
     ],
     "carbonEmission": 1.495,
     "city": "Unknown",
-    "country": "Egypt"
+    "country": "Egypt",
+    "url": "https://must.edu.eg/"
   },
   {
     "name": "TOBB University of Economics and Technology",
@@ -2057,7 +2262,8 @@
     ],
     "carbonEmission": 1.051,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "http://etu.edu.tr/"
   },
   {
     "name": "Taif University",
@@ -2067,7 +2273,8 @@
     ],
     "carbonEmission": 0.872,
     "city": "Taif",
-    "country": "Saudi Arabia"
+    "country": "Saudi Arabia",
+    "url": "https://www.tu.edu.sa/"
   },
   {
     "name": "Meru University of Science and Technology",
@@ -2077,7 +2284,8 @@
     ],
     "carbonEmission": 0.84,
     "city": "Meru",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "https://www.must.ac.ke/"
   },
   {
     "name": "GIET University",
@@ -2087,7 +2295,8 @@
     ],
     "carbonEmission": 1.477,
     "city": "Gunupur",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.giet.edu/"
   },
   {
     "name": "Inha University, Yonghyeon Campus",
@@ -2097,7 +2306,8 @@
     ],
     "carbonEmission": 1.508,
     "city": "Unknown",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "https://www.inha.ac.kr/"
   },
   {
     "name": "RMIT University",
@@ -2107,7 +2317,8 @@
     ],
     "carbonEmission": 1.24,
     "city": "Melbourne",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "http://www.rmit.edu.au/"
   },
   {
     "name": "Chuo University Tama Campus",
@@ -2117,7 +2328,8 @@
     ],
     "carbonEmission": 4.967,
     "city": "Hachioji",
-    "country": "Japan"
+    "country": "Japan",
+    "url": "https://www.chuo-u.ac.jp/"
   },
   {
     "name": "SAGE University Bhopal Admin Block",
@@ -2127,7 +2339,8 @@
     ],
     "carbonEmission": 1.825,
     "city": "Bhopal",
-    "country": "India"
+    "country": "India",
+    "url": "https://sageuniversity.edu.in/"
   },
   {
     "name": "Kolegji Universitar Bedër",
@@ -2137,7 +2350,8 @@
     ],
     "carbonEmission": 5.361,
     "city": "Tiranë",
-    "country": "Albania"
+    "country": "Albania",
+    "url": "http://www.beder.edu.al/"
   },
   {
     "name": "Tech University of Korea",
@@ -2147,7 +2361,8 @@
     ],
     "carbonEmission": 10.057,
     "city": "Siheung-si",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "http://www.tukorea.ac.kr/"
   },
   {
     "name": "Doğuş University",
@@ -2157,7 +2372,8 @@
     ],
     "carbonEmission": 1.775,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "http://www.dogus.edu.tr/"
   },
   {
     "name": "Epoka University",
@@ -2167,7 +2383,8 @@
     ],
     "carbonEmission": 3.399,
     "city": "Unknown",
-    "country": "Albania"
+    "country": "Albania",
+    "url": "http://www.epoka.edu.al"
   },
   {
     "name": "Inonu Universitesi",
@@ -2177,7 +2394,8 @@
     ],
     "carbonEmission": 0.558,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.inonu.edu.tr/"
   },
   {
     "name": "جامعة مصر للمعلوماتية - EUI Egypt University of Informatics",
@@ -2187,7 +2405,8 @@
     ],
     "carbonEmission": 0.696,
     "city": "Unknown",
-    "country": "Egypt"
+    "country": "Egypt",
+    "url": "https://eui.edu.eg/"
   },
   {
     "name": "Yaşar University",
@@ -2197,7 +2416,8 @@
     ],
     "carbonEmission": 0.038,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.yasar.edu.tr/"
   },
   {
     "name": "Zarqa University",
@@ -2207,7 +2427,8 @@
     ],
     "carbonEmission": 0.675,
     "city": "Az-Zarqa",
-    "country": "Jordan"
+    "country": "Jordan",
+    "url": "https://zu.edu.jo/"
   },
   {
     "name": "ISBAT University Kampala",
@@ -2217,7 +2438,8 @@
     ],
     "carbonEmission": 0.446,
     "city": "Kampala",
-    "country": "Uganda"
+    "country": "Uganda",
+    "url": "https://isbatuniversity.ac.ug/"
   },
   {
     "name": "Amity University Noida",
@@ -2227,7 +2449,8 @@
     ],
     "carbonEmission": 0.877,
     "city": "Noida",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.amity.edu/"
   },
   {
     "name": "Amity University Noida",
@@ -2237,7 +2460,8 @@
     ],
     "carbonEmission": 0.877,
     "city": "Noida",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.amity.edu/"
   },
   {
     "name": "Amity University Noida",
@@ -2247,7 +2471,8 @@
     ],
     "carbonEmission": 0.877,
     "city": "Noida",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.amity.edu/"
   },
   {
     "name": "Amity University Noida",
@@ -2257,7 +2482,8 @@
     ],
     "carbonEmission": 0.877,
     "city": "Noida",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.amity.edu/"
   },
   {
     "name": "Bicol University, West (Main Campus)",
@@ -2267,7 +2493,8 @@
     ],
     "carbonEmission": 0.101,
     "city": "Legazpi City",
-    "country": "Philippines"
+    "country": "Philippines",
+    "url": "http://bicol-u.edu.ph/"
   },
   {
     "name": "Amity University Noida",
@@ -2277,7 +2504,8 @@
     ],
     "carbonEmission": 0.877,
     "city": "Noida",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.amity.edu/"
   },
   {
     "name": "BINUS Business School (BBS)",
@@ -2287,7 +2515,8 @@
     ],
     "carbonEmission": 0.955,
     "city": "Unknown",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "url": "https://bbs.binus.ac.id/"
   },
   {
     "name": "Tsuda University Sendagaya Campus",
@@ -2297,7 +2526,8 @@
     ],
     "carbonEmission": 0.833,
     "city": "Shibuya",
-    "country": "Japan"
+    "country": "Japan",
+    "url": "http://www.tsuda.ac.jp/"
   },
   {
     "name": "Korea University, Seoul Campus",
@@ -2307,7 +2537,8 @@
     ],
     "carbonEmission": 6.436,
     "city": "Unknown",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "https://www.korea.ac.kr/"
   },
   {
     "name": "Mapúa University",
@@ -2317,7 +2548,8 @@
     ],
     "carbonEmission": 9.517,
     "city": "Manila",
-    "country": "Philippines"
+    "country": "Philippines",
+    "url": "https://www.mapua.edu.ph/"
   },
   {
     "name": "DePauw University",
@@ -2327,7 +2559,8 @@
     ],
     "carbonEmission": 0.229,
     "city": "Greencastle",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.depauw.edu/"
   },
   {
     "name": "Calvin University",
@@ -2337,7 +2570,8 @@
     ],
     "carbonEmission": 0.291,
     "city": "Grand Rapids",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://calvin.edu/"
   },
   {
     "name": "McGill University",
@@ -2347,7 +2581,8 @@
     ],
     "carbonEmission": 0.364,
     "city": "Montréal",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.mcgill.ca/"
   },
   {
     "name": "Purdue University",
@@ -2357,7 +2592,8 @@
     ],
     "carbonEmission": 1.399,
     "city": "West Lafayette",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.purdue.edu/"
   },
   {
     "name": "Purdue University Fort Wayne",
@@ -2367,7 +2603,8 @@
     ],
     "carbonEmission": 0.369,
     "city": "Fort Wayne",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.pfw.edu/"
   },
   {
     "name": "Ankara University",
@@ -2377,7 +2614,8 @@
     ],
     "carbonEmission": 1.392,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "http://www.ankara.edu.tr/"
   },
   {
     "name": "Beykoz University",
@@ -2387,7 +2625,8 @@
     ],
     "carbonEmission": 0.773,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.beykoz.edu.tr/"
   },
   {
     "name": "Lublin University Of Technology",
@@ -2397,7 +2636,8 @@
     ],
     "carbonEmission": 0.648,
     "city": "Lublin",
-    "country": "Poland"
+    "country": "Poland",
+    "url": "https://pollub.pl/"
   },
   {
     "name": "Future University in Egypt",
@@ -2407,7 +2647,8 @@
     ],
     "carbonEmission": 1.39,
     "city": "Unknown",
-    "country": "Egypt"
+    "country": "Egypt",
+    "url": "https://www.fue.edu.eg/"
   },
   {
     "name": "Assiut University",
@@ -2417,7 +2658,8 @@
     ],
     "carbonEmission": 0.981,
     "city": "Unknown",
-    "country": "Egypt"
+    "country": "Egypt",
+    "url": "http://www.aun.edu.eg/"
   },
   {
     "name": "Selçuk University",
@@ -2427,7 +2669,8 @@
     ],
     "carbonEmission": 0.37,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.selcuk.edu.tr/"
   },
   {
     "name": "Trakya University",
@@ -2437,7 +2680,8 @@
     ],
     "carbonEmission": 0.391,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "http://www.trakya.edu.tr/"
   },
   {
     "name": "Qassim University",
@@ -2447,7 +2691,8 @@
     ],
     "carbonEmission": 0.409,
     "city": "Buraydah",
-    "country": "Saudi Arabia"
+    "country": "Saudi Arabia",
+    "url": "http://qu.edu.sa/"
   },
   {
     "name": "Samsun Üniversitesi",
@@ -2457,7 +2702,8 @@
     ],
     "carbonEmission": 0.038,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://samsun.edu.tr/"
   },
   {
     "name": "Qassim University",
@@ -2467,7 +2713,8 @@
     ],
     "carbonEmission": 0.435,
     "city": "Buraydah",
-    "country": "Saudi Arabia"
+    "country": "Saudi Arabia",
+    "url": "http://qu.edu.sa/"
   },
   {
     "name": "Warsaw University of Technology",
@@ -2477,7 +2724,8 @@
     ],
     "carbonEmission": 0.367,
     "city": "Warszawa",
-    "country": "Poland"
+    "country": "Poland",
+    "url": "https://www.pw.edu.pl/"
   },
   {
     "name": "Bayero University Kano (BUK) New Site",
@@ -2487,7 +2735,8 @@
     ],
     "carbonEmission": 8.998,
     "city": "Rimin Gata",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://buk.edu.ng/"
   },
   {
     "name": "Ashesi University",
@@ -2497,7 +2746,8 @@
     ],
     "carbonEmission": 1.594,
     "city": "Berekuso",
-    "country": "Ghana"
+    "country": "Ghana",
+    "url": "http://www.ashesi.edu.gh/"
   },
   {
     "name": "Aditya University",
@@ -2507,7 +2757,8 @@
     ],
     "carbonEmission": 0.116,
     "city": "Surampalem",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.adityauniversity.in/"
   },
   {
     "name": "Maseno University-Kisumu Campus",
@@ -2517,7 +2768,8 @@
     ],
     "carbonEmission": 4.965,
     "city": "Kisumu",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "http://www.maseno.ac.ke/"
   },
   {
     "name": "Dong-a University Bumin Campus",
@@ -2527,7 +2779,8 @@
     ],
     "carbonEmission": 1.612,
     "city": "Unknown",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "https://www.donga.ac.kr/"
   },
   {
     "name": "Hankuk University of Foreign Studies - Seoul Campus",
@@ -2537,7 +2790,8 @@
     ],
     "carbonEmission": 6.712,
     "city": "Unknown",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "http://www.hufs.ac.kr/"
   },
   {
     "name": "Adamas University",
@@ -2547,7 +2801,8 @@
     ],
     "carbonEmission": 1.254,
     "city": "Kolkata",
-    "country": "India"
+    "country": "India",
+    "url": "https://adamasuniversity.ac.in/"
   },
   {
     "name": "Andhra University College of Engineering",
@@ -2557,7 +2812,8 @@
     ],
     "carbonEmission": 20.359,
     "city": "Visakhapatnam",
-    "country": "India"
+    "country": "India",
+    "url": "http://andhrauniversity.edu.in/"
   },
   {
     "name": "Daejin University",
@@ -2567,7 +2823,8 @@
     ],
     "carbonEmission": 2.648,
     "city": "Pocheon-si",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "http://www.daejin.ac.kr/"
   },
   {
     "name": "Jinnah University For Women",
@@ -2577,7 +2834,8 @@
     ],
     "carbonEmission": 3.053,
     "city": "Karachi",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "http://juw.edu.pk/"
   },
   {
     "name": "M.B.M. University",
@@ -2587,7 +2845,8 @@
     ],
     "carbonEmission": 1.062,
     "city": "Jodhpur",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.mbm.ac.in/"
   },
   {
     "name": "Mehran University of Engineering and Technology",
@@ -2597,7 +2856,8 @@
     ],
     "carbonEmission": 0.374,
     "city": "Jamshoro",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "https://www.muet.edu.pk/"
   },
   {
     "name": "Konkuk University",
@@ -2607,7 +2867,8 @@
     ],
     "carbonEmission": 8.861,
     "city": "Unknown",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "http://www.konkuk.ac.kr/"
   },
   {
     "name": "Panjab University Swami Sarvanand Giri Regional Centre",
@@ -2617,7 +2878,8 @@
     ],
     "carbonEmission": 0.178,
     "city": "Hoshiarpur",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.ssgpurc.puchd.ac.in/"
   },
   {
     "name": "Monash University Clayton Campus",
@@ -2627,7 +2889,8 @@
     ],
     "carbonEmission": 0.037,
     "city": "Clayton",
-    "country": "Australia"
+    "country": "Australia",
+    "url": "http://monash.edu/"
   },
   {
     "name": "Monash University Malaysia",
@@ -2637,7 +2900,8 @@
     ],
     "carbonEmission": 0.038,
     "city": "Subang Jaya",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "url": "http://www.monash.edu.my/"
   },
   {
     "name": "Sunway University",
@@ -2647,7 +2911,8 @@
     ],
     "carbonEmission": 0.725,
     "city": "Petaling Jaya",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "url": "https://sunwayuniversity.edu.my/"
   },
   {
     "name": "Telkom University",
@@ -2657,7 +2922,8 @@
     ],
     "carbonEmission": 0.072,
     "city": "Unknown",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "url": "https://telkomuniversity.ac.id/"
   },
   {
     "name": "Sophia University Yotsuya Campus",
@@ -2667,7 +2933,8 @@
     ],
     "carbonEmission": 3.48,
     "city": "Chiyoda City",
-    "country": "Japan"
+    "country": "Japan",
+    "url": "http://www.sophia.ac.jp/"
   },
   {
     "name": "Telkom University",
@@ -2677,7 +2944,8 @@
     ],
     "carbonEmission": 0.071,
     "city": "Unknown",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "url": "https://telkomuniversity.ac.id/"
   },
   {
     "name": "Yonsei University, Sinchon Campus",
@@ -2687,7 +2955,8 @@
     ],
     "carbonEmission": 1.642,
     "city": "Unknown",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "http://www.yonsei.ac.kr/"
   },
   {
     "name": "Tezpur University",
@@ -2697,7 +2966,8 @@
     ],
     "carbonEmission": 1.777,
     "city": "Tezpur",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.tezu.ernet.in/"
   },
   {
     "name": "Indiana University Bloomington",
@@ -2707,7 +2977,8 @@
     ],
     "carbonEmission": 0.455,
     "city": "Bloomington",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.indiana.edu/"
   },
   {
     "name": "Xavier University",
@@ -2717,7 +2988,8 @@
     ],
     "carbonEmission": 3.156,
     "city": "Cincinnati",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.xavier.edu/"
   },
   {
     "name": "Minerva University",
@@ -2727,7 +2999,8 @@
     ],
     "carbonEmission": 4.968,
     "city": "San Francisco",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://minerva.edu/"
   },
   {
     "name": "Ataturk University",
@@ -2737,7 +3010,8 @@
     ],
     "carbonEmission": 2.616,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "http://atauni.edu.tr/"
   },
   {
     "name": "Western University",
@@ -2747,7 +3021,8 @@
     ],
     "carbonEmission": 0.615,
     "city": "London",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "http://www.uwo.ca/"
   },
   {
     "name": "Başkent University",
@@ -2757,7 +3032,8 @@
     ],
     "carbonEmission": 0.516,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "http://www.baskent.edu.tr/"
   },
   {
     "name": "Birzeit University",
@@ -2767,7 +3043,8 @@
     ],
     "carbonEmission": 0.036,
     "city": "Birzeit",
-    "country": "Unknown"
+    "country": "Unknown",
+    "url": "https://www.birzeit.edu/"
   },
   {
     "name": "Université Euro-Méditerranéenne de Fès UEMF",
@@ -2777,7 +3054,8 @@
     ],
     "carbonEmission": 0.725,
     "city": "Fès",
-    "country": "Morocco"
+    "country": "Morocco",
+    "url": "http://www.ueuromed.org/"
   },
   {
     "name": "Karabük University",
@@ -2787,7 +3065,8 @@
     ],
     "carbonEmission": 3.262,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "http://www.karabuk.edu.tr/"
   },
   {
     "name": "Marmara University Goztepe Campus",
@@ -2797,7 +3076,8 @@
     ],
     "carbonEmission": 0.237,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.marmara.edu.tr/"
   },
   {
     "name": "Wrocław University of Science and Technology",
@@ -2807,7 +3087,8 @@
     ],
     "carbonEmission": 0.313,
     "city": "Wrocław",
-    "country": "Poland"
+    "country": "Poland",
+    "url": "https://pwr.edu.pl/"
   },
   {
     "name": "Maltepe University Hospital",
@@ -2817,7 +3098,8 @@
     ],
     "carbonEmission": 3.121,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://maltepehastanesi.com.tr/"
   },
   {
     "name": "Sabancı University",
@@ -2827,7 +3109,8 @@
     ],
     "carbonEmission": 1.625,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.sabanciuniv.edu/"
   },
   {
     "name": "Çankaya University",
@@ -2837,7 +3120,8 @@
     ],
     "carbonEmission": 1.189,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "http://www.cankaya.edu.tr/"
   },
   {
     "name": "Üsküdar University",
@@ -2847,7 +3131,8 @@
     ],
     "carbonEmission": 0.945,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://www.uskudar.edu.tr/"
   },
   {
     "name": "Babcock University Ilishan Remo",
@@ -2857,7 +3142,8 @@
     ],
     "carbonEmission": 1.536,
     "city": "Ilishan-Remo",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://www.babcock.edu.ng/"
   },
   {
     "name": "Zagazig University",
@@ -2867,7 +3153,8 @@
     ],
     "carbonEmission": 1.769,
     "city": "Unknown",
-    "country": "Egypt"
+    "country": "Egypt",
+    "url": "https://www.zu.edu.eg/"
   },
   {
     "name": "Central University of Haryana",
@@ -2877,7 +3164,8 @@
     ],
     "carbonEmission": 0.752,
     "city": "Unknown",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.cuh.ac.in/"
   },
   {
     "name": "Daystar University",
@@ -2887,7 +3175,8 @@
     ],
     "carbonEmission": 7.862,
     "city": "Athi River",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "https://www.daystar.ac.ke/"
   },
   {
     "name": "Federal University Of Technology, Minna",
@@ -2897,7 +3186,8 @@
     ],
     "carbonEmission": 2.526,
     "city": "Minna",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://futminna.edu.ng/"
   },
   {
     "name": "Federal University Of Technology, Minna",
@@ -2907,7 +3197,8 @@
     ],
     "carbonEmission": 2.534,
     "city": "Minna",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://futminna.edu.ng/"
   },
   {
     "name": "Federal University Of Technology, Minna",
@@ -2917,7 +3208,8 @@
     ],
     "carbonEmission": 2.534,
     "city": "Minna",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://futminna.edu.ng/"
   },
   {
     "name": "Federal University Of Petroleum Resources Effurun, Warri.",
@@ -2927,7 +3219,8 @@
     ],
     "carbonEmission": 0.447,
     "city": "Warri",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://fupre.edu.ng/"
   },
   {
     "name": "Kabarak University",
@@ -2937,7 +3230,8 @@
     ],
     "carbonEmission": 1.749,
     "city": "Nairobi",
-    "country": "Kenya"
+    "country": "Kenya",
+    "url": "http://www.kabarak.ac.ke/"
   },
   {
     "name": "COMSATS University",
@@ -2947,7 +3241,8 @@
     ],
     "carbonEmission": 0.521,
     "city": "Lahore",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "https://lahore.comsats.edu.pk/"
   },
   {
     "name": "Bennett University",
@@ -2957,7 +3252,8 @@
     ],
     "carbonEmission": 0.65,
     "city": "Greater Noida",
-    "country": "India"
+    "country": "India",
+    "url": "https://www.bennett.edu.in/"
   },
   {
     "name": "Comsats University Islamabad, Attock Campus",
@@ -2967,7 +3263,8 @@
     ],
     "carbonEmission": 1.161,
     "city": "Attock",
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "url": "https://attock.comsats.edu.pk/"
   },
   {
     "name": "Central University of Haryana",
@@ -2977,7 +3274,8 @@
     ],
     "carbonEmission": 1.524,
     "city": "Unknown",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.cuh.ac.in/"
   },
   {
     "name": "Da Nang University of Science and Technology",
@@ -2987,7 +3285,8 @@
     ],
     "carbonEmission": 0.872,
     "city": "Unknown",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "url": "http://www.dut.udn.vn/"
   },
   {
     "name": "Duy Tan University, South Hoa Khanh",
@@ -2997,7 +3296,8 @@
     ],
     "carbonEmission": 2.107,
     "city": "Unknown",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "url": "http://duytan.edu.vn/"
   },
   {
     "name": "Central University Of Jammu",
@@ -3007,7 +3307,8 @@
     ],
     "carbonEmission": 8.196,
     "city": "Unknown",
-    "country": "Unknown"
+    "country": "Unknown",
+    "url": "http://www.cujammu.ac.in/"
   },
   {
     "name": "Quantum University",
@@ -3017,7 +3318,8 @@
     ],
     "carbonEmission": 0.245,
     "city": "Roorkee",
-    "country": "India"
+    "country": "India",
+    "url": "http://quantumuniversity.edu.in/"
   },
   {
     "name": "Kookmin University",
@@ -3027,7 +3329,8 @@
     ],
     "carbonEmission": 2.536,
     "city": "Unknown",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "http://www.kookmin.ac.kr/"
   },
   {
     "name": "Punjabi University, Patiala",
@@ -3037,7 +3340,8 @@
     ],
     "carbonEmission": 1.603,
     "city": "Patiala",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.punjabiuniversity.ac.in/"
   },
   {
     "name": "Manipal University Jaipur",
@@ -3047,7 +3351,8 @@
     ],
     "carbonEmission": 1.684,
     "city": "Jaipur",
-    "country": "India"
+    "country": "India",
+    "url": "https://jaipur.manipal.edu/"
   },
   {
     "name": "Silicon University",
@@ -3057,7 +3362,8 @@
     ],
     "carbonEmission": 0.67,
     "city": "Bhubaneswar",
-    "country": "India"
+    "country": "India",
+    "url": "http://www.silicon.ac.in/"
   },
   {
     "name": "Yuan Ze University",
@@ -3067,7 +3373,8 @@
     ],
     "carbonEmission": 3.51,
     "city": "Unknown",
-    "country": "Taiwan"
+    "country": "Taiwan",
+    "url": "https://www.yzu.edu.tw/"
   },
   {
     "name": "Bucknell University",
@@ -3077,7 +3384,8 @@
     ],
     "carbonEmission": 3.7,
     "city": "Lewisburg",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.bucknell.edu/"
   },
   {
     "name": "Memorial University of Newfoundland",
@@ -3087,7 +3395,8 @@
     ],
     "carbonEmission": 0.199,
     "city": "St. John's",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.mun.ca/"
   },
   {
     "name": "Caldwell University",
@@ -3097,7 +3406,8 @@
     ],
     "carbonEmission": 3.284,
     "city": "Caldwell",
-    "country": "United States"
+    "country": "United States",
+    "url": "https://www.caldwell.edu/"
   },
   {
     "name": "McMaster University",
@@ -3107,7 +3417,8 @@
     ],
     "carbonEmission": 1.109,
     "city": "Hamilton",
-    "country": "Canada"
+    "country": "Canada",
+    "url": "https://www.mcmaster.ca/"
   },
   {
     "name": "The American University of Iraq - Baghdad",
@@ -3117,7 +3428,8 @@
     ],
     "carbonEmission": 0.104,
     "city": "Baghdad",
-    "country": "Iraq"
+    "country": "Iraq",
+    "url": "https://auib.edu.iq/"
   },
   {
     "name": "Stanford University",
@@ -3127,7 +3439,8 @@
     ],
     "carbonEmission": 2.183,
     "city": "Stanford",
-    "country": "United States"
+    "country": "United States",
+    "url": "http://www.stanford.edu/"
   },
   {
     "name": "American University of Beirut",
@@ -3137,7 +3450,8 @@
     ],
     "carbonEmission": 0.656,
     "city": "Beirut",
-    "country": "Lebanon"
+    "country": "Lebanon",
+    "url": "http://www.aub.edu.lb/"
   },
   {
     "name": "American University of Sharjah",
@@ -3147,7 +3461,8 @@
     ],
     "carbonEmission": 0.561,
     "city": "Sharjah",
-    "country": "United Arab Emirates"
+    "country": "United Arab Emirates",
+    "url": "https://www.aus.edu/"
   },
   {
     "name": "Lebanese University - Hadat Campus",
@@ -3157,7 +3472,8 @@
     ],
     "carbonEmission": 0.083,
     "city": "Beirut",
-    "country": "Lebanon"
+    "country": "Lebanon",
+    "url": "http://www.ul.edu.lb/"
   },
   {
     "name": "Menoufiya University",
@@ -3167,7 +3483,8 @@
     ],
     "carbonEmission": 0.768,
     "city": "Unknown",
-    "country": "Egypt"
+    "country": "Egypt",
+    "url": "http://mu.menofia.edu.eg/"
   },
   {
     "name": "Yeditepe Üniversitesi",
@@ -3177,7 +3494,8 @@
     ],
     "carbonEmission": 4.855,
     "city": "Unknown",
-    "country": "Türkiye"
+    "country": "Türkiye",
+    "url": "https://yeditepe.edu.tr/"
   },
   {
     "name": "Covenant University",
@@ -3187,7 +3505,8 @@
     ],
     "carbonEmission": 1.247,
     "city": "Ota",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "https://covenantuniversity.edu.ng/"
   },
   {
     "name": "Landmark University",
@@ -3197,7 +3516,8 @@
     ],
     "carbonEmission": 1.133,
     "city": "Omu-Aran",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "url": "http://lmu.edu.ng/"
   },
   {
     "name": "Makerere University",
@@ -3207,7 +3527,8 @@
     ],
     "carbonEmission": 0.757,
     "city": "Kampala",
-    "country": "Uganda"
+    "country": "Uganda",
+    "url": "http://mak.ac.ug/"
   },
   {
     "name": "Dong-eui University, Gaya Campus",
@@ -3217,6 +3538,7 @@
     ],
     "carbonEmission": 3.431,
     "city": "Unknown",
-    "country": "South Korea"
+    "country": "South Korea",
+    "url": "http://www.deu.ac.kr/"
   }
 ]

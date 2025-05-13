@@ -5,7 +5,8 @@ export const parseWeeklyMeasurements = (jsonData) => {
     coordinates: [measurement.placeInfo.longitude, measurement.placeInfo.latitude],
     carbonEmission: measurement.carbonEmission,
     city: measurement.placeInfo.city,
-    country: measurement.placeInfo.country
+    country: measurement.placeInfo.country,
+    url: measurement.url
   }));
 };
 

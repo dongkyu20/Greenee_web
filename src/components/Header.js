@@ -4,12 +4,20 @@ import './Header.css';
 
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
+  
+  // Mock user data
+  const [isLoggedIn] = useState(true);
+  const userData = {
+    name: 'ChoRokee',
+    level: 3,
+    exp: 75 // percentage to next level
+  };
 
   const toggleMenu = () => {
     setMenuActive(!menuActive);
   };
 
-  // 화면 크기가 변경될 때 모바일 메뉴 처리
+  // Handle mobile menu when screen size changes
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768 && menuActive) {
@@ -35,15 +43,26 @@ const Header = () => {
       </div>
       
       <nav className={menuActive ? 'active' : ''}>
-        <Link to="/measure" onClick={() => setMenuActive(false)}>측정하기</Link>
-        <Link to="/ranking" onClick={() => setMenuActive(false)}>순위보기</Link>
+        <Link to="/measure" onClick={() => setMenuActive(false)}>Measure</Link>
+        <Link to="/ranking" onClick={() => setMenuActive(false)}>Rankings</Link>
         <Link to="/about" onClick={() => setMenuActive(false)}>About us</Link>
         <Link to="/user" onClick={() => setMenuActive(false)}>User Page</Link>
       </nav>
       
       <div className="auth-buttons">
-        <button className="login-btn">Sign in</button>
-        <button className="signup-btn">Sign up</button>
+        {isLoggedIn ? (
+          <div className="user-info">
+            <div className="level-badge">
+              <span className="level-number">{userData.level}</span>
+            </div>
+            <span className="user-name">{userData.name}</span>
+          </div>
+        ) : (
+          <>
+            <button className="login-btn">Sign in</button>
+            <button className="signup-btn">Sign up</button>
+          </>
+        )}
       </div>
     </header>
   );

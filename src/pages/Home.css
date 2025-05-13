@@ -1,13 +1,12 @@
 .home-container {
   padding: 2rem;
   text-align: center;
+  background-color: #004225;
 }
-
 .home-content {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .split-container {
   display: flex;
   gap: 2rem;
@@ -16,7 +15,6 @@
   justify-content: flex-start;
   margin-left: -10rem;
 }
-
 .globe-container {
   flex: 1.5;
   min-width: 1000px;
@@ -24,36 +22,30 @@
   cursor: grab;
   padding: 2rem;
 }
-
 .globe-container:active {
   cursor: grabbing;
 }
-
 .measure-section {
   flex: 1;
   padding: 3rem;
-  background-color: #f5f5f5;
+  background-color: #F5F5F5;
   border-radius: 8px;
   text-align: left;
   min-width: 500px;
   margin-top: 50rem;
 }
-
 .carbon-form-container {
   padding: 1rem;
 }
-
 .measure-description {
-  color: #666;
+  color: #424242;
   margin-bottom: 1.5rem;
 }
-
 .url-input-container {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
 }
-
 .url-input {
   flex: 1;
   padding: 0.75rem;
@@ -61,7 +53,6 @@
   border-radius: 4px;
   font-size: 1rem;
 }
-
 .url-form {
   display: flex;
   gap: 1rem;
@@ -69,7 +60,6 @@
   width: 100%;
   max-width: 800px;
 }
-
 .url-input {
   flex: 1;
   padding: 1rem;
@@ -80,81 +70,164 @@
   width: 100%;
   min-width: 500px;
 }
-
 .url-input:focus {
-  border-color: #4a7c4d;
+  border-color: #4A7C4D;
 }
-
 .measure-btn {
   padding: 0.75rem 1.5rem;
-  background-color: #4a7c4d;
-  color: white;
+  background-color: #00F110;
+  color: #4A7C4D;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
   white-space: nowrap;
 }
-
 .measure-btn:hover {
-  background-color: #5cad60;
+  background-color: #5CAD60;
 }
-
+.legend-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+.legend-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 12px;
+}
+.legend-marker {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.marker-info {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.marker-info-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.marker-info-content {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+.marker-info-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+.marker-info-value {
+  color: #444;
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.marker-info-url {
+  color: #21dbf3;
+  text-decoration: none;
+  display: block;
+  margin-top: 8px;
+  word-break: break-all;
+}
+.marker-info-url:hover {
+  text-decoration: underline;
+}
+.marker-info-emission {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #8AB37E;
+  display: inline-block;
+}
+.marker-info-grade {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.grade-high {
+  background-color: #FFEBEE;
+  color: #eb5050;
+}
+.grade-medium {
+  background-color: #FFF3E0;
+  color: #e1984e;
+}
+.grade-low {
+  background-color: #E8F5E9;
+  color: #53b758;
+}
 .measure-btn:disabled {
   background-color: #ccc;
   cursor: not-allowed;
 }
-
 .loading-indicator {
   text-align: center;
   margin-top: 1rem;
 }
-
 .spinner {
   width: 40px;
   height: 40px;
-  border: 4px solid #f3f3f3;
-  border-top: 4px solid #4a7c4d;
+  border: 4px solid #F3F3F3;
+  border-top: 4px solid #4A7C4D;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 0 auto;
 }
-
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
 .result-container {
   padding: 1rem;
 }
-
 .result-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
 }
-
 .measure-again-btn {
   padding: 0.5rem 1rem;
-  background-color: #4a7c4d;
+  background-color: #4A7C4D;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
-
 .result-score-container {
   display: flex;
   gap: 2rem;
   align-items: center;
 }
-
 .carbon-score {
   text-align: center;
 }
-
 .score-circle {
   width: 120px;
   height: 120px;
@@ -164,26 +237,22 @@
   justify-content: center;
   font-size: 2rem;
   font-weight: bold;
-  color: #4a7c4d;
-  border: 8px solid #4a7c4d;
+  color: #4A7C4D;
+  border: 8px solid #4A7C4D;
   margin-bottom: 0.5rem;
 }
-
 .carbon-details {
   flex: 1;
 }
-
 .detail-item {
   text-align: center;
   margin-bottom: 1rem;
 }
-
 .detail-item h3 {
   font-size: 1.5rem;
-  color: #4a7c4d;
+  color: #4A7C4D;
   margin: 0;
 }
-
 .detail-item p {
   color: #666;
   margin: 0;

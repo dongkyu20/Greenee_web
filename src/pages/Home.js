@@ -1,28 +1,25 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
+import { ComposableMap, Geographies, Geography, Marker, Graticule } from "react-simple-maps";
 import { getMarkerColor } from '../globe_on_marker';
 import carbonData from '../data/parsed_ecarbon_gdsc_test.weekly_measurements.json';
 import './Home.css';
-
 // 세계 지도 토폴로지 데이터 URL
 const geoUrl = "https://unpkg.com/world-atlas@2.0.2/countries-50m.json";
-
 // 기후변화 취약 국가 목록
 const vulnerableCountries = [
   { code: "KIR", name: "Kiribati" }, // 이거 표현 안 됨 X (섬이라서)
   { code: "MDV", name: "Maldives" },  // X
   { code: "TUV", name: "Tuvalu" }, // X
-  { code: "SDN", name: "Sudan" },   
+  { code: "SDN", name: "Sudan" },
   { code: "BGD", name: "Bangladesh" },
   { code: "NER", name: "Niger" },
   { code: "TCD", name: "Chad" },
-  { code: "CAF", name: "Central African Republic" }, // 표현 안 됨 
+  { code: "CAF", name: "Central African Republic" }, // 표현 안 됨
   { code: "PAK", name: "Pakistan" },
   { code: "ITA", name: "Italy" },
 ];
-
-const vulnerableCountries_exception_lat_lon = 
+const vulnerableCountries_exception_lat_lon =
 [
   {
     "country": "Kiribati",
@@ -45,9 +42,7 @@ const vulnerableCountries_exception_lat_lon =
     "longitude": 20.94
   },
 ];
-
 const vulnerableCountryNames = vulnerableCountries.map(c => c.name);
-
 const Home = () => {
   const navigate = useNavigate();
   const [rotation, setRotation] = useState([0, 0, 0]);
@@ -57,16 +52,13 @@ const Home = () => {
   const [selectedMarker, setSelectedMarker] = useState(null);
   const lastMouseRef = useRef({ x: 0, y: 0 });
   const globeRef = useRef(null);
-
   useEffect(() => {
     setCities(carbonData);
   }, []);
-
   const handleMouseDown = (e) => {
     setIsDragging(true);
     lastMouseRef.current = { x: e.clientX, y: e.clientY };
   };
-
   const handleMouseMove = (e) => {
     if (isDragging) {
       const dx = e.clientX - lastMouseRef.current.x;
@@ -75,25 +67,20 @@ const Home = () => {
       lastMouseRef.current = { x: e.clientX, y: e.clientY };
     }
   };
-
   const handleMouseUp = () => {
     setIsDragging(false);
   };
-
   // 지구본 배경 클릭 시 팝업 닫기
   const handleGlobeClick = () => {
     setSelectedMarker(null);
   };
-
   const handleUrlChange = (e) => setUrl(e.target.value);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if (url) {
       navigate('/measure', { state: { url } });
     }
   };
-
   return (
     <div className="home-container">
       <h1>Evaluate the Sustainability of Your Website with Greenee</h1>
@@ -116,12 +103,12 @@ const Home = () => {
                 rotate: rotation,
               }}
             >
+              <Graticule stroke="#DDD" strokeWidth={0.5} step={[12, 12]} />
               <Geographies geography={geoUrl}>
                 {({ geographies }) =>
                   geographies.map((geo) => {
                     const name = geo.properties.name;
                     const isVulnerable = vulnerableCountryNames.includes(name);
-
                     return (
                       <Geography
                         key={geo.rsmKey}
@@ -130,22 +117,22 @@ const Home = () => {
                           const name = geo.properties.name;
                           const country = vulnerableCountries.find(c => c.name === name);
                           if (country) {
-                            console.log(`✅ Vulnerable Country: ${name}`);
+                            console.log(`:흰색_확인_표시: Vulnerable Country: ${name}`);
                           }
                         }}
-                        stroke="#000000"
+                        stroke="#4a564b"
                         strokeWidth={0.2}
                         style={{
                           default: {
-                            fill: isVulnerable ? '#2196f3' : '#D6D6DA',
+                            fill: isVulnerable ? '#729ed0' : '#F0FADA',
                             opacity: 1
                           },
                           hover: {
-                            fill: isVulnerable ? '#1976d2' : '#BDBDBD',
+                            fill: isVulnerable ? '#1976D2' : '#BDBDBD',
                             opacity: 1
                           },
                           pressed: {
-                            fill: isVulnerable ? '#1565c0' : '#9E9E9E',
+                            fill: isVulnerable ? '#1565C0' : '#9E9E9E',
                             opacity: 1
                           }
                         }}
@@ -154,7 +141,6 @@ const Home = () => {
                   })
                 }
               </Geographies>
-
               {/* 지도에 표시되지 않는 취약 국가들을 마커로 표시 */}
               {vulnerableCountries_exception_lat_lon
                 .filter((country) => {
@@ -164,7 +150,7 @@ const Home = () => {
                 })
                 .map((country, index) => (
                   <Marker key={`vulnerable-${index}`} coordinates={[country.longitude, country.latitude]}>
-                    <g 
+                    <g
                       style={{ cursor: 'pointer' }}
                       onClick={(e) => {
                         e.stopPropagation();
@@ -176,14 +162,13 @@ const Home = () => {
                     >
                       <circle
                         r={5}
-                        fill="#2196f3"
+                        fill="#729ed0"
                         stroke="#fff"
                         strokeWidth={1}
                       />
                     </g>
                   </Marker>
                 ))}
-
               {/* 도시별 탄소 배출량 마커 */}
               {cities
                 .filter((city) => {
@@ -194,7 +179,7 @@ const Home = () => {
                 })
                 .map((city, index) => (
                   <Marker key={index} coordinates={city.coordinates}>
-                    <g 
+                    <g
                       style={{ cursor: 'pointer' }}
                       onClick={(e) => {
                         e.stopPropagation();
@@ -216,31 +201,28 @@ const Home = () => {
                   </Marker>
                 ))}
             </ComposableMap>
-
             {/* 마커 정보 표시 영역 */}
-
             {/* 마커 색상 설명 범례 */}
             <div className="legend-container">
               <div className="legend-title">Marker Color Guide</div>
               <div className="legend-item">
-                <div className="legend-marker" style={{ backgroundColor: '#2196f3' }} />
+                <div className="legend-marker" style={{ backgroundColor: '#2196F3' }} />
                 <span>Climate Vulnerable Countries</span>
               </div>
               <div className="legend-item">
-                <div className="legend-marker" style={{ backgroundColor: '#ff5252' }} />
+                <div className="legend-marker" style={{ backgroundColor: '#FF5252' }} />
                 <span>High Carbon Websites</span>
               </div>
               <div className="legend-item">
-                <div className="legend-marker" style={{ backgroundColor: '#ffd740' }} />
+                <div className="legend-marker" style={{ backgroundColor: '#FFD740' }} />
                 <span>Medium Carbon Websites</span>
               </div>
               <div className="legend-item">
-                <div className="legend-marker" style={{ backgroundColor: '#4caf50' }} />
+                <div className="legend-marker" style={{ backgroundColor: '#4CAF50' }} />
                 <span>Low Carbon Websites</span>
               </div>
             </div>
           </div>
-
           <div className="measure-intro">
             <div style={{ marginTop: '2rem' }}>
               <h2>Measure Website Carbon Emissions</h2>
@@ -265,7 +247,6 @@ const Home = () => {
                 </button>
               </form>
             </div>
-
             {selectedMarker && (
               <div className="marker-info">
                 <div className="marker-info-title">
@@ -277,9 +258,9 @@ const Home = () => {
                   {selectedMarker.url && (
                     <>
                       <span className="marker-info-label">URL:</span>
-                      <a 
-                        href={selectedMarker.url} 
-                        target="_blank" 
+                      <a
+                        href={selectedMarker.url}
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="marker-info-url"
                       >
@@ -312,5 +293,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;

@@ -89,8 +89,8 @@ const Measure = () => {
           <form onSubmit={handleSubmit} className="carbon-form">
             <div className="url-input-container">
               <input
-                type="url"
-                placeholder="https://example.com"
+                type="text"
+                placeholder="https://greenee.co.kr"
                 value={url}
                 onChange={handleUrlChange}
                 required
@@ -134,6 +134,7 @@ const Measure = () => {
                   <p className="score-rank">This website is in the top {result.cleanerThan}%</p>
                   <p className="score-emissions">{result.co2Grams} CO₂/page gram</p>
                 </div>
+
               </div>
             </div>
             <ul>

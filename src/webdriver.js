@@ -22,11 +22,32 @@ class WebsiteCapture {
       // 웹사이트 로드
       await this.driver.get(url);
 
-      // 이미지에 붉은 테두리 추가
+      // 이미지에 붉은색 오버레이와 테두리 추가
       await this.driver.executeScript(`
         document.querySelectorAll('img').forEach(img => {
-          img.style.border = '3px solid red';
-          img.style.boxSizing = 'border-box';
+          // 원래 이미지의 위치와 크기를 유지하면서 컨테이너 생성
+          const container = document.createElement('div');
+          container.style.position = 'relative';
+          container.style.display = 'inline-block';
+          container.style.border = '3px solid red';
+          container.style.boxSizing = 'border-box';
+          
+          // 이미지를 컨테이너로 감싸기
+          img.parentNode.insertBefore(container, img);
+          container.appendChild(img);
+          
+          // 붉은색 오버레이 추가
+          const overlay = document.createElement('div');
+          overlay.style.position = 'absolute';
+          overlay.style.top = '0';
+          overlay.style.left = '0';
+          overlay.style.width = '100%';
+          overlay.style.height = '100%';
+          overlay.style.backgroundColor = 'red';
+          overlay.style.opacity = '0.3';
+          overlay.style.pointerEvents = 'none';
+          
+          container.appendChild(overlay);
         });
       `);
 

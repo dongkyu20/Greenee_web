@@ -86,7 +86,7 @@ const UserPage = () => {
             
             <div className="stats-container">
               <div className="stats-card contribution-card">
-                <h3>CO2 기여량</h3>
+                <h3>Webp Conversion Count</h3>
                 <div className="chart-section">
                   <ResponsiveContainer width="100%" height={200}>
                     <LineChart
@@ -126,21 +126,20 @@ const UserPage = () => {
                 </div>
                 <div className="stats-info">
                   <div className="total-value">
-                    <span className="label">총 탄소 기여량</span>
-                    <span className="value">{userData.contributionData.reduce((sum, item) => sum + item.count, 0)}.1 g</span>
+                    <span className="label">Webp Conversions</span>
+                    <span className="value">{userData.contributionData.reduce((sum, item) => sum + item.count, 0)} times</span>
                   </div>
                   <div className="rank-info">
-                    <span className="label">기여량 순위</span>
+                    <span className="label">Conversion Rank</span>
                     <div className="rank-value">
-                      1<span className="rank-suffix">위</span>
-                      <span className="total-users">/ 260명</span>
+                      <span>1st out of 7</span>
                     </div>
                   </div>
                 </div>
               </div>
               
               <div className="stats-card reduction-card">
-                <h3>CO2 절감량</h3>
+                <h3>CO2 Reduction Graph (g)</h3>
                 <div className="chart-section">
                   <ResponsiveContainer width="100%" height={200}>
                     <LineChart
@@ -180,14 +179,13 @@ const UserPage = () => {
                 </div>
                 <div className="stats-info">
                   <div className="total-value">
-                    <span className="label">총 탄소 절감량</span>
+                    <span className="label">Total Carbon Reduction</span>
                     <span className="value">{userData.reductionData.reduce((sum, item) => sum + item.co2, 0).toFixed(1)} g</span>
                   </div>
                   <div className="rank-info">
-                    <span className="label">절감량 순위</span>
+                    <span className="label">Reduction Rank</span>
                     <div className="rank-value">
-                      11<span className="rank-suffix">위</span>
-                      <span className="total-users">/ 260명</span>
+                      <span>2nd out of 7</span>
                     </div>
                   </div>
                 </div>

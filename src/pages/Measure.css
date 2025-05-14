@@ -1,3 +1,9 @@
+body {
+  background-color: #1E3320;
+  margin: 0;
+  min-height: 100vh;
+}
+
 .measure-container {
   padding-top: 100px;
   max-width: 1200px;
@@ -5,6 +11,7 @@
   padding-bottom: 50px;
   color: white;
   padding: 2rem;
+  background-color: #1E3320;
 }
 
 .measure-container h1 {
@@ -222,38 +229,75 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: conic-gradient(from 0deg, #48bb78, #68d391);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  box-shadow: 0 0 20px rgba(72, 187, 120, 0.3);
   flex-shrink: 0;
+  border: 8px solid;
+  transition: all 0.3s ease;
 }
 
-.score-circle::before {
-  content: '';
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(5px);
+.score-circle.grade-A-plus {
+  border-color: #4CAF50;
+  background: #4CAF50;
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
 }
 
-.score-circle span {
-  position: relative;
-  z-index: 1;
-  font-size: 3.5rem;
-  font-weight: bold;
-  background: linear-gradient(45deg, #48bb78, #68d391);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.score-circle.grade-A {
+  border-color: #8BC34A;
+  background: #8BC34A;
+  box-shadow: 0 0 20px rgba(139, 195, 74, 0.3);
+}
+
+.score-circle.grade-B {
+  border-color: #CDDC39;
+  background: #CDDC39;
+  box-shadow: 0 0 20px rgba(205, 220, 57, 0.3);
+}
+
+.score-circle.grade-C {
+  border-color: #FFC107;
+  background: #FFC107;
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.3);
+}
+
+.score-circle.grade-D {
+  border-color: #FF9800;
+  background: #FF9800;
+  box-shadow: 0 0 20px rgba(255, 152, 0, 0.3);
+}
+
+.score-circle.grade-E {
+  border-color: #FF5722;
+  background: #FF5722;
+  box-shadow: 0 0 20px rgba(255, 87, 34, 0.3);
+}
+
+.score-circle.grade-F {
+  border-color: #F44336;
+  background: #F44336;
+  box-shadow: 0 0 20px rgba(244, 67, 54, 0.3);
 }
 
 .score-circle span {
   font-size: 2.5rem;
   font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.grade-A-plus span { color: white; }
+.grade-A span { color: white; }
+.grade-B span { color: white; }
+.grade-C span { color: white; }
+.grade-D span { color: white; }
+.grade-E span { color: white; }
+.grade-F span { color: white; }
+
+.score-circle span {
+  font-size: 3.5rem;
+  font-weight: bold;
+  /* color: inherit; */
 }
 
 .carbon-details {
@@ -716,6 +760,7 @@
   }
 
   .measure-container {
+    background-color: ;
     padding-top: 80px;
   }
   

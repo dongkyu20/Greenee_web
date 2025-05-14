@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import guidelineData from '../data/parsed_wsg_guidelines.json';
 import './Measure.css';
-import mockCaptureImage from '../data/img_captured.png';
+import mockCaptureImage from '../data/img_captured_upgraded.png';
   
 
 
@@ -32,6 +32,17 @@ const Measure = () => {
     handleMeasurement(url);
   };
 
+  const calculateGrade = (co2Grams) => {
+    const co2 = parseFloat(co2Grams);
+    if (co2 <= 0.095) return 'A+';
+    if (co2 <= 0.186) return 'A';
+    if (co2 <= 0.341) return 'B';
+    if (co2 <= 0.493) return 'C';
+    if (co2 <= 0.656) return 'D';
+    if (co2 <= 0.846) return 'E';
+    return 'F';
+  };
+
   const handleMeasurement = async (targetUrl) => {
     setIsLoading(true);
     setUrl(targetUrl);
@@ -50,10 +61,8 @@ const Measure = () => {
     
     // Website carbon emission measurement simulation
     setTimeout(() => {
-      // Generate carbon score as alphabet (A, B, C, D, E, F)
-      const scores = ['A', 'B', 'C', 'D', 'E', 'F'];
-      const carbonScore = scores[Math.floor(Math.random() * scores.length)];
-      const co2Grams = (Math.random() * 5).toFixed(2); // Random CO2 emissions between 0-5g
+      const co2Grams = (Math.random() * 1.5).toFixed(3); // Random CO2 emissions between 0-1.5g
+      const carbonScore = calculateGrade(co2Grams);
       
       setResult({
         url: url,
@@ -125,9 +134,7 @@ const Measure = () => {
           <div className="result-score-container">
             <div className="carbon-score">
               <div className="score-info">
-                <div className="score-circle" style={{
-                  background: `conic-gradient(#ffffff ${result.carbonScore}%, transparent 0)`
-                }}>
+                <div className={`score-circle grade-${result.carbonScore.replace('+', '-plus')}`}>
                   <span>{result.carbonScore}</span>
                 </div>
                 <div className="score-details">

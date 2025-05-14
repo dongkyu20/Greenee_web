@@ -2,14 +2,16 @@
   padding-top: 0px;
   display: flex;
   min-height: 100vh;
-  background-color: #1E3320;
+  background-color: #2E7D52;
+  background: linear-gradient(135deg, #2E7D52 0%, #1B5E20 100%);
   color: white;
   position: relative;
 }
 
 .user-sidebar {
   width: 250px;
-  background-color: #475E49;
+  background-color: rgba(18, 48, 23, 0.95);
+  backdrop-filter: blur(10px);
   padding: 30px 0;
   position: fixed;
   top: 80px;
@@ -17,9 +19,7 @@
   overflow-y: auto;
   z-index: 100;
   margin-top: -1px;
-  border-radius: 0 50px 0 0;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .user-profile {
@@ -90,13 +90,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  margin-top: 21px;
+  margin-top: 50px;
   margin-bottom: 40px;
   padding: 25px;
-  background-color: #374938;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
 }
 
 .medal-item {
@@ -151,14 +150,14 @@
 }
 
 .graph-card {
-  background-color: #374938;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
   color: white;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 25px;
   border-radius: 15px;
   transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 /* 그래프 텍스트 스타일 - 흰색으로 통일 */
@@ -183,17 +182,14 @@
 }
 
 .stats-card {
-  background-color: #374938;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
   color: white;
-  padding: 25px;
-  border-radius: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
   transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  min-height: 400px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 .stats-card:hover {
@@ -201,78 +197,20 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.stats-info {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 12px 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  margin-top: 10px;
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.total-value {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
-}
-
-.total-value .label {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.total-value .value {
-  font-size: 1.8rem;
+.stats-value {
+  font-size: 2rem;
   font-weight: bold;
-  color: white;
-}
-
-.rank-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 5px;
-}
-
-.rank-info .label {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.rank-value {
-  display: flex;
-  align-items: baseline;
-  gap: 5px;
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #4DB6AC;
-}
-
-.rank-suffix {
-  font-size: 1rem;
-  margin-left: 2px;
-}
-
-.total-users {
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  margin-left: 5px;
-}
-
-.chart-section {
-  flex-grow: 1;
-  width: 100%;
-  min-height: 200px;
+  margin: 8px 0;
+  color: #81C784;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* 카드 내부 구조 스타일 */
 .stats-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .stats-data, .stats-rank {
@@ -301,13 +239,12 @@
 
 /* 순위 표시 스타일 */
 .rank-value {
-  color: #4DB6AC;
-  font-size: 1.8rem;
+  color: white;
+  font-size: 1.7rem;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
 }
 
 .rank-suffix {
@@ -318,11 +255,11 @@
 }
 
 .stats-card h3 {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
   text-align: center;
-  color: white;
-  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 8px;
 }
 
 .stats-card p {
@@ -370,12 +307,9 @@
 }
 
 .recent-activities {
-  background-color: #374938;
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 25px;
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  margin-bottom: 25px;
+  border-radius: 10px;
 }
 
 .recent-activities h3 {

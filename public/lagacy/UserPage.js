@@ -33,7 +33,7 @@ const UserPage = () => {
       { date: '2025-05-06', count: 9 },
       { date: '2025-05-07', count: 15 },
       { date: '2025-05-08', count: 5 },
-      { date: '2025-05-09', count: 8 },
+      { date: '2025-05-09', count: 7 },
       { date: '2025-05-10', count: 7 }
     ],
     // CO2 절감량 데이터
@@ -43,7 +43,7 @@ const UserPage = () => {
       { date: '2025-05-06', co2: 18.3 },
       { date: '2025-05-07', co2: 52.2 },
       { date: '2025-05-08', co2: 16.2 },
-      { date: '2025-05-09', co2: 25.5 },
+      { date: '2025-05-09', co2: 34.2 },
       { date: '2025-05-10', co2: 44.2 }
     ]
   };
@@ -83,112 +83,91 @@ const UserPage = () => {
         {activeTab === 'dashboard' && (
           <div className="dashboard-tab">
             <h2>Webp Conversion and CO2 Reduction Statistics</h2>
+            <div className="graph-container">
+              <div className="graph-card">
+                <h3>Webp Conversion Count</h3>
+                <ResponsiveContainer width="100%" height={300}>
+                  <LineChart
+                    data={userData.contributionData}
+                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="date" label={{ value: 'Date', position: 'insideBottomRight', offset: -5, fill: 'white' }} />
+                    <YAxis label={{ value: 'Conversions', angle: -90, position: 'insideLeft', fill: 'white' }} />
+                    <Tooltip contentStyle={{ backgroundColor: 'rgba(0, 0, 0, 0.8)', color: 'white', border: 'none' }} />
+                    <Legend wrapperStyle={{ color: 'white' }} />
+                    <Line 
+                      type="monotone" 
+                      dataKey="count" 
+                      name="Webp Conversions" 
+                      stroke="#6dd47e" 
+                      activeDot={{ r: 8 }} 
+                      strokeWidth={3}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+              
+              <div className="graph-card">
+                <h3>CO2 Reduction Graph (g)</h3>
+                <ResponsiveContainer width="100%" height={300}>
+                  <LineChart
+                    data={userData.reductionData}
+                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="date" label={{ value: '날짜', position: 'insideBottomRight', offset: -5, fill: 'white' }} />
+                    <YAxis label={{ value: 'CO2 (g)', angle: -90, position: 'insideLeft', fill: 'white' }} />
+                    <Tooltip contentStyle={{ backgroundColor: 'rgba(0, 0, 0, 0.8)', color: 'white', border: 'none' }} />
+                    <Legend wrapperStyle={{ color: 'white' }} />
+                    <Line 
+                      type="monotone" 
+                      dataKey="co2" 
+                      name="CO2 Reduction" 
+                      stroke="#4ecdc4" 
+                      activeDot={{ r: 8 }} 
+                      strokeWidth={3}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
             
-            <div className="stats-container">
+            <div className="stats-summary">
               <div className="stats-card contribution-card">
-                <h3>CO2 기여량</h3>
-                <div className="chart-section">
-                  <ResponsiveContainer width="100%" height={200}>
-                    <LineChart
-                      data={userData.contributionData}
-                      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-                    >
-                      <CartesianGrid stroke="#FFFFFF" strokeOpacity={0.1} strokeDasharray="3 3" />
-                      <XAxis 
-                        dataKey="date" 
-                        stroke="#FFFFFF" 
-                        tick={{ fill: '#FFFFFF' }}
-                      />
-                      <YAxis 
-                        stroke="#FFFFFF" 
-                        tick={{ fill: '#FFFFFF' }}
-                      />
-                      <Tooltip 
-                        contentStyle={{ 
-                          backgroundColor: 'rgba(0, 0, 0, 0.8)', 
-                          color: 'white', 
-                          border: 'none',
-                          borderRadius: '8px',
-                          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)'
-                        }} 
-                      />
-                      <Line 
-                        type="monotone" 
-                        dataKey="count" 
-                        name="Webp Conversions" 
-                        stroke="#FFFFFF" 
-                        strokeWidth={2}
-                        dot={{ stroke: '#FFFFFF', strokeWidth: 2, r: 4 }}
-                        activeDot={{ stroke: '#FFFFFF', strokeWidth: 2, r: 6 }} 
-                      />
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
-                <div className="stats-info">
-                  <div className="total-value">
-                    <span className="label">총 탄소 기여량</span>
-                    <span className="value">{userData.contributionData.reduce((sum, item) => sum + item.count, 0)}.1 g</span>
-                  </div>
-                  <div className="rank-info">
-                    <span className="label">기여량 순위</span>
-                    <div className="rank-value">
-                      1<span className="rank-suffix">위</span>
-                      <span className="total-users">/ 260명</span>
+                <h3>Webp Conversions</h3>
+                <div className="stats-container">
+                  <div className="stats-data">
+                    <div className="stats-value">
+                      {userData.contributionData.reduce((sum, item) => sum + item.count, 0)}
                     </div>
+                    <p>Total Webp Conversions</p>
+                  </div>
+                  
+                  <div className="stats-rank">
+                    <div className="rank-value">
+                      3<span className="rank-suffix">rd</span>
+                    </div>
+                    <p>Conversion Rank</p>
                   </div>
                 </div>
               </div>
               
               <div className="stats-card reduction-card">
-                <h3>CO2 절감량</h3>
-                <div className="chart-section">
-                  <ResponsiveContainer width="100%" height={200}>
-                    <LineChart
-                      data={userData.reductionData}
-                      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-                    >
-                      <CartesianGrid stroke="#FFFFFF" strokeOpacity={0.1} strokeDasharray="3 3" />
-                      <XAxis 
-                        dataKey="date" 
-                        stroke="#FFFFFF" 
-                        tick={{ fill: '#FFFFFF' }}
-                      />
-                      <YAxis 
-                        stroke="#FFFFFF" 
-                        tick={{ fill: '#FFFFFF' }}
-                      />
-                      <Tooltip 
-                        contentStyle={{ 
-                          backgroundColor: 'rgba(0, 0, 0, 0.8)', 
-                          color: 'white', 
-                          border: 'none',
-                          borderRadius: '8px',
-                          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)'
-                        }} 
-                      />
-                      <Line 
-                        type="monotone" 
-                        dataKey="co2" 
-                        name="CO2 Reduction" 
-                        stroke="#FFFFFF" 
-                        strokeWidth={2}
-                        dot={{ stroke: '#FFFFFF', strokeWidth: 2, r: 4 }}
-                        activeDot={{ stroke: '#FFFFFF', strokeWidth: 2, r: 6 }} 
-                      />
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
-                <div className="stats-info">
-                  <div className="total-value">
-                    <span className="label">총 탄소 절감량</span>
-                    <span className="value">{userData.reductionData.reduce((sum, item) => sum + item.co2, 0).toFixed(1)} g</span>
-                  </div>
-                  <div className="rank-info">
-                    <span className="label">절감량 순위</span>
-                    <div className="rank-value">
-                      11<span className="rank-suffix">위</span>
-                      <span className="total-users">/ 260명</span>
+                <h3>Reduction</h3>
+                <div className="stats-container">
+                  <div className="stats-data">
+                    <div className="stats-value">
+                      {userData.reductionData.reduce((sum, item) => sum + item.co2, 0).toFixed(1)} g
                     </div>
+                    <p>Total Carbon Reduction</p>
+                  </div>
+                  
+                  <div className="stats-rank">
+                    <div className="rank-value">
+                      {userData.rankings.current}<span className="rank-suffix">{userData.rankings.current === 1 ? 'st' : userData.rankings.current === 2 ? 'nd' : userData.rankings.current === 3 ? 'rd' : 'th'}</span>
+                    </div>
+                    <p>Reduction Rank</p>
                   </div>
                 </div>
               </div>
@@ -230,7 +209,7 @@ const UserPage = () => {
               </div>
             </div>
               
-          </div>
+            </div>
         )}
         
         {activeTab === 'measurements' && (

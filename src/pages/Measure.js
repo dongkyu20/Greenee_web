@@ -17,7 +17,7 @@ const Measure = () => {
   const [captureImage, setCaptureImage] = useState(null);
   const pageRef = useRef(null);
 
-  useEffect(() => {
+  useEffect(() => { 
     if (location.state?.url) {
       handleMeasurement(location.state.url);
     }
@@ -224,6 +224,8 @@ const Measure = () => {
             </div>
           </div>
 
+          
+
           <div className="capture-result">
             <h3 style={{ marginBottom: '1.5rem', fontSize: '1.5rem' }}>Website Image Analysis</h3>
             <p style={{ marginBottom: '1.5rem', color: 'rgba(255, 255, 255, 0.8)' }}>Detection of non-optimized images that can be improved for better sustainability</p>
@@ -231,7 +233,7 @@ const Measure = () => {
               <div className="analysis-badge">
                 <span className="icon">🔍</span>
                 <span className="title">Total Images</span>
-                <span className="count">107</span>
+                <span className="count">22</span>
               </div>
               <div className="analysis-legend">
                 <span className="legend-icon">🔴</span>
@@ -245,6 +247,40 @@ const Measure = () => {
                 <img src={captureImage} alt="Captured website" />
               </div>
             )}
+          </div>
+          <div className="software-intro">
+            <div className="intro-header">
+              <h3>Greenee - Web Image Optimizer (UseWebp)</h3>
+              <p>Reduce carbon emissions with our intelligent image optimization solution</p>
+            </div>
+            
+            <div className="intro-features">
+              <div className="feature-card">
+                <span className="feature-icon">🌱</span>
+                <h4>Carbon Reduction</h4>
+                <p>Average 3g CO₂ reduction per 5-minute browsing session</p>
+              </div>
+              
+              <div className="feature-card">
+                <span className="feature-icon">📊</span>
+                <h4>Data Savings</h4>
+                <p>40% reduction in data transfer with WebP conversion</p>
+              </div>
+              
+              <div className="feature-card">
+                <span className="feature-icon">⚡</span>
+                <h4>Smart Detection</h4>
+                <p>Automatically intercepts and optimizes image assets</p>
+              </div>
+            </div>
+
+            <div className="intro-cta">
+              <button className="download-btn">
+                <span className="btn-icon">⬇️</span>
+                Download UseWebp
+              </button>
+              <p className="cta-subtext">Join our community of eco-conscious web users</p>
+            </div>
           </div>
         </div>
       )}
